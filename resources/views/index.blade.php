@@ -4,7 +4,7 @@
 <section class="middle-content">
               @include('pages.grid.navbar')
                 <div class="banner">
-                    <div class="top-mask"><img src="web_files/yurtici-kargo/assets/img/top-mask.svg" alt=" " /></div>
+                    <div class="top-mask"><img src="assets/img/top-mask.svg" alt=" " /></div>
                     <div class="slider">
                         <div class="cargo-form-wrap">
                             <div class="row">
@@ -152,7 +152,7 @@
 
 
                                 <li class="flex-active-slide item dark-theme">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(web_files/yurtici-kargo/Uploads/banner/web-sosyal-medya-kamp.png); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/banner/web-sosyal-medya-kamp.png); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>
@@ -172,7 +172,7 @@
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
                                                             <div class="right-content-img">
-                                                                <img src="web_files/yurtici-kargo/Uploads/banner/sosyal-medya-kampanyasi-web-thumb.png" alt=""
+                                                                <img src="assets/img/banner/sosyal-medya-kampanyasi-web-thumb.png" alt=""
                                                                      class="animate-bottom" />
                                                             </div>
                                                         </div>
@@ -184,7 +184,7 @@
                                     </div>
                                 </li>
                                 <li class="flex-active-slide item dark-theme">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(web_files/yurtici-kargo/Uploads/banner/cover2021.png); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/banner/cover2021.png); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>
@@ -204,7 +204,7 @@
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
                                                             <div class="right-content-img">
-                                                                <img src="web_files/yurtici-kargo/Uploads/banner/thumb/yk-thumb.png" alt=""
+                                                                <img src="assets/img/banner/thumb/yk-thumb.png" alt=""
                                                                      class="animate-bottom" />
                                                             </div>
                                                         </div>
@@ -216,7 +216,7 @@
                                     </div>
                                 </li>
                                 <li class="flex-active-slide item">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(web_files/yurtici-kargo/Uploads/banner/yk-plus-banner.png); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/banner/yk-plus-banner.png); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>
@@ -236,7 +236,7 @@
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
                                                             <div class="right-content-img">
-                                                                <img src="web_files/yurtici-kargo/Uploads/banner/thumb/yk-plus-logo2-thumb.png" alt=""
+                                                                <img src="assets/img/banner/thumb/yk-plus-logo2-thumb.png" alt=""
                                                                      class="animate-bottom" />
                                                             </div>
                                                         </div>
@@ -248,7 +248,7 @@
                                     </div>
                                 </li>
                                 <li class="flex-active-slide item">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(web_files/yurtici-kargo/Uploads/banner/site-banner.png); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/banner/site-banner.png); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>
@@ -268,7 +268,7 @@
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
                                                             <div class="right-content-img">
-                                                                <img src="web_files/yurtici-kargo/Uploads/banner/thumb/siluet.png" alt=""
+                                                                <img src="assets/img/banner/thumb/siluet.png" alt=""
                                                                      class="animate-bottom" />
                                                             </div>
                                                         </div>
@@ -280,7 +280,7 @@
                                     </div>
                                 </li>
                                 <li class="flex-active-slide item">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(web_files/yurtici-kargo/Uploads/banner/slider-abuygulama.png); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/banner/slider-abuygulama.png); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>
@@ -300,7 +300,7 @@
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
                                                             <div class="right-content-img">
-                                                                <img src="web_files/yurtici-kargo/Uploads/banner/thumb/ab-uygulamalar.png" alt=""
+                                                                <img src="assets/img/banner/thumb/ab-uygulamalar.png" alt=""
                                                                      class="animate-bottom" />
                                                             </div>
                                                         </div>
@@ -312,7 +312,7 @@
                                     </div>
                                 </li>
                                 <li class="flex-active-slide item">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(web_files/yurtici-kargo/Uploads/banner/sms-teslim.png); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/banner/sms-teslim.png); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>
@@ -332,7 +332,7 @@
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
                                                             <div class="right-content-img">
-                                                                <img src="web_files/yurtici-kargo/Uploads/banner/thumb/sms-teslim-thumb.png" alt=""
+                                                                <img src="assets/img/banner/thumb/sms-teslim-thumb.png" alt=""
                                                                      class="animate-bottom" />
                                                             </div>
                                                         </div>
@@ -344,7 +344,7 @@
                                     </div>
                                 </li>
                                 <li class="flex-active-slide item">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(web_files/yurtici-kargo/Uploads/banner/ogrenci-ogretmen-web.png); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/banner/ogrenci-ogretmen-web.png); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>
@@ -376,7 +376,7 @@
                                     </div>
                                 </li>
                                 <li class="flex-active-slide item">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(web_files/yurtici-kargo/Uploads/banner/mobil-banner.png); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/banner/mobil-banner.png); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>
@@ -396,7 +396,7 @@
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
                                                             <div class="right-content-img">
-                                                                <img src="web_files/yurtici-kargo/Uploads/banner/thumb/mobile-thumb.png" alt=""
+                                                                <img src="assets/img/banner/thumb/mobile-thumb.png" alt=""
                                                                      class="animate-bottom" />
                                                             </div>
                                                         </div>
@@ -408,7 +408,7 @@
                                     </div>
                                 </li>
                                 <li class="flex-active-slide item light-theme">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(web_files/yurtici-kargo/Uploads/banner/kvkk-banner.png); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/banner/kvkk-banner.png); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>
@@ -428,7 +428,7 @@
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
                                                             <div class="right-content-img">
-                                                                <img src="web_files/yurtici-kargo/Uploads/banner/thumb/kvkk-thumb.png" alt=""
+                                                                <img src="assets/img/banner/thumb/kvkk-thumb.png" alt=""
                                                                      class="animate-bottom" />
                                                             </div>
                                                         </div>
@@ -440,7 +440,7 @@
                                     </div>
                                 </li>
                                 <li class="flex-active-slide item dark-theme">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(web_files/yurtici-kargo/Uploads/banner/cvbanner-bg.jpg); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/banner/cvbanner-bg.jpg); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>
@@ -473,7 +473,7 @@
                                 </li>
                         </ul>
                     </div>
-                    <div class="bottom-mask"><img src="web_files/yurtici-kargo/assets/img/bottom-mask.svg" alt=" " /></div>
+                    <div class="bottom-mask"><img src="assets/img/bottom-mask.svg" alt=" " /></div>
                 </div>
 
                     <!-- Modal -->
@@ -487,7 +487,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <p>
-                                        <img src="web_files/yurtici-kargo/Uploads/Popup/duyuru-25ocak-2022.png" alt="Olumsuz hava koşullarından kaynaklı yaşanabilecek gecikmeler halinde anlayışınız i&ccedil;in teşekk&uuml;r ederiz." />
+                                        <img src="assets/img/banner/Uploads/Popup/duyuru-25ocak-2022.png" alt="Olumsuz hava koşullarından kaynaklı yaşanabilecek gecikmeler halinde anlayışınız i&ccedil;in teşekk&uuml;r ederiz." />
                                     </p>
                                 </div>
                                 <div class="modal-footer">
@@ -509,11 +509,11 @@
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 ">
                                         <h6 class="main-title-bold">Örnek Gönderi kodu</h6>
-                                        <img src="web_files/yurtici-kargo/assets/img/gorsel-kodu.png" alt="" />
+                                        <img src="assets/img/gorsel-kodu.png" alt="" />
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 ">
                                         <h6 class="main-title-bold">Örnek AWB kodu</h6>
-                                        <img src="web_files/yurtici-kargo/assets/img/awb-kodu.png" alt="" />
+                                        <img src="assets/img/awb-kodu.png" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -599,7 +599,7 @@
                             </div>
                             <div class="modal-body">
                                 <div class="loadingContent">
-                                    <img src="web_files/yurtici-kargo/assets/img/preloader.gif" />
+                                    <img src="assets/img/preloader.gif" />
                                 </div>
                                 <div class="successContent">
                                     <h5 class="title-blue">Başarılı</h5>
@@ -659,21 +659,21 @@
                     <div class="middle ">
                         <div class="row info ">
                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 center">
-                                <img src="web_files/yurtici-kargo/assets/img/phone-yurtici.svg" class=" " alt=" " width="168 " height="25 " />
+                                <img src="assets/img/phone-yurtici.svg" class=" " alt=" " width="168 " height="25 " />
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 center">
                                 <div class="center">
-                                    <img src="web_files/yurtici-kargo/assets/img/help.svg" class=" " alt=" " width="60 " height="62 " />
+                                    <img src="assets/img/help.svg" class=" " alt=" " width="60 " height="62 " />
                                     <span>Size nasıl yardımcı olabiliriz?</span>
                                 </div>
 
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 center">
-                                <img src="web_files/yurtici-kargo/assets/img/communication.png" class=" " alt=" " width="180 " height="69 " />
+                                <img src="assets/img/communication.png" class=" " alt=" " width="180 " height="69 " />
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 center">
                                 <div class="center">
-                                    <img src="web_files/yurtici-kargo/assets/img/paro.png" class=" " alt=" " width="98 " height="83 " />
+                                    <img src="assets/img/paro.png" class=" " alt=" " width="98 " height="83 " />
                                     <span>PARO'lu olun!</span>
                                 </div>
                             </div>
@@ -733,7 +733,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -752,7 +752,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -771,7 +771,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -790,7 +790,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -809,7 +809,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -828,7 +828,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -847,7 +847,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -866,7 +866,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -885,7 +885,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -904,7 +904,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -923,7 +923,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/more.png" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/more.png" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -958,7 +958,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -977,7 +977,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -996,7 +996,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -1015,7 +1015,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -1034,7 +1034,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -1053,7 +1053,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -1072,7 +1072,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -1107,7 +1107,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -1126,7 +1126,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/Bunlar%c4%b1%20Biliyor%20Musunuz/sms-teslim-bb.png" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/Bunlar%c4%b1%20Biliyor%20Musunuz/sms-teslim-bb.png" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -1145,7 +1145,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/Bunlar%c4%b1%20Biliyor%20Musunuz/img-do-you-know.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/Bunlar%c4%b1%20Biliyor%20Musunuz/img-do-you-know.jpg" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -1164,7 +1164,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -1199,7 +1199,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/Sosyal%20Sorumluluk/losev.png" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/Sosyal%20Sorumluluk/losev.png" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -1218,7 +1218,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/Sosyal%20Sorumluluk/ilkyar.png" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/Sosyal%20Sorumluluk/ilkyar.png" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -1237,7 +1237,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/Sosyal%20Sorumluluk/tofd.png" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/Sosyal%20Sorumluluk/tofd.png" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -1270,7 +1270,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/Yurtici-Paro-Kart/paro-logo-thumb.png" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/Yurtici-Paro-Kart/paro-logo-thumb.png" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
@@ -1289,7 +1289,7 @@
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="web_files/yurtici-kargo/Uploads/Yurtici-Paro-Kart/paro-kart.png" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/Yurtici-Paro-Kart/paro-kart.png" alt=" " />
                                                 </div>
                                             </div>
                                         </div>

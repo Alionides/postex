@@ -144,7 +144,7 @@
 
 
                                 <li class="flex-active-slide item dark-theme">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(web_files/yurtici-kargo/Uploads/banner/web-sosyal-medya-kamp.png); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/bannerweb-sosyal-medya-kamp.png); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>
@@ -164,7 +164,7 @@
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
                                                             <div class="right-content-img">
-                                                                <img src="web_files/yurtici-kargo/Uploads/banner/sosyal-medya-kampanyasi-web-thumb.png" alt=""
+                                                                <img src="assets/img/bannersosyal-medya-kampanyasi-web-thumb.png" alt=""
                                                                      class="animate-bottom" />
                                                             </div>
                                                         </div>
@@ -176,7 +176,7 @@
                                     </div>
                                 </li>
                                 <li class="flex-active-slide item dark-theme">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(web_files/yurtici-kargo/Uploads/banner/cover2021.png); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/bannercover2021.png); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>
@@ -196,7 +196,7 @@
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
                                                             <div class="right-content-img">
-                                                                <img src="web_files/yurtici-kargo/Uploads/banner/thumb/yk-thumb.png" alt=""
+                                                                <img src="assets/img/bannerthumb/yk-thumb.png" alt=""
                                                                      class="animate-bottom" />
                                                             </div>
                                                         </div>
@@ -208,7 +208,7 @@
                                     </div>
                                 </li>
                                 <li class="flex-active-slide item">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(web_files/yurtici-kargo/Uploads/banner/yk-plus-banner.png); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/banneryk-plus-banner.png); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>
@@ -228,7 +228,7 @@
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
                                                             <div class="right-content-img">
-                                                                <img src="web_files/yurtici-kargo/Uploads/banner/thumb/yk-plus-logo2-thumb.png" alt=""
+                                                                <img src="assets/img/bannerthumb/yk-plus-logo2-thumb.png" alt=""
                                                                      class="animate-bottom" />
                                                             </div>
                                                         </div>
@@ -240,7 +240,7 @@
                                     </div>
                                 </li>
                                 <li class="flex-active-slide item">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(web_files/yurtici-kargo/Uploads/banner/site-banner.png); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/bannersite-banner.png); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>
@@ -260,7 +260,7 @@
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
                                                             <div class="right-content-img">
-                                                                <img src="web_files/yurtici-kargo/Uploads/banner/thumb/siluet.png" alt=""
+                                                                <img src="assets/img/bannerthumb/siluet.png" alt=""
                                                                      class="animate-bottom" />
                                                             </div>
                                                         </div>
@@ -272,7 +272,7 @@
                                     </div>
                                 </li>
                                 <li class="flex-active-slide item">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(web_files/yurtici-kargo/Uploads/banner/slider-abuygulama.png); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/bannerslider-abuygulama.png); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>
@@ -292,7 +292,7 @@
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
                                                             <div class="right-content-img">
-                                                                <img src="web_files/yurtici-kargo/Uploads/banner/thumb/ab-uygulamalar.png" alt=""
+                                                                <img src="assets/img/bannerthumb/ab-uygulamalar.png" alt=""
                                                                      class="animate-bottom" />
                                                             </div>
                                                         </div>
@@ -304,7 +304,7 @@
                                     </div>
                                 </li>
                                 <li class="flex-active-slide item">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(web_files/yurtici-kargo/Uploads/banner/sms-teslim.png); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/bannersms-teslim.png); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>
@@ -324,7 +324,7 @@
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
                                                             <div class="right-content-img">
-                                                                <img src="web_files/yurtici-kargo/Uploads/banner/thumb/sms-teslim-thumb.png" alt=""
+                                                                <img src="assets/img/bannerthumb/sms-teslim-thumb.png" alt=""
                                                                      class="animate-bottom" />
                                                             </div>
                                                         </div>
@@ -336,7 +336,7 @@
                                     </div>
                                 </li>
                                 <li class="flex-active-slide item">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(web_files/yurtici-kargo/Uploads/banner/ogrenci-ogretmen-web.png); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/bannerogrenci-ogretmen-web.png); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>
@@ -368,7 +368,7 @@
                                     </div>
                                 </li>
                                 <li class="flex-active-slide item">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(web_files/yurtici-kargo/Uploads/banner/mobil-banner.png); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/bannermobil-banner.png); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>
@@ -388,7 +388,7 @@
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
                                                             <div class="right-content-img">
-                                                                <img src="web_files/yurtici-kargo/Uploads/banner/thumb/mobile-thumb.png" alt=""
+                                                                <img src="assets/img/bannerthumb/mobile-thumb.png" alt=""
                                                                      class="animate-bottom" />
                                                             </div>
                                                         </div>
@@ -400,7 +400,7 @@
                                     </div>
                                 </li>
                                 <li class="flex-active-slide item light-theme">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(web_files/yurtici-kargo/Uploads/banner/kvkk-banner.png); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/bannerkvkk-banner.png); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>
@@ -420,7 +420,7 @@
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
                                                             <div class="right-content-img">
-                                                                <img src="web_files/yurtici-kargo/Uploads/banner/thumb/kvkk-thumb.png" alt=""
+                                                                <img src="assets/img/bannerthumb/kvkk-thumb.png" alt=""
                                                                      class="animate-bottom" />
                                                             </div>
                                                         </div>
@@ -432,7 +432,7 @@
                                     </div>
                                 </li>
                                 <li class="flex-active-slide item dark-theme">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(web_files/yurtici-kargo/Uploads/banner/cvbanner-bg.jpg); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/bannercvbanner-bg.jpg); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>

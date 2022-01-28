@@ -91,7 +91,7 @@
                     <div class="row footer-bottom">
                         <div class="col-lg-6 col-md-8 col-sm-10 copyright-wrap">
                             <div class="copyright">
-                                <img src="web_files/yurtici-kargo/assets/img/arikanli-holding.svg" alt="arikanli-holding" width="150" height="39" />
+                                <img src="assets/img/arikanli-holding.svg" alt="arikanli-holding" width="150" height="39" />
                                 <span>
                                     Yurtiçi Kargo bir Arıkanlı Holding kuruluşudur.<br />
                                     Copyright © 2022 Yurtiçi Kargo. Bütün hakları saklıdır.
@@ -101,7 +101,7 @@
                         <div class="col-lg-2 col-md-2 col-sm-2  col-lg-offset-4 col-md-offset-2 designed-wrap">
                             <div class="designed">
                                 <span>Designed by</span>
-                                <a href="https://www.smartiks.com.tr/" target="_blank"><img src="web_files/yurtici-kargo/assets/img/smartiks.svg" alt="smartiks" width="130" height="23" /></a>
+                                <a href="https://www.smartiks.com.tr/" target="_blank"><img src="assets/img/smartiks.svg" alt="smartiks" width="130" height="23" /></a>
                             </div>
                         </div>
                     </div>

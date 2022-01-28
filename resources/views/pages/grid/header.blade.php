@@ -114,7 +114,7 @@
                                 <div class="row">
                                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-10 header-logo">
 
-                                        <a href="tr.html"> <img src="web_files/yurtici-kargo/assets/img/logo.svg" alt="Yurtiçi Kargo" class="logo" width="178" height="44" /></a>
+                                        <a href="tr.html"> <img src="assets/img/logo.svg" alt="Yurtiçi Kargo" class="logo" width="178" height="44" /></a>
                                     </div>
                                     <div class="col-lg-9 col-md-10 col-sm-10 col-xs-2 col-lg-offset-1">
                                         <div class="right-form">
