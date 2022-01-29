@@ -47,7 +47,7 @@
     <input type="hidden" value="tr" name="language" id="language" />
     <input type="hidden" id="googleApiKey" value='https://www.google.com/maps/embed/v1/place?key=AIzaSyDF4SZV-4eOTYKWZmw8Cs4nwfYKWpMl15Q&amp;q=' />
 
-    <script type="text/javascript" src="web_files/yurtici-kargo/assets/bundle/yurticikargo_a28.js">
+    <script type="text/javascript" src="assets/js/yurticikargo_a28.js">
     </script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async=async src="https://www.googletagmanager.com/gtag/js?id=UA-119024172-1">

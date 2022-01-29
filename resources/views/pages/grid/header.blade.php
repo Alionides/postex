@@ -8,9 +8,9 @@
                                 <div class="row">
                                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
                                         <div id="selectpicker" class="select-lang-wrap right-radius">
-                                            <span>T&#220;RK&#199;E</span>
+                                            <span>AZ</span>
                                             <?xml version="1.0" encoding="UTF-8" ?>
-                                            <svg width="10px" height="6px" viewBox="0 0 10 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <!-- <svg width="10px" height="6px" viewBox="0 0 10 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                                 <defs></defs>
                                                 <g class="down-arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round"
                                                    stroke-linejoin="round">
@@ -18,11 +18,11 @@
                                                         <polyline id="Path-2-Copy-2" points="661 1287 665 1291 669 1287"></polyline>
                                                     </g>
                                                 </g>
-                                            </svg>
-                                            <ul class="dropdown list-unstyled">
+                                            </svg> -->
+                                            <!-- <ul class="dropdown list-unstyled">
                                                     <li><a class="language-select" href="tr.html">T&#252;rk&#231;e</a></li>
                                                     <li><a class="language-select" href="en.html">English</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </div>
 
                                     </div>
@@ -114,14 +114,14 @@
                                 <div class="row">
                                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-10 header-logo">
 
-                                        <a href="tr.html"> <img src="assets/img/logo.svg" alt="Yurtiçi Kargo" class="logo" width="178" height="44" /></a>
+                                        <a href="tr.html"> <img src="assets/img/logo.png" alt="Yurtiçi Kargo" class="logo" width="178" height="44" /></a>
                                     </div>
                                     <div class="col-lg-9 col-md-10 col-sm-10 col-xs-2 col-lg-offset-1">
                                         <div class="right-form">
                                             <div class="search quick-access-wrap">
                                                 <form class="navbar-form" role="search" onsubmit="return false;" autocomplete="off">
                                                     <div class="input-group">
-                                                        <input type="text" class="form-control all-radius" placeholder="Hızlı Erişim" name="q" />
+                                                        <input type="text" class="form-control all-radius" placeholder="Sürətli Qoşul" name="q" />
                                                         <button class="btn btn-default" type="button">
                                                             <?xml version="1.0" encoding="UTF-8" ?>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21">
@@ -154,7 +154,7 @@
                                                             <path d="M12 13.3v-1.686l9.009-9.009 2.668 2.604-6.384 6.384a1 1 0 0 0 1.414 1.414l7.1-7.1a1 1 0 0 0-.009-1.423l-4.1-4a1 1 0 0 0-1.405.009l-10 10A1 1 0 0 0 10 11.2v3.1a1 1 0 0 0 1 1h5a1 1 0 0 0 .755-1.656l-2-2.3a1 1 0 1 0-1.51 1.312l.56.644H12z" />
                                                         </g>
                                                     </svg>
-                                                    <span>İLETİŞİM FORMU</span>
+                                                    <span>ƏLAQƏ FORMASI</span>
                                                 </a>
                                             </div>
                                             <div class="member-info left-radius">
@@ -170,11 +170,11 @@
                                                             </g>
                                                         </g>
                                                     </g>
-                                                </svg> <span>ÜYE GİRİŞİ / ÜYE OLUN</span>
+                                                </svg> <span>GİRİŞ/ QEYDİYYAT</span>
                                             </div>
                                             <div class="customer-btn-wrap">
-                                                <a href="https://bireysel.yurticikargo.com/" target="_blank" class="customer-btn-default all-radius">BİREYSEL</a>
-                                                <a href="http://selfservis.yurticikargo.com/" target="_blank" class="customer-btn-default all-radius">KURUMSAL</a>
+                                                <a href="https://bireysel.yurticikargo.com/" target="_blank" class="customer-btn-default all-radius">FƏRDİ</a>
+                                                <a href="http://selfservis.yurticikargo.com/" target="_blank" class="customer-btn-default all-radius">KORPORATİV</a>
                                             </div>
                                         </div>
 
@@ -187,7 +187,7 @@
                 </div>
                 <div class="customer-btn-wrap mobile">
                     <h4>ÜYE GİRİŞİ / ÜYE OLUN</h4>
-                    <a href="https://bireysel.yurticikargo.com/" target="_blank" class="customer-btn-default all-radius">BİREYSEL</a>
-                    <a href="http://selfservis.yurticikargo.com/" target="_blank" class="customer-btn-default all-radius">KURUMSAL</a>
+                    <a href="https://bireysel.yurticikargo.com/" target="_blank" class="customer-btn-default all-radius">FƏRDİ</a>
+                    <a href="http://selfservis.yurticikargo.com/" target="_blank" class="customer-btn-default all-radius">KORPORATİV</a>
                 </div>
             </header>

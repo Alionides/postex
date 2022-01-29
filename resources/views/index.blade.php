@@ -477,10 +477,10 @@
                 </div>
 
                     <!-- Modal -->
-                    <div class="modal fade page-popup" data-popupId="63" data-period="0" data-showing-count="5" role="dialog">
+                    <!-- <div class="modal fade page-popup" data-popupId="63" data-period="0" data-showing-count="5" role="dialog">
 
                         <div class="modal-dialog modal-lg">
-                            <!-- Modal content-->
+                            
                             <div class="modal-content all-radius">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal"></button>
@@ -495,7 +495,7 @@
                             </div>
 
                         </div>
-                    </div>
+                    </div> -->
                 <!-- Modal -->
                 <div class="modal fade" id="shipmentTrackingCodeModal" role="dialog">
                     <div class="modal-dialog">
