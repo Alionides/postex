@@ -9,10 +9,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yurti&#231;i Kargo</title>
-    <meta name="description" content="Yurti&#231;i Kargo, &quot;S&#246;z Verdiğimiz Gibi&quot; sloganından hareketle 1982 yılında, Dr. İbrahim Arıkan liderliğinde ve Arıkanlı Holding &#231;atısı altında, T&#252;rkiye’deki ilk T&#252;rk kargo markası olarak kurulmuştur. " />
+    <title>Postex</title>
+    <meta name="description" content="Postex, &quot;S&#246;z Verdiğimiz Gibi&quot; sloganından hareketle 1982 yılında, Dr. İbrahim Arıkan liderliğinde ve Arıkanlı Holding &#231;atısı altında, T&#252;rkiye’deki ilk T&#252;rk kargo markası olarak kurulmuştur. " />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <link type="text/css" rel="stylesheet" href="web_files/yurtici-kargo/assets/bundle/yurticikargo_a28.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/yurticikargo_a28.css" />
     <meta name="google-site-verification" content="i1ppcHyFMEcxQB6gduwpAgmCZW2bE6x4VG1ep_-Qsgk" />
 </head>
 
@@ -20,7 +20,7 @@
     <div class="overlay"></div>
     <div id="spinner" class="spinnerWrap">
         <div class="spinner">
-            <img src="web_files/yurtici-kargo/assets/img/preloader.gif" />
+            <img src="assets/img/preloader.gif" />
         </div>
     </div>
     <div class="wrapper">
@@ -47,7 +47,7 @@
     <input type="hidden" value="tr" name="language" id="language" />
     <input type="hidden" id="googleApiKey" value='https://www.google.com/maps/embed/v1/place?key=AIzaSyDF4SZV-4eOTYKWZmw8Cs4nwfYKWpMl15Q&amp;q=' />
 
-    <script type="text/javascript" src="web_files/yurtici-kargo/assets/bundle/yurticikargo_a28.js">
+    <script type="text/javascript" src="assets/js/yurticikargo_a28.js">
     </script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async=async src="https://www.googletagmanager.com/gtag/js?id=UA-119024172-1">
