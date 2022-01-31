@@ -26,7 +26,7 @@
 					</ul>
 					<div class="main-sidebar sidebar-nav">
 						<div class="lang-wrap"> 
-                            <a class="language-select" data-langCode="tr">AZ</a> 
+                            <a class="language-select" data-langCode="tr" >AZ</a> 
                             <!-- <a class="language-select" data-langCode="en" href="en.html">English</a>  -->
                         </div>
 						
