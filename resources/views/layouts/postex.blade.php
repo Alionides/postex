@@ -26,14 +26,14 @@
     <div class="wrapper">
 
         <div class="navbar" role="navigation" id="slide-nav">
-        @include('pages.grid.header')
+        @include('layouts.grid.header')
 
          <!-- content -->
          @yield('content')
         <!-- /content -->
 
-        @include('pages.grid.footer_top')
-        @include('pages.grid.footer')
+        @include('layouts.grid.footer_top')
+        @include('layouts.grid.footer')
       
         
     </div>
