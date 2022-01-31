@@ -20,9 +20,9 @@ use App\Http\Controllers\CustomerController;
 Route::post("logout", [CustomerController::class, "logout"])->name('logout');
 Route::get("login", [CustomerController::class, "login"])->name('login');
 Route::post("login", [CustomerController::class, "login"])->name('login');
-
+Route::get('/', [SiteController::class, "index"])->name('home');
 Route::group(['middleware' => ['auth:customer']],function(){
-    Route::get('index',[SiteController::class, "index"]);
+    
 });
 
 
