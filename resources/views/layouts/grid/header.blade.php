@@ -173,7 +173,7 @@
                                                 </svg> <span>GİRİŞ/ QEYDİYYAT</span>
                                             </div>
                                             <div class="customer-btn-wrap">
-                                                <a href="https://bireysel.yurticikargo.com/" target="_blank" class="customer-btn-default all-radius">FƏRDİ</a>
+                                                <a href="{{ route('login')}}" class="customer-btn-default all-radius">FƏRDİ</a>
                                                 <a href="http://selfservis.yurticikargo.com/" target="_blank" class="customer-btn-default all-radius">KORPORATİV</a>
                                             </div>
                                         </div>
@@ -187,7 +187,7 @@
                 </div>
                 <div class="customer-btn-wrap mobile">
                     <h4>ÜYE GİRİŞİ / ÜYE OLUN</h4>
-                    <a href="https://bireysel.yurticikargo.com/" target="_blank" class="customer-btn-default all-radius">FƏRDİ</a>
+                    <a href="{{ route('login')}}" class="customer-btn-default all-radius">FƏRDİ</a>
                     <a href="http://selfservis.yurticikargo.com/" target="_blank" class="customer-btn-default all-radius">KORPORATİV</a>
                 </div>
             </header>

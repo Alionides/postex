@@ -1,0 +1,48 @@
+.login-page { background: url(../img/login-bg.jpg) no-repeat left center fixed; background-size: cover; }
+    .login-page header .header-bottom .space.right { background-color: transparent; }
+    .login-page .header-bottom { margin-top: 40px; }
+.login-form .title-blue { margin: 0; }
+.login-form .member { position: relative; }
+    .login-form .member:last-child { margin-top: 5px; display: block; }
+    .login-form .member span { font-size: 16px; font-weight: 500; text-transform: uppercase; margin-left: 20px; }
+        .login-form .member span:before, .login-info h6:last-child:before { content: url(https://bireysel.yurticikargo.com/assets/img/down-arrow-orange.svg); -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -o-transform: rotate(-90deg); transform: rotate(-90deg); position: absolute; margin-right: 30px; left: 0; }
+.login-form .main-content-bold { margin: 20px 0 20px 0; line-height: 1.67; }
+.login-info { background-color: rgba(0, 0, 0, 0.05); padding: 20px 20px 7px 20px; }
+    .login-info p { color: #000000; font-style: normal; font-size: 16px; }
+    .login-info h6 { margin-top: 0; }
+        .login-info h6:last-child { text-transform: uppercase; font-size: 16px; position: relative; padding-left: 20px; margin-top: 20px; display: block; }
+            .login-info h6:last-child:before { }
+.login-form-wrap { border: solid 1px #e2e2e2; padding: 30px; overflow: hidden; }
+.navbar-header { display: none; }
+
+@media only screen and (min-width: 768px) {
+    .login-wrap { margin-top: 50px; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: flex; -webkit-align-items: flex-start; -moz-align-items: flex-start; -ms-align-items: flex-start; align-items: flex-start; }
+    /*.login-wrap > div { -webkit-flex: 1; -moz-flex: 1; -ms-flex: 1; flex: 1; }*/
+    .login-info { margin-top: 40px; -webkit-border-top-right-radius: 20px; -webkit-border-bottom-right-radius: 20px; -moz-border-radius-topright: 20px; -moz-border-radius-bottomright: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; }
+    .login-wrap .login-form { -webkit-flex: 0 0 385px; -moz-flex: 0 0 385px; -ms-flex: 0 0 385px; flex: 0 0 385px; }
+    .login-wrap .login-info { -webkit-flex: 0 0 365px; -moz-flex: 0 0 365px; -ms-flex: 0 0 365px; flex: 0 0 365px; }
+}
+
+@media only screen and (max-width: 854px) {
+    .login-wrap .login-info { -webkit-flex: 0 0 320px; -moz-flex: 0 0 320px; -ms-flex: 0 0 320px; flex: 0 0 320px; }
+}
+
+@media only screen and (max-width: 767px) {
+    .login-info { -webkit-border-bottom-right-radius: 20px; -webkit-border-bottom-left-radius: 20px; -moz-border-radius-bottomright: 20px; -moz-border-radius-bottomleft: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; }
+    .login-info { margin: 0 20px; }
+}
+.create-query .all-radius.query {
+    border: solid 2px #f2f2f2;
+    height: 100%;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+.create-query .tooltip-wrap {
+    position: absolute;
+    top: 31px;
+    right: 15px;
+}
+ 

@@ -10,4 +10,8 @@ class SiteController extends Controller
        return view('pages.index');
    }
     
+   public function login() {
+       return view('auth.login');
+   }
+    
 }
