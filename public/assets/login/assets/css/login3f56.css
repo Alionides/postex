@@ -5,7 +5,7 @@
 .login-form .member { position: relative; }
     .login-form .member:last-child { margin-top: 5px; display: block; }
     .login-form .member span { font-size: 16px; font-weight: 500; text-transform: uppercase; margin-left: 20px; }
-        .login-form .member span:before, .login-info h6:last-child:before { content: url(https://bireysel.yurticikargo.com/assets/img/down-arrow-orange.svg); -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -o-transform: rotate(-90deg); transform: rotate(-90deg); position: absolute; margin-right: 30px; left: 0; }
+        .login-form .member span:before, .login-info h6:last-child:before { content: url(../img/down-arrow-orange.svg); -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -o-transform: rotate(-90deg); transform: rotate(-90deg); position: absolute; margin-right: 30px; left: 0; }
 .login-form .main-content-bold { margin: 20px 0 20px 0; line-height: 1.67; }
 .login-info { background-color: rgba(0, 0, 0, 0.05); padding: 20px 20px 7px 20px; }
     .login-info p { color: #000000; font-style: normal; font-size: 16px; }
