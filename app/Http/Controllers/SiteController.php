@@ -12,4 +12,7 @@ class SiteController extends Controller
    public function login() {
        return view('auth.login');
    }   
+   public function user() {
+       return view('users.home');
+   }   
 }

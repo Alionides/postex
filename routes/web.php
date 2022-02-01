@@ -21,6 +21,7 @@ Route::post("logout", [CustomerController::class, "logout"])->name('logout');
 Route::get("login", [CustomerController::class, "login"])->name('login');
 Route::post("login", [CustomerController::class, "login"])->name('login');
 Route::get('/', [SiteController::class, "index"])->name('home');
+Route::get('user', [SiteController::class, "user"])->name('user.home');
 Route::group(['middleware' => ['auth:customer']],function(){
     
 });
