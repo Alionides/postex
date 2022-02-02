@@ -56,8 +56,8 @@ class CustomerController extends Controller
         if(Auth::guard('customer')->attempt(['email' => $request->email, 'password' => $request->password])){
             $user = Auth::guard('customer')->user();
             $token = $user->createToken('token')->plainTextToken;
-            return redirect()->intended('dashboard');
-            //return response()->json(["login" => true, "token" => $token, "data" => $user]);
+            //return redirect()->intended('home');
+            return response()->json(["login" => true, "token" => $token, "data" => $user], 200);
         } else {
             return response()->json(["error" => "Whoops! invalid password"], 401);
         }
@@ -71,7 +71,9 @@ class CustomerController extends Controller
 
         $request->session()->regenerateToken();
 
-        return redirect('/');
+        return response()->json(["logout" => true]);
+
+        //return redirect('/');
     }
     
     public function customer() 

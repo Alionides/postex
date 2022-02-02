@@ -20,7 +20,7 @@
                                                 </g>
                                             </svg> -->
                                             <!-- <ul class="dropdown list-unstyled">
-                                                    <li><a class="language-select" href="tr.html">T&#252;rk&#231;e</a></li>
+                                                    <li><a class="language-select" href="/">T&#252;rk&#231;e</a></li>
                                                     <li><a class="language-select" href="en.html">English</a></li>
                                             </ul> -->
                                         </div>
@@ -114,7 +114,7 @@
                                 <div class="row">
                                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-10 header-logo">
 
-                                        <a href="tr.html"> <img src="assets/img/logo.png" alt="Yurtiçi Kargo" class="logo" width="178" height="44" /></a>
+                                        <a href="/"> <img src="/assets/img/logo.png" alt="Yurtiçi Kargo" class="logo" width="178" height="44" /></a>
                                     </div>
                                     <div class="col-lg-9 col-md-10 col-sm-10 col-xs-2 col-lg-offset-1">
                                         <div class="right-form">
@@ -157,6 +157,15 @@
                                                     <span>ƏLAQƏ FORMASI</span>
                                                 </a>
                                             </div>
+                                            
+                                            @if (Auth::guard('customer')->check())
+                                            <div class="loggedin-member-info">                                                
+                                                <span>
+                                                    {{Auth::guard('customer')->user()->first_name.' '.Auth::guard('customer')->user()->last_name}}
+                                                    <a id="logout" href="#"> ( Çıxış )</a>
+                                                </span>
+                                            </div>
+                                            @else
                                             <div class="member-info left-radius">
                                                 <?xml version="1.0" encoding="UTF-8" ?>
                                                 <svg width="19px" height="18px" viewBox="0 0 19 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -170,8 +179,12 @@
                                                             </g>
                                                         </g>
                                                     </g>
-                                                </svg> <span>GİRİŞ/ QEYDİYYAT</span>
+                                                </svg> 
+                                                <span>
+                                                    GİRİŞ/ QEYDİYYAT 
+                                                </span>
                                             </div>
+                                            @endif
                                             <div class="customer-btn-wrap">
                                                 <a href="{{ route('login')}}" class="customer-btn-default all-radius">FƏRDİ</a>
                                                 <a href="http://selfservis.yurticikargo.com/" target="_blank" class="customer-btn-default all-radius">KORPORATİV</a>

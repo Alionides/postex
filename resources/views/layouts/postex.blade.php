@@ -9,10 +9,12 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Postex</title>
     <meta name="description" content="Postex, &quot;S&#246;z Verdiğimiz Gibi&quot; sloganından hareketle 1982 yılında, Dr. İbrahim Arıkan liderliğinde ve Arıkanlı Holding &#231;atısı altında, T&#252;rkiye’deki ilk T&#252;rk kargo markası olarak kurulmuştur. " />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link type="text/css" rel="stylesheet" href="assets/css/yurticikargo_a28.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/custom.css" />
     <meta name="google-site-verification" content="i1ppcHyFMEcxQB6gduwpAgmCZW2bE6x4VG1ep_-Qsgk" />
 </head>
 
@@ -49,15 +51,8 @@
 
     <script type="text/javascript" src="assets/js/yurticikargo_a28.js">
     </script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async=async src="https://www.googletagmanager.com/gtag/js?id=UA-119024172-1">
-    </script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-119024172-1');
-    </script>
+
+    <script src="/assets/js/custom.js"></script>
 
 </body>
 

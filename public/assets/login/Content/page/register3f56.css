@@ -9,7 +9,7 @@
     }
 
         .radio-primary .member span:before, .radio-primaryc h6:last-child:before {
-            content: url(https://bireysel.yurticikargo.com/assets/img/down-arrow-orange.svg);
+            content: url(../../assets/img/down-arrow-orange.svg);
             -webkit-transform: rotate(-90deg);
             -moz-transform: rotate(-90deg);
             -ms-transform: rotate(-90deg);
