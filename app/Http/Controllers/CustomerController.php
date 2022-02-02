@@ -65,15 +65,11 @@ class CustomerController extends Controller
 
     public function logout(Request $request)
     {
-        Auth::guard('customer')->logout();
-
-        $request->session()->invalidate();
-
-        $request->session()->regenerateToken();
-
+        if(Auth::guard('customer')->check())
+        {
+            Auth::guard('customer')->logout();            
+        }
         return response()->json(["logout" => true]);
-
-        //return redirect('/');
     }
     
     public function customer() 
