@@ -1,7 +1,7 @@
 .special-page .form-group .radio { display: inline-block; padding: 10px 0; position: initial; }
 .special-page .breadcrumb-wrap { margin-top: 15px; }
 .special-page section .banner { top: -15px; }
-.special-page .header-bottom .contact-form span:before { content: url(https://bireysel.yurticikargo.com/assets/img/down-arrow-orange.svg); -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -o-transform: rotate(-90deg); transform: rotate(-90deg); position: absolute; margin-right: 30px; left: 0; }
+.special-page .header-bottom .contact-form span:before { content: url(../img/down-arrow-orange.svg); -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -o-transform: rotate(-90deg); transform: rotate(-90deg); position: absolute; margin-right: 30px; left: 0; }
 .special-page .header-bottom .contact-form { position: relative; padding-left: 15px; }
 .special-page .member-login { z-index: 9919; position: relative; height: 45px }
     .special-page .member-login b { font-weight: 500; }
@@ -74,7 +74,7 @@ td.border-wrap > div .title { display: inline-block; -webkit-border-radius: 10px
 .shipping-sender h6.title { float: left; margin-right: 10px; }
 .shipping-sender .shipping-content h6 { font-weight: normal; }
 .shipping-sender .view-title { font-weight: 500 !important; position: relative; padding-left: 12px; font-size: 16px; }
-    .shipping-sender .view-title:before, .shipping-sender .type-content .last span:before { content: url(https://bireysel.yurticikargo.com/assets/img/down-arrow-orange.svg); -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -o-transform: rotate(-90deg); transform: rotate(-90deg); position: absolute; left: 0; top: 0; margin-left: -8px; }
+    .shipping-sender .view-title:before, .shipping-sender .type-content .last span:before { content: url(../img/down-arrow-orange.svg); -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -o-transform: rotate(-90deg); transform: rotate(-90deg); position: absolute; left: 0; top: 0; margin-left: -8px; }
 .shipping-sender .view.title { margin-top: 20px; }
 .shipping-sender .view.address { margin: 10px 0 20px 0; text-transform: uppercase; }
 .shipping-sender .shipping-content { margin-top: 15px; }
