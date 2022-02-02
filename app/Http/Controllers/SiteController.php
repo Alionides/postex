@@ -13,6 +13,9 @@ class SiteController extends Controller
        return view('auth.login');
    }   
    public function user() {
-       return view('users.home');
+       return view('users.pages.index');
+   }   
+   public function shippingsender() {
+       return view('users.pages.shippingsender');
    }   
 }
