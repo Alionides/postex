@@ -4,7 +4,7 @@
 <section class="middle-content">
               @include('layouts.grid.navbar')
                 <div class="banner">
-                    <div class="top-mask"><img src="assets/img/top-mask.svg" alt=" " /></div>
+                    <div class="top-mask"><img src="/assets/img/top-mask.svg" alt=" " /></div>
                     <div class="slider">
                         <div class="cargo-form-wrap">
                             <div class="row">

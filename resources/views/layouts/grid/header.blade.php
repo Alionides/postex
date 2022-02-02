@@ -20,7 +20,7 @@
                                                 </g>
                                             </svg> -->
                                             <!-- <ul class="dropdown list-unstyled">
-                                                    <li><a class="language-select" href="tr.html">T&#252;rk&#231;e</a></li>
+                                                    <li><a class="language-select" href="/">T&#252;rk&#231;e</a></li>
                                                     <li><a class="language-select" href="en.html">English</a></li>
                                             </ul> -->
                                         </div>
@@ -114,7 +114,7 @@
                                 <div class="row">
                                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-10 header-logo">
 
-                                        <a href="tr.html"> <img src="assets/img/logo.png" alt="Yurtiçi Kargo" class="logo" width="178" height="44" /></a>
+                                        <a href="/"> <img src="/assets/img/logo.png" alt="Yurtiçi Kargo" class="logo" width="178" height="44" /></a>
                                     </div>
                                     <div class="col-lg-9 col-md-10 col-sm-10 col-xs-2 col-lg-offset-1">
                                         <div class="right-form">

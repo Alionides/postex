@@ -64,13 +64,13 @@
             </nav>
             <div class="banner subpage-banner">
               <div class="top-mask">
-                <img src="assets/login/assets/img/top-mask.svg" alt=" " />
+                <img src="/assets/login/assets/img/top-mask.svg" alt=" " />
               </div>
               <div class="subpage-slide-wrap">
-                <div class="subpage-slide " style="background-image:url(assets/login/assets/img/bireysel-header-img.jpg); "></div>
+                <div class="subpage-slide " style="background-image:url(/assets/login/assets/img/bireysel-header-img.jpg); "></div>
               </div>
               <div class="bottom-mask">
-                <img src="assets/login/assets/img/bottom-mask.svg" alt=" " />
+                <img src="/assets/login/assets/img/bottom-mask.svg" alt=" " />
               </div>
             </div>
           </section>

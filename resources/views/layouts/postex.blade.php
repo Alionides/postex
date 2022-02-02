@@ -52,7 +52,7 @@
     <script type="text/javascript" src="assets/js/yurticikargo_a28.js">
     </script>
 
-    <script src="assets/js/custom.js"></script>
+    <script src="/assets/js/custom.js"></script>
 
 </body>
 

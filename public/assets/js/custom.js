@@ -6,7 +6,7 @@ $.ajaxSetup({
     }
 });
 
-$('#logout').click('onclick',function(){
+$('.logout').click('onclick',function(){
 
    // alert('sss');
     $.ajax({

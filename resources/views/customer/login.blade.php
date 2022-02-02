@@ -405,8 +405,6 @@
     });
     
     $('#btn-login').click('onclick',function(){
-
-        alert($('input[name=email]').val());
         var data = {
             'email': $('input[name=email]').val(),
             'password': $('input[name=password]').val()
@@ -418,7 +416,7 @@
                 success: function(response) {
                     console.log(response);
                     if(response.login == true){
-                        window.location.href = "{{ route('home')}}";
+                        window.location.href = "{{ route('account.home')}}";
                     }else{
                         
                     }                     
