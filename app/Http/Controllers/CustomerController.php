@@ -30,11 +30,10 @@ class CustomerController extends Controller
         return CustomerResource::collection($users);
     }
 
-    public function login(Request $request) 
+    public function login_corporate(Request $request) 
     {
-
         if ($request->isMethod('get')) {
-            return view('customer.login');
+            return view('customer.login_corporate');
         }
 
         $validator = Validator::make($request->all(), [
@@ -56,7 +55,38 @@ class CustomerController extends Controller
         if(Auth::guard('customer')->attempt(['email' => $request->email, 'password' => $request->password])){
             $user = Auth::guard('customer')->user();
             $token = $user->createToken('token')->plainTextToken;
-            //return redirect()->intended('home');
+            return response()->json(["login" => true, "token" => $token, "data" => $user], 200);
+        } else {
+            return response()->json(["error" => "Whoops! invalid password"], 401);
+        }
+    }
+
+    public function login_individual(Request $request) 
+    {
+
+        if ($request->isMethod('get')) {
+            return view('customer.login_individual');
+        }
+
+        $validator = Validator::make($request->all(), [
+            "email" => "required|email",
+            "password" => "required",
+        ]);
+
+        if($validator->fails()) {
+            return response()->json(["errors" => $validator->errors()]);
+        }
+
+         $user = Customer::where("email", $request->email)->first();
+
+        if(is_null($user)) {
+            return response()->json(["error" => "Failed! Email not found"], 404);
+        }
+        
+        
+        if(Auth::guard('customer')->attempt(['email' => $request->email, 'password' => $request->password])){
+            $user = Auth::guard('customer')->user();
+            $token = $user->createToken('token')->plainTextToken;            
             return response()->json(["login" => true, "token" => $token, "data" => $user], 200);
         } else {
             return response()->json(["error" => "Whoops! invalid password"], 401);
