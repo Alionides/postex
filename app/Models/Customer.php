@@ -21,6 +21,7 @@ class Customer extends Authenticatable
      */
 
     //protected $table = 'customers';
+    protected $guard = 'customer';
     protected $fillable = [
         'email',
         'password',
