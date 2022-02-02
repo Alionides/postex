@@ -20,6 +20,7 @@ class CreateCustomersTable extends Migration
             $table->string('password');
             $table->string('first_name');
             $table->string('last_name');
+            $table->string('is_corp')->default('individual');
             $table->string('status')->default('deactive');
             $table->date('dob')->nullable();
             $table->string('phone')->nullable();

@@ -9,9 +9,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Postex</title>
     <link rel="shortcut icon" href="https://bireysel.yurticikargo.com/favicon.ico" type="image/x-icon" />
-    <link type="text/css" rel="stylesheet" href="assets/login/assets/css/bootstrap.min.css" />
-    <link type="text/css" rel="stylesheet" href="assets/login/assets/css/main3f56.css?v=11" />
-    <link type="text/css" rel="stylesheet" href="assets/login/assets/css/login3f56.css?v=11" />
+    <link type="text/css" rel="stylesheet" href="/assets/login//assets/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="/assets/login//assets/css/main3f56.css?v=11" />
+    <link type="text/css" rel="stylesheet" href="/assets/login//assets/css/login3f56.css?v=11" />
 </head>
 
 <body class="login-page">
@@ -34,7 +34,7 @@
                             <div class="container-middle">
                                 <div class="row">
                                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-10 header-logo">
-                                        <a href="{{ route('home')}}"> <img src="assets/img/logo.png" alt="Postex" class="logo" width="178" height="44" /></a>
+                                        <a href="{{ route('home')}}"> <img src="/assets/img/logo.png" alt="Postex" class="logo" width="178" height="44" /></a>
                                     </div>
 
                                 </div>
@@ -72,7 +72,7 @@
                                     </div>
 
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <p class="main-content-bold">Postex Fərdi İnternet Şöbəsinə xoş gəldiniz.</p>
+                                        <p class="main-content-bold">Postex fərdi hesabına xoş gəldiniz.</p>
                                     </div>
 
                                     <div class="login-first-step">
@@ -171,14 +171,13 @@
                         </div>
                         <div class="modal-body">
                             <div class="loadingContent">
-                                <img src="assets/login/assets/img/preloader.gif" />
+                                <img src="/assets/login//assets/img/preloader.gif" />
                             </div>
                             <div class="successContent">
                                 <h5 class="title-blue">Başarılı</h5>
                                 <div class="center-start">
                                     <i>
                                         <?xml version="1.0" encoding="UTF-8" ?>
-
                                         <svg width="43px" height="32px" viewBox="0 0 43 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                             <defs></defs>
                                             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
@@ -363,7 +362,7 @@
                     <div class="row footer-bottom">
                         <div class="col-lg-6 col-md-8 col-sm-10 copyright-wrap">
                             <div class="copyright">
-                                <img src="https://bireysel.yurticikargo.com/assets/img/arikanli-holding.svg" alt="arikanli-holding" width="150" height="39" />
+                                <img src="https://bireysel.yurticikargo.com//assets/img/arikanli-holding.svg" alt="arikanli-holding" width="150" height="39" />
                             </div>
                         </div>
                     </div>
@@ -372,29 +371,29 @@
             </div>
         </footer>
     </div>
-    <script src="assets/login/Scripts/jquery.min.js">
+    <script src="/assets/login/Scripts/jquery.min.js">
     </script>
-    <script src="assets/login/Scripts/bootstrap.min.js">
+    <script src="/assets/login/Scripts/bootstrap.min.js">
     </script>
-    <script src="assets/login/Scripts/owl.carousel.js">
+    <script src="/assets/login/Scripts/owl.carousel.js">
     </script>
-    <script src="assets/login/Scripts/service/service3f56.js?v=11">
+    <script src="/assets/login/Scripts/service/service3f56.js?v=11">
     </script>
-    <script src="assets/login/Scripts/page/main3f56.js?v=11">
+    <script src="/assets/login/Scripts/page/main3f56.js?v=11">
     </script>
-    <script src="assets/login/Scripts/css-browser-selector.js">
+    <script src="/assets/login/Scripts/css-browser-selector.js">
     </script>
-    <script src="assets/login/Scripts/lodash.min.js">
+    <script src="/assets/login/Scripts/lodash.min.js">
     </script>
-    <script src="assets/login/Scripts/resource/language-resource.js">
+    <script src="/assets/login/Scripts/resource/language-resource.js">
     </script>
-    <!-- <script src="assets/login/Scripts/page/login3f56.js?v=11">
+    <!-- <script src="/assets/login/Scripts/page/login3f56.js?v=11">
     </script> -->
-    <script src="assets/login/Scripts/bootstrap-datepicker.js">
+    <script src="/assets/login/Scripts/bootstrap-datepicker.js">
     </script>
-    <script src="assets/login/Scripts/bootstrap-datepicker.tr.js" charset="UTF-8">
+    <script src="/assets/login/Scripts/bootstrap-datepicker.tr.js" charset="UTF-8">
     </script>
-    <script src="assets/login/Scripts/jquery.maskedinput.js" charset="UTF-8">
+    <script src="/assets/login/Scripts/jquery.maskedinput.js" charset="UTF-8">
     </script>
 
     <script>
@@ -411,15 +410,12 @@
         };
             $.ajax({
                 type: 'post',
-                url: 'login',
+                url: "{{ route('login.individual')}}",
                 data:data,
                 success: function(response) {
-                    console.log(response);
                     if(response.login == true){
-                        window.location.href = "{{ route('account.home')}}";
-                    }else{
-                        
-                    }                     
+                        window.location.href = "{{ route('account.individual') }}";
+                    }                  
                 },
                 error: function(response) {                    
                 }

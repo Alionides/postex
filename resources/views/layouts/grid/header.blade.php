@@ -162,7 +162,7 @@
                                             <div class="loggedin-member-info">                                                
                                                 <span>
                                                     {{Auth::guard('customer')->user()->first_name.' '.Auth::guard('customer')->user()->last_name}}
-                                                    <a id="logout" href="#"> ( Çıxış )</a>
+                                                    <a class="logout" href="#"> ( Çıxış )</a>
                                                 </span>
                                             </div>
                                             @else
@@ -186,7 +186,7 @@
                                             </div>
                                             @endif
                                             <div class="customer-btn-wrap">
-                                                <a href="{{ route('login')}}" class="customer-btn-default all-radius">FƏRDİ</a>
+                                                <a href="{{ route('login.individual')}}" class="customer-btn-default all-radius">FƏRDİ</a>
                                                 <a href="http://selfservis.yurticikargo.com/" target="_blank" class="customer-btn-default all-radius">KORPORATİV</a>
                                             </div>
                                         </div>
@@ -200,7 +200,7 @@
                 </div>
                 <div class="customer-btn-wrap mobile">
                     <h4>ÜYE GİRİŞİ / ÜYE OLUN</h4>
-                    <a href="{{ route('login')}}" class="customer-btn-default all-radius">FƏRDİ</a>
+                    <a href="{{ route('login.individual')}}" class="customer-btn-default all-radius">FƏRDİ</a>
                     <a href="http://selfservis.yurticikargo.com/" target="_blank" class="customer-btn-default all-radius">KORPORATİV</a>
                 </div>
             </header>
