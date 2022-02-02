@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 
 <html lang="tr" xmlns="http://www.w3.org/1999/xhtml">
@@ -8,6 +6,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Postex</title>
     <link rel="shortcut icon" href="https://bireysel.yurticikargo.com/favicon.ico" type="image/x-icon" />
     <link type="text/css" rel="stylesheet" href="assets/login/assets/css/bootstrap.min.css" />
@@ -81,14 +80,14 @@
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="form-group label-floating is-empty">
                                                 <label class="control-label" for="input-username">Elektron-poçt</label>
-                                                <input class="form-control all-radius" id="input-username" data-validate-type="required" autocomplete="off" type="text" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="50" minlength="3" />
+                                                <input class="form-control all-radius" type="text" name="email">
                                             </div>
                                         </div>
 
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="form-group label-floating is-empty">
                                                 <label class="control-label" for="input-password">Şifrə</label>
-                                                <input class="form-control all-radius" id="input-password" data-validate-type="required" autocomplete="off" type="password" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="50" minlength="6" />
+                                                <input class="form-control all-radius" type="text" name="password">
                                             </div>
                                         </div>
 
@@ -389,24 +388,47 @@
     </script>
     <script src="assets/login/Scripts/resource/language-resource.js">
     </script>
-    <script src="assets/login/Scripts/page/login3f56.js?v=11">
-    </script>
+    <!-- <script src="assets/login/Scripts/page/login3f56.js?v=11">
+    </script> -->
     <script src="assets/login/Scripts/bootstrap-datepicker.js">
     </script>
     <script src="assets/login/Scripts/bootstrap-datepicker.tr.js" charset="UTF-8">
     </script>
     <script src="assets/login/Scripts/jquery.maskedinput.js" charset="UTF-8">
     </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-119024172-2">
-    </script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
 
-        gtag('config', 'UA-119024172-2');
+    <script>
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+    
+    $('#btn-login').click('onclick',function(){
+
+        alert($('input[name=email]').val());
+        var data = {
+            'email': $('input[name=email]').val(),
+            'password': $('input[name=password]').val()
+        };
+            $.ajax({
+                type: 'post',
+                url: 'login',
+                data:data,
+                success: function(response) {
+                    console.log(response);
+                    if(response.login == true){
+                        window.location.href = "{{ route('home')}}";
+                    }else{
+                        
+                    }                     
+                },
+                error: function(response) {                    
+                }
+            });        
+    })
     </script>
+    
 </body>
 
 </html>

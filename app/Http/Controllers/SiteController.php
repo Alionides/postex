@@ -8,7 +8,7 @@ class SiteController extends Controller
 {
    public function index(){
         return view('site.index');
-    }
+   }
    public function login() {
        return view('auth.login');
    }   
@@ -19,3 +19,4 @@ class SiteController extends Controller
        return view('users.pages.shippingsender');
    }   
 }
+
