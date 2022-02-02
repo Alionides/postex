@@ -25,6 +25,7 @@ Route::group(['prefix' => 'login'], function () {
 });
 Route::get('/', [SiteController::class, "index"])->name('home');
 Route::get('register', [SiteController::class, "register"])->name('register');
+Route::get('corporateregister', [SiteController::class, "corporateregister"])->name('corporateregister');
 
 Route::get('shippingsender', [SiteController::class, "shippingsender"])->name('shipping.sender');
 

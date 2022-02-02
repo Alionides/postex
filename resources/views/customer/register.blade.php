@@ -247,7 +247,7 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <div class="form-group label-floating is-empty">
-                <label class="control-label" for="input-name">Tam Adınız</label>
+                <label class="control-label" for="input-name">Ad</label>
                 <input class="form-control all-radius" data-validate-type="required" tabindex="1" autocomplete="off" id="input-name" type="text" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="30" minlength="3">
                 <div class="tooltip-wrap">
                     <a data-toggle="popover" data-content="Tam adınızı giriniz. (en az 2 karakter)">
@@ -264,7 +264,7 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <div class="form-group label-floating is-empty">
-                <label class="control-label" for="input-surname">Soyadınız</label>
+                <label class="control-label" for="input-surname">Soyad</label>
                 <input class="form-control all-radius" data-validate-type="required" tabindex="2" autocomplete="off" id="input-surname" type="text" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="30" minlength="2">
                 <div class="tooltip-wrap">
                     <a data-toggle="popover" data-content="Soyadınızı giriniz. (en az 2 karakter)">

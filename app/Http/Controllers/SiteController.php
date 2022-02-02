@@ -22,5 +22,8 @@ class SiteController extends Controller
    public function register() {
        return view('customer.register');
    }   
+   public function corporateregister() {
+       return view('customer.corporateregister');
+   }   
 }
 
