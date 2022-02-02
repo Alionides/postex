@@ -21,6 +21,7 @@ Route::post("logout", [CustomerController::class, "logout"])->name('logout');
 Route::get("login", [CustomerController::class, "login"])->name('login');
 Route::post("login", [CustomerController::class, "login"])->name('login');
 Route::get('/', [SiteController::class, "index"])->name('home');
+Route::get('register', [SiteController::class, "register"])->name('register');
 
 
 
@@ -28,7 +29,7 @@ Route::get('shippingsender', [SiteController::class, "shippingsender"])->name('s
 
 Route::group(['middleware' => ['auth:customer']],function(){
     Route::group(['prefix' => 'account'], function () {
-        Route::get('/', [SiteController::class, "user"])->name('account.home');
+        Route::get('/', [SiteController::class, "user"])->name('account.home');        
     });
 });
 
