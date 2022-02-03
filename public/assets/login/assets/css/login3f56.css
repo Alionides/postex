@@ -1,6 +1,9 @@
 .login-page { background: url(../img/login-bg.jpg) no-repeat left center fixed; background-size: cover; }
     .login-page header .header-bottom .space.right { background-color: transparent; }
     .login-page .header-bottom { margin-top: 40px; }
+.login-page-individual { background: url(../img/login-individual.jpg) no-repeat left center fixed; background-size: cover; }
+    .login-page-individual header .header-bottom .space.right { background-color: transparent; }
+    .login-page-individual .header-bottom { margin-top: 40px; }
 .login-form .title-blue { margin: 0; }
 .login-form .member { position: relative; }
     .login-form .member:last-child { margin-top: 5px; display: block; }
