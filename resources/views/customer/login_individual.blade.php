@@ -413,9 +413,10 @@
                 url: "{{ route('login.individual')}}",
                 data:data,
                 success: function(response) {
-                    if(response.login == true){
-                        window.location.href = "{{ route('account.individual') }}";
-                    }                  
+                    console.log(response);
+                    // if(response.login == true){
+                    //     window.location.href = "{{ route('account.individual') }}";
+                    // }                  
                 },
                 error: function(response) {                    
                 }

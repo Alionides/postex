@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Customer;
 use App\Models\User;
+use App\Models\CorporateRequest;
 use App\Http\Resources\UserResource;
 use App\Http\Resources\CustomerResource;
 use App\Filters\UserFilters;
@@ -90,6 +91,43 @@ class CustomerController extends Controller
             return response()->json(["login" => true, "token" => $token, "data" => $user], 200);
         } else {
             return response()->json(["error" => "Whoops! invalid password"], 401);
+        }
+    }
+
+    public function register_individual(Request $request){
+        if ($request->isMethod('get')) {
+            return view('customer.register_individual');
+        }
+    }
+    public function register_corporate(Request $request){
+
+        if ($request->isMethod('get')) {
+            return view('customer.register_corporate');
+        }
+        $validator = Validator::make($request->all(), [
+            "email" => "required|email",
+            "first_name" => "required",
+            "last_name" => "required",
+            "phone" => "required",
+            "corp_type" => "required",
+        ]);
+
+        if($validator->fails()) {
+            return response()->json(["message" => 'Xanaları doldurun',"errors" => $validator->errors()], 400);
+        }
+
+        $inputs = $request->all();
+
+        if( Customer::where("email", $request->email)->count() ) {
+            return response()->json(["message" => "User already exists!"], 400);
+        }
+
+        $user = Customer::create($inputs);
+
+        if(!is_null($user)) {
+            return new CustomerResource($user);
+        } else {
+            return response()->json(["message" => "User creation failed!"], 500);
         }
     }
 
