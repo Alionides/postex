@@ -187,7 +187,7 @@
                                             @endif
                                             <div class="customer-btn-wrap">
                                                 <a href="{{ route('login.individual')}}" class="customer-btn-default all-radius">FƏRDİ</a>
-                                                <a href="http://selfservis.yurticikargo.com/" target="_blank" class="customer-btn-default all-radius">KORPORATİV</a>
+                                                <a href="{{ route('login.corporate')}}"  class="customer-btn-default all-radius">KORPORATİV</a>
                                             </div>
                                         </div>
 
