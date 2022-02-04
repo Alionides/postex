@@ -14,7 +14,7 @@
     <link type="text/css" rel="stylesheet" href="/assets/login//assets/css/login3f56.css?v=11" />
 </head>
 
-<body class="login-page-individual">
+<body class="login-page">
     <div class="overlay"></div>
     <div class="wrapper">
         <div class="navbar" role="navigation" id="slide-nav">
