@@ -15,5 +15,7 @@ class CorporateRequest extends Model
         'last_name',
         'phone',
         'corp_type',        
+        'notes',        
+        'status',        
     ];
 }

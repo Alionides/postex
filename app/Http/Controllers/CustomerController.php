@@ -118,16 +118,16 @@ class CustomerController extends Controller
 
         $inputs = $request->all();
 
-        if( Customer::where("email", $request->email)->count() ) {
-            return response()->json(["message" => "User already exists!"], 400);
+        if( CorporateRequest::where("email", $request->email)->count() ) {
+            return response()->json(["message" => "Təkrar sorğu qəbul edilmir"], 400);
         }
 
-        $user = Customer::create($inputs);
+        $data = CorporateRequest::create($inputs);
 
-        if(!is_null($user)) {
-            return new CustomerResource($user);
+        if(!is_null($data)) {
+            return response()->json(["message" => "Sorğunuz uğurla qeydə alındı"], 200);
         } else {
-            return response()->json(["message" => "User creation failed!"], 500);
+            return response()->json(["message" => "Sorğunuz qəbul edilmədi!"], 500);
         }
     }
 

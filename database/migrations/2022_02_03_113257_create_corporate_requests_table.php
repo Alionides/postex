@@ -21,6 +21,7 @@ class CreateCorporateRequestsTable extends Migration
             $table->string('phone')->nullable();
             $table->string('corp_type')->default('karqo');
             $table->text('notes')->nullable();
+            $table->string('status')->default('deactive');
             $table->timestamps();
         });
     }

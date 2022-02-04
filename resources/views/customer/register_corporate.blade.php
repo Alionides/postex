@@ -23,6 +23,7 @@
       <link type="text/css" rel="stylesheet" href="/assets/login//assets/css/datepicker3f56.css?v=11" />
       <link href="/assets/login//assets/css/jalert3f56.css?v=11" rel="stylesheet" />
       <link href="/assets/login//assets/plugin/leaflet/leaflet.css" rel="stylesheet" />
+      <link rel="stylesheet" href="/assets/css/custom.css">
    </head>
    <body class="special-page">
       <div class="overlay"></div>
@@ -395,29 +396,35 @@
          });
          
          $('.register_corp_btn').click('onclick',function(){
-             //alert('ddd');
+             alert($('input[name=corp_type]').val());
              var data = {
                  'email': $('input[name=email]').val(),
                  'first_name': $('input[name=first_name]').val(),
                  'last_name': $('input[name=last_name]').val(),
                  'phone': $('input[name=phone]').val(),
-                 'corp_type': $('input[name=corp_type]').val(),
+                 'corp_type': $('select[name=corp_type]').val(),
                  'notes': $('input[name=notes]').val()
              };
                  $.ajax({
                      type: 'post',
                      url: "{{ route('register.corporate')}}",
                      data:data,                    
-                     success: function(response) {                                       
+                     success: function(response) {  
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Uğurlu',
+                            text: response.message,
+                            showCancelButton: false,
+                            showConfirmButton: false
+                        })                                     
                      },
                      error: function(xhr, status, error){
-                         console.log(xhr.responseJSON.message);
-
                          Swal.fire({
                             icon: 'error',
-                            title: 'Oops...',
-                            text: 'Something went wrong!',
-                            footer: '<a href="">Why do I have this issue?</a>'
+                            title: 'Xəta',
+                            text: xhr.responseJSON.message,
+                            showCancelButton: false,
+                            showConfirmButton: false
                         })
                      }
                  });        
