@@ -13,8 +13,8 @@
     <title>Postex</title>
     <meta name="description" content="Postex, &quot;S&#246;z Verdiğimiz Gibi&quot; sloganından hareketle 1982 yılında, Dr. İbrahim Arıkan liderliğinde ve Arıkanlı Holding &#231;atısı altında, T&#252;rkiye’deki ilk T&#252;rk kargo markası olarak kurulmuştur. " />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <link type="text/css" rel="stylesheet" href="assets/css/yurticikargo_a28.css" />
-    <link type="text/css" rel="stylesheet" href="assets/css/custom.css" />
+    <link type="text/css" rel="stylesheet" href="/assets/css/yurticikargo_a28.css" />
+    <link type="text/css" rel="stylesheet" href="/assets/css/custom.css" />
     <meta name="google-site-verification" content="i1ppcHyFMEcxQB6gduwpAgmCZW2bE6x4VG1ep_-Qsgk" />
 </head>
 
@@ -209,7 +209,7 @@
                                             </div>
                                             <div class="customer-btn-wrap">
                                                 <a href="{{ route('login.individual')}}" class="customer-btn-default all-radius">FƏRDİ</a>
-                                                <a href="http://selfservis.yurticikargo.com/" target="_blank" class="customer-btn-default all-radius">KORPORATİV</a>
+                                                <a href="{{ route('login.corporate')}}"  class="customer-btn-default all-radius">KORPORATİV</a>
                                             </div>
                                         </div>
 
