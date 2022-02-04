@@ -414,9 +414,9 @@
                 data:data,
                 success: function(response) {
                     console.log(response);
-                    // if(response.login == true){
-                    //     window.location.href = "{{ route('account.individual') }}";
-                    // }                  
+                    if(response.login == true){
+                        window.location.href = "{{ route('account.individual') }}";
+                    }                  
                 },
                 error: function(response) {                    
                 }
