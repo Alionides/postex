@@ -182,7 +182,7 @@
                                     </div>
                                 </li>
                                 <li class="flex-active-slide item dark-theme">
-                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/banner/cover2021.png); ">
+                                    <div class="fleximg animate-opacity-slider" style="background-image:url(assets/img/banner/cover2022.jpg); ">
                                         <div class="flex-caption banner-caption">
                                             <div class="container-wrap-content">
                                                 <div class="space left"></div>
@@ -485,7 +485,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <p>
-                                        <img src="assets/img/banner/Uploads/Popup/duyuru-25ocak-2022.png" alt="Olumsuz hava koşullarından kaynaklı yaşanabilecek gecikmeler halinde anlayışınız i&ccedil;in teşekk&uuml;r ederiz." />
+                                        <img src="assets/img/banner/Uploads/Popup/popup.jpg" alt="Olumsuz hava koşullarından kaynaklı yaşanabilecek gecikmeler halinde anlayışınız i&ccedil;in teşekk&uuml;r ederiz." />
                                     </p>
                                 </div>
                                 <div class="modal-footer">
