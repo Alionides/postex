@@ -7,13 +7,13 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Auth;
 
-class CorporateController extends Controller
+class IndividualController extends Controller
 {
     public function __construct()
     {
         $this->middleware('customer');
         $this->middleware(function ($request, $next) {
-            if(Auth::guard('customer')->user()->is_corp !== 'corporate')
+            if(Auth::guard('customer')->user()->is_corp !== 'individual')
             {
                 return abort(404);
             }
@@ -26,6 +26,6 @@ class CorporateController extends Controller
 
     public function index(Request $request)
     {
-        return view('corporate.index');
+        return view('individual.index');
     }
 }
