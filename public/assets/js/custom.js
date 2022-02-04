@@ -8,7 +8,6 @@ $.ajaxSetup({
 
 $('.logout').click('onclick',function(){
 
-   // alert('sss');
     $.ajax({
         type: 'post',
         url: 'logout',

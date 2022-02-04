@@ -14,3 +14,8 @@
     margin-left:40px;
     color:white;
 }
+
+
+.swal2-popup {
+	font-size: 1.5rem !important;
+}

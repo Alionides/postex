@@ -1,5 +1,5 @@
-@extends('users.layouts.postexusers')
-@section('userscontent')                 
+@extends('layouts.individual')
+@section('content')                 
                  <h3 class="slideTitle">İzləmə Siyahım</h3>
                     <div class="breadcrumb-wrap">
                       <div class="row">

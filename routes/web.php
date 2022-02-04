@@ -26,6 +26,7 @@ Route::group(['prefix' => 'login'], function () {
 Route::group(['prefix' => 'register'], function () {
     Route::get('individual', [CustomerController::class, "register_individual"])->name('register.individual');
     Route::get('corporate', [CustomerController::class, "register_corporate"])->name('register.corporate');
+    Route::post('corporate', [CustomerController::class, "register_corporate"])->name('register.corporate');
 });
 Route::get('shippingsender', [SiteController::class, "shippingsender"])->name('shipping.sender');
 Route::group(['middleware' => ['auth:customer']],function(){

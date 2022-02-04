@@ -14,7 +14,7 @@
     <link type="text/css" rel="stylesheet" href="/assets/login//assets/css/login3f56.css?v=11" />
 </head>
 
-<body class="login-page-individual">
+<body class="login-page">
     <div class="overlay"></div>
     <div class="wrapper">
         <div class="navbar" role="navigation" id="slide-nav">
@@ -413,9 +413,10 @@
                 url: "{{ route('login.individual')}}",
                 data:data,
                 success: function(response) {
-                    if(response.login == true){
-                        window.location.href = "{{ route('account.individual') }}";
-                    }                  
+                    console.log(response);
+                    // if(response.login == true){
+                    //     window.location.href = "{{ route('account.individual') }}";
+                    // }                  
                 },
                 error: function(response) {                    
                 }
