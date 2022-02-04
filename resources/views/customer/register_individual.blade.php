@@ -9,20 +9,20 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yurtiçi Kargo - &#220;ye Ol</title>
-    <link rel="shortcut icon" href="assets/login/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/assets/login/favicon.ico" type="image/x-icon" />
     <!-- Bootstrap -->
-    <link type="text/css" rel="stylesheet" href="assets/login/assets/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="/assets/login/assets/css/bootstrap.min.css" />
     <!-- Owl Carousel -->
-    <link href="assets/login/assets/css/animation.css" rel="stylesheet" />
-    <link href="assets/login/assets/css/owl.carousel.min.css" rel="stylesheet" />
-    <link href="assets/login/assets/css/owl.theme.default.min.css" rel="stylesheet" />
-    <link type="text/css" rel="stylesheet" href="assets/login/assets/css/main3f56.css?v=11" />
-    <link type="text/css" rel="stylesheet" href="assets/login/assets/css/special3f56.css?v=11" />
-    <link type="text/css" rel="stylesheet" href="assets/login/assets/css/datepicker3f56.css?v=11" />
-    <link href="assets/login/assets/css/jalert3f56.css?v=11" rel="stylesheet" />
-    <link href="assets/login/assets/plugin/leaflet/leaflet.css" rel="stylesheet" />
+    <link href="/assets/login/assets/css/animation.css" rel="stylesheet" />
+    <link href="/assets/login/assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="/assets/login/assets/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="/assets/login/assets/css/main3f56.css?v=11" />
+    <link type="text/css" rel="stylesheet" href="/assets/login/assets/css/special3f56.css?v=11" />
+    <link type="text/css" rel="stylesheet" href="/assets/login/assets/css/datepicker3f56.css?v=11" />
+    <link href="/assets/login/assets/css/jalert3f56.css?v=11" rel="stylesheet" />
+    <link href="/assets/login/assets/plugin/leaflet/leaflet.css" rel="stylesheet" />
     
-    <link href="assets/login/Content/page/register3f56.css?v=11" rel="stylesheet" />
+    <link href="/assets/login/Content/page/register3f56.css?v=11" rel="stylesheet" />
 
 </head>
 
@@ -65,7 +65,7 @@
                                     <div class="col-lg-9 col-md-10 col-sm-10 col-xs-2 col-lg-offset-1">
                                         <div class="right-form">
                                             <div class="contact-form">
-                                                <a href="assets/login/Help.html">
+                                                <a href="/assets/login/Help.html">
                                                     <span>S.S.S.</span>
                                                 </a>
                                             </div>
@@ -111,37 +111,37 @@
                                     <div id="slidemenu" class="nav navbar-nav">
                                         <ul class="depth-1">
                                             <li>
-                                                <a href="assets/login/index.html" class="title">Anasayfa</a>
+                                                <a href="/assets/login/index.html" class="title">Anasayfa</a>
                                             </li>
                                             <li>
                                                 <a href="#" class="title">Gönderi İşlemleri</a>
                                                 <a class="menu-toggle" href="#"></a>
                                                 <ul class="depth-2">
-                                                    <li><a href="assets/login/Shipment/ShippingSender.html" class="title">Gönderi Yap</a></li>
-                                                    <li><a href="assets/login/Shipment/CreateQuery.html" class="title">Gönderilerim</a></li>
+                                                    <li><a href="/assets/login/Shipment/ShippingSender.html" class="title">Gönderi Yap</a></li>
+                                                    <li><a href="/assets/login/Shipment/CreateQuery.html" class="title">Gönderilerim</a></li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="assets/login/Shipment/Tracking.html" class="title">Kargom Nerede ?</a>
+                                                <a href="/assets/login/Shipment/Tracking.html" class="title">Kargom Nerede ?</a>
                                             </li>
                                             <li>
                                                 <a href="#" class="title">İletişim & Şubeler</a>
                                                 <a class="menu-toggle" href="#"></a>
                                                 <ul class="depth-2">
-                                                    <li><a href="assets/login/Contact/ContactUs.html" class="title">Bize Ulaşın</a></li>
-                                                    <li><a href="assets/login/Contact/SearchUnit.html" class="title">Şube Arama</a></li>
-                                                    <li><a href="assets/login/Contact/Support.html" class="title">Mesaj Gönder</a></li>
+                                                    <li><a href="/assets/login/Contact/ContactUs.html" class="title">Bize Ulaşın</a></li>
+                                                    <li><a href="/assets/login/Contact/SearchUnit.html" class="title">Şube Arama</a></li>
+                                                    <li><a href="/assets/login/Contact/Support.html" class="title">Mesaj Gönder</a></li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="assets/login/Reporting/CreateQuery.html" class="title">Raporlar</a>
+                                                <a href="/assets/login/Reporting/CreateQuery.html" class="title">Raporlar</a>
                                             </li>
                                             <li>
                                                 <a href="#" class="title">Ayarlar & Tanımlar</a>
                                                 <a class="menu-toggle" href="#"></a>
                                                 <ul class="depth-2">
-                                                    <li><a href="assets/login/Setting/UserInfo.html" class="title">Üyelik Bilgileri</a></li>
-                                                    <li><a href="assets/login/Setting/AddressList.html" class="title">Adres Defterim</a></li>
+                                                    <li><a href="/assets/login/Setting/UserInfo.html" class="title">Üyelik Bilgileri</a></li>
+                                                    <li><a href="/assets/login/Setting/AddressList.html" class="title">Adres Defterim</a></li>
                                                 </ul>
                                             </li>
 
@@ -180,37 +180,37 @@
                                                 <div class="nav">
                                                     <ul class="depth-1">
                                                         <li>
-                                                            <a href="assets/login/index.html" class="title">Anasayfa</a>
+                                                            <a href="/assets/login/index.html" class="title">Anasayfa</a>
                                                         </li>
                                                         <li>
                                                             <a href="#" class="title">Gönderi İşlemleri</a>
                                                             <a class="menu-toggle" href="#"></a>
                                                             <ul class="depth-2">
-                                                                <li><a href="assets/login/Shipment/ShippingSender.html" class="title">Gönderi Yap</a></li>
-                                                                <li><a href="assets/login/Shipment/CreateQuery.html" class="title">Gönderilerim</a></li>
+                                                                <li><a href="/assets/login/Shipment/ShippingSender.html" class="title">Gönderi Yap</a></li>
+                                                                <li><a href="/assets/login/Shipment/CreateQuery.html" class="title">Gönderilerim</a></li>
                                                             </ul>
                                                         </li>
                                                         <li>
-                                                            <a href="assets/login/Shipment/Tracking.html" class="title">Kargom Nerede ?</a>
+                                                            <a href="/assets/login/Shipment/Tracking.html" class="title">Kargom Nerede ?</a>
                                                         </li>
                                                         <li>
                                                             <a href="#" class="title">İletişim & Şubeler</a>
                                                             <a class="menu-toggle" href="#"></a>
                                                             <ul class="depth-2">
-                                                                <li><a href="assets/login/Contact/ContactUs.html" class="title">Bize Ulaşın</a></li>
-                                                                <li><a href="assets/login/Contact/SearchUnit.html" class="title">Şube Arama</a></li>
-                                                                <li><a href="assets/login/Contact/Support.html" class="title">Mesaj Gönder</a></li>
+                                                                <li><a href="/assets/login/Contact/ContactUs.html" class="title">Bize Ulaşın</a></li>
+                                                                <li><a href="/assets/login/Contact/SearchUnit.html" class="title">Şube Arama</a></li>
+                                                                <li><a href="/assets/login/Contact/Support.html" class="title">Mesaj Gönder</a></li>
                                                             </ul>
                                                         </li>
                                                         <li>
-                                                            <a href="assets/login/Reporting/CreateQuery.html" class="title">Raporlar</a>
+                                                            <a href="/assets/login/Reporting/CreateQuery.html" class="title">Raporlar</a>
                                                         </li>
                                                         <li>
                                                             <a href="#" class="title">Ayarlar & Tanımlar</a>
                                                             <a class="menu-toggle" href="#"></a>
                                                             <ul class="depth-2">
-                                                                <li><a href="assets/login/Setting/UserInfo.html" class="title">Üyelik Bilgileri</a></li>
-                                                                <li><a href="assets/login/Setting/AddressList.html" class="title">Adres Defterim</a></li>
+                                                                <li><a href="/assets/login/Setting/UserInfo.html" class="title">Üyelik Bilgileri</a></li>
+                                                                <li><a href="/assets/login/Setting/AddressList.html" class="title">Adres Defterim</a></li>
                                                             </ul>
                                                         </li>
 
@@ -231,7 +231,7 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <ul class="list-unstyled">
-                    <li><a href="assets/login/index.html">Anasayfa</a></li>
+                    <li><a href="/assets/login/index.html">Anasayfa</a></li>
                     <li class="active"><a>Üye Ol</a></li>
                 </ul>
             </div>

@@ -144,7 +144,7 @@
                                             <p class="main-content-bold">Bir hesabınız yoxdu?</p>
                                         </div>
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <a href="Register.html" class="member"><span>Qeydiyyat</span></a>
+                                            <a href="{{ route('register.individual') }}" class="member"><span>Qeydiyyat</span></a>
                                         </div>
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <a id="btn-forgot-password" class="member"><span>Şifrəmi Unuttum</span></a>
@@ -414,9 +414,9 @@
                 data:data,
                 success: function(response) {
                     console.log(response);
-                    // if(response.login == true){
-                    //     window.location.href = "{{ route('account.individual') }}";
-                    // }                  
+                    if(response.login == true){
+                        window.location.href = "{{ route('account.individual') }}";
+                    }                  
                 },
                 error: function(response) {                    
                 }

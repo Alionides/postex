@@ -34,7 +34,7 @@
                             <div class="container-middle">
                                 <div class="row">
                                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-10 header-logo">
-                                        <a href="{{ route('home')}}"> <img src="/assets/img/logo.png" alt="Postex" class="logo" width="178" height="44" /></a>
+                                        <a href="{{ route('home') }}"> <img src="/assets/img/logo.png" alt="Postex" class="logo" width="178" height="44" /></a>
                                     </div>
 
                                 </div>
@@ -144,7 +144,7 @@
                                             <p class="main-content-bold">Bir hesabınız yoxdu?</p>
                                         </div>
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <a href="Register.html" class="member"><span>Qeydiyyat</span></a>
+                                            <a href="{{ route('register.corporate') }}" class="member"><span>Qeydiyyat</span></a>
                                         </div>
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <a id="btn-forgot-password" class="member"><span>Şifrəmi Unuttum</span></a>
