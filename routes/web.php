@@ -7,6 +7,7 @@ use App\Http\Controllers\SiteController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\CorporateController;
+use App\Http\Controllers\IndividualController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -33,7 +34,7 @@ Route::get('shippingsender', [SiteController::class, "shippingsender"])->name('s
 Route::group(['middleware' => ['auth:customer']],function(){
     Route::group(['prefix' => 'account'], function () {
         Route::post("logout", [CustomerController::class, "logout"])->name('logout');
-        Route::get('individual', [CorporateController::class, "index"])->name('account.individual');
+        Route::get('individual', [IndividualController::class, "index"])->name('account.individual');
         Route::get('corporate', [CorporateController::class, "index"])->name('account.corporate');
     });
 });
