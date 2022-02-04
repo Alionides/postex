@@ -31,13 +31,13 @@
 
     <div id="spinner" class="spinnerWrap">
         <div class="spinner">
-            <img src="assets/login/assets/img/preloader.gif" />
+            <img src="/assets/login/assets/img/preloader.gif" />
         </div>
     </div>
 
     <div id="spinner-loader" class="spinnerWrap" style="display:none">
         <div class="spinner">
-            <img src="assets/login/assets/img/preloader.gif" />
+            <img src="/assets/login/assets/img/preloader.gif" />
         </div>
     </div>
 
@@ -60,7 +60,7 @@
                             <div class="container-middle">
                                 <div class="row">
                                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-10 header-logo">
-                                        <a href="assets/login/index.html"> <img src="assets/login/assets/img/logo.svg" alt="Yurtiçi Kargo" class="logo" width="178" height="44" /></a>
+                                        <a href="/assets/login/index.html"> <img src="/assets/login/assets/img/logo.svg" alt="Yurtiçi Kargo" class="logo" width="178" height="44" /></a>
                                     </div>
                                     <div class="col-lg-9 col-md-10 col-sm-10 col-xs-2 col-lg-offset-1">
                                         <div class="right-form">
@@ -154,14 +154,14 @@
                     </nav>
                     <div class="banner subpage-banner">
                         <div class="top-mask">
-                            <img src="assets/login/assets/img/top-mask.svg" alt=" " />
+                            <img src="/assets/login/assets/img/top-mask.svg" alt=" " />
                         </div>
                         <div class="subpage-slide-wrap">
                             <div class="subpage-slide " style="background-image:url(assets/login/assets/img/bireysel-header-img.jpg); ">
                             </div>
                         </div>
                         <div class="bottom-mask">
-                            <img src="assets/login/assets/img/bottom-mask.svg" alt=" " />
+                            <img src="/assets/login/assets/img/bottom-mask.svg" alt=" " />
                         </div>
                     </div>
                 </section>
@@ -502,7 +502,7 @@
             <div class="form-group label-floating is-empty">
                 <div class="search-content search-box-wrap address-wrap">
                     <label class="control-label" for="input-address">Mahalle/sokak/il/ilçe giriniz</label>
-                    <img src="assets/login/assets/img/arama.svg" class="input-address-search" />
+                    <img src="/assets/login/assets/img/arama.svg" class="input-address-search" />
                     <input class="form-control all-radius" data-validate-type="required" tabindex="14" id="input-address" type="text" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="100" minlength="3">
                     <div class="tooltip-wrap">
                         <a data-toggle="popover" data-content="Mahalle, cadde/sokak,ilçe,il bilgilerini girerek arama yapabilirsiniz. Aradığınız adresi bulamadıysanız, (Aradığım adresi bulamadım) 'ı işaretleyiniz.">
@@ -848,7 +848,7 @@
                         </div>
                         <div class="modal-body">
                             <div class="loadingContent">
-                                <img src="assets/login/assets/img/preloader.gif" />
+                                <img src="/assets/login/assets/img/preloader.gif" />
                             </div>
                             <div class="successContent">
                                 <h5 class="title-blue">Başarılı</h5>
@@ -888,7 +888,7 @@
                                         </svg>
                                     </i>
                                     <i id="icon-warning" style="display:none">
-                                        <img src="assets/login/assets/img/important.png" />
+                                        <img src="/assets/login/assets/img/important.png" />
                                     </i>
                                     <span class="modal-span-message"></span>
                                 </div>
@@ -916,7 +916,7 @@
                             </h5>
                             <div class="center-start">
                                 <i>
-                                    <img src="assets/login/assets/img/important.png" style="width:50px" />
+                                    <img src="/assets/login/assets/img/important.png" style="width:50px" />
                                 </i>
 
                                 <span class="modal-span-message" id="span-cofirm-message">
@@ -967,7 +967,7 @@
                         <div class="row footer-bottom">
                             <div class="col-lg-6 col-md-8 col-sm-10 copyright-wrap">
                                 <div class="copyright">
-                                    <img src="assets/login/assets/img/arikanli-holding.svg" alt="arikanli-holding" width="150" height="39" />
+                                    <img src="/assets/login/assets/img/arikanli-holding.svg" alt="arikanli-holding" width="150" height="39" />
                                     <span>
                                         Yurtiçi Kargo bir Arıkanlı Holding kuruluşudur.<br />
                                         Copyright © 2017 Yurtiçi Kargo. Bütün hakları saklıdır.
@@ -977,7 +977,7 @@
                             <div class="col-lg-2 col-md-2 col-sm-2  col-lg-offset-4 col-md-offset-2 designed-wrap">
                                 <div class="designed">
                                     <span>Designed by</span>
-                                    <img src="assets/login/assets/img/smartiks.svg" alt="smartiks" width="130" height="23" />
+                                    <img src="/assets/login/assets/img/smartiks.svg" alt="smartiks" width="130" height="23" />
                                 </div>
                             </div>
                         </div>
@@ -988,39 +988,39 @@
 
         </div>
         <input type="hidden" value="tr" name="language" id="language" />
-        <script src="assets/login/Scripts/jquery.min.js">
+        <script src="/assets/login/Scripts/jquery.min.js">
         </script>
-        <script src="assets/login/Scripts/bootstrap.min.js">
+        <script src="/assets/login/Scripts/bootstrap.min.js">
         </script>
-        <script src="assets/login/Scripts/lodash.min.js">
+        <script src="/assets/login/Scripts/lodash.min.js">
         </script>
-        <script src="assets/login/Scripts/owl.carousel.js">
+        <script src="/assets/login/Scripts/owl.carousel.js">
         </script>
-        <script src="assets/login/Scripts/jquery.tmpl.min.js">
+        <script src="/assets/login/Scripts/jquery.tmpl.min.js">
         </script>
-        <script src="assets/login/Scripts/service/service3f56.js?v=11">
+        <script src="/assets/login/Scripts/service/service3f56.js?v=11">
         </script>
-        <script src="assets/login/Scripts/app-extend.js">
+        <script src="/assets/login/Scripts/app-extend.js">
         </script>
-        <script src="assets/login/Scripts/resource/language-resource.js">
+        <script src="/assets/login/Scripts/resource/language-resource.js">
         </script>
-        <script src="assets/login/Scripts/page/main3f56.js?v=11">
+        <script src="/assets/login/Scripts/page/main3f56.js?v=11">
         </script>
-        <script src="assets/login/Scripts/css-browser-selector.js">
+        <script src="/assets/login/Scripts/css-browser-selector.js">
         </script>
-        <script src="assets/login/Scripts/lodash.min.js">
+        <script src="/assets/login/Scripts/lodash.min.js">
         </script>
-        <script src="assets/login/Scripts/bootstrap-datepicker.js">
+        <script src="/assets/login/Scripts/bootstrap-datepicker.js">
         </script>
-        <script src="assets/login/Scripts/bootstrap-datepicker.tr.js" charset="UTF-8">
+        <script src="/assets/login/Scripts/bootstrap-datepicker.tr.js" charset="UTF-8">
         </script>
-        <script src="assets/login/Scripts/jquery.maskedinput.js" charset="UTF-8">
+        <script src="/assets/login/Scripts/jquery.maskedinput.js" charset="UTF-8">
         </script>
-        <script src="assets/login/Scripts/jAlert.js">
+        <script src="/assets/login/Scripts/jAlert.js">
         </script>
-        <script src="assets/login/Scripts/jTimeout.js">
+        <script src="/assets/login/Scripts/jTimeout.js">
         </script>
-        <script src="assets/login/assets/plugin/leaflet/leaflet.js">
+        <script src="/assets/login/assets/plugin/leaflet/leaflet.js">
         </script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-119024172-2">
@@ -1033,9 +1033,9 @@
             gtag('config', 'UA-119024172-2');
         </script>
         
-    <script src="assets/login/Scripts/page/geo-address-generator3f56.js?v=11"></script>
-    <script src="assets/login/Scripts/page/register3f56.js?v=11"></script>
-    <script src="assets/login/Scripts/service/register-service3f56.js?v=11"></script>
+    <script src="/assets/login/Scripts/page/geo-address-generator3f56.js?v=11"></script>
+    <script src="/assets/login/Scripts/page/register3f56.js?v=11"></script>
+    <script src="/assets/login/Scripts/service/register-service3f56.js?v=11"></script>
 
 
 
