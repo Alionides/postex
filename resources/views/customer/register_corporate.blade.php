@@ -396,7 +396,6 @@
          });
          
          $('.register_corp_btn').click('onclick',function(){
-             alert($('input[name=corp_type]').val());
              var data = {
                  'email': $('input[name=email]').val(),
                  'first_name': $('input[name=first_name]').val(),
