@@ -153,9 +153,9 @@
                                 </div>
                             </div>
                             <div class="login-info">
-                                <h6>İçeride neler var?</h6>
-                                <p class="info">Bireysel İnternet Şubesini ve onun hayatınızı kolaylaştıracak özelliklerini keşfedin!</p>
-                                <a href="https://bireysel.yurticikargo.com/"><h6>Demo Girişi</h6></a>
+                                <h6>İçində nələr var?</h6>
+                                <p class="info">Fərdi İnternet Şöbəsini və onun həyatınızı asanlaşdıracaq xüsusiyyətlərini kəşf edin!</p>
+                                <a ><h6>Demo Girişi</h6></a>
                             </div>
                         </div>
 
