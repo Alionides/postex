@@ -240,17 +240,16 @@
                 <li><a target='_self' href='tr/kampanyalar.html' class='title'>KAMPANIYALAR</a></li>                        
 						<li><a target='_self' href='tr/kariyer.html' class='title'>ONLINE XİDMƏTLƏR</a></li>
 						<li><a target='_self' href='tr/kariyer.html' class='title'>TARİFLƏR</a></li>
-						<li><a target='_self' href='tr/kariyer.html' class='title'>FİLYALLARIMIZ</a></li>
+						<li><a target='_self' href='tr/kariyer.html' class='title'>FİLİALLARIMIZ</a></li>
 						<li><a target='_self' href='tr/urun-ve-hizmetler.html' class='title'>XİDMƏTLƏRİMİZ</a>
 							<a class='menu-toggle' href='#'></a>
 							<ul class='list-unstyled depth-2'>
 								<li><a target='_self' href='tr/urun-ve-hizmetler/yurtici-hizmetler.html' class='title'>AZƏRBAYCAN DAXİLİ ÇATDIRILMA</a></li>
-								<li><a target='_self' class='title'>YQAPIDAN TƏHVİL ALMA</a></li>
+								<li><a target='_self' class='title'>QAPIDAN TƏHVİL ALMA</a></li>
 								<li><a target='_self' class='title'>OFİSLƏRİMİZƏ TƏHVİL VERMƏK</a></li>
 								
 							</ul>
 						</li>						
-						<li><a target='_self'  class='title'>BİZ KİMİK</a></li>
 						<li><a target='_self'  class='title'>HAQQIMIZDA</a></li>
 					</ul>
 					<div class="main-sidebar sidebar-nav">
@@ -270,7 +269,7 @@
 							<a class='menu-toggle' href='#'></a>
 							<ul class='list-unstyled depth-2'>
 								<li><a target='_self' class='title'>AZƏRBAYCAN DAXİLİ ÇATDIRILMA</a></li>
-								<li><a target='_self' class='title'>YQAPIDAN TƏHVİL ALMA</a></li>
+								<li><a target='_self' class='title'>QAPIDAN TƏHVİL ALMA</a></li>
 								<li><a target='_self' class='title'>OFİSLƏRİMİZƏ TƏHVİL VERMƏK</a></li>
 								
 							</ul>
