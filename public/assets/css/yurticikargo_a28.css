@@ -8267,7 +8267,7 @@ button.close {
 }
 
 @font-face {
-	font-family: 'Ubuntu';
+	font-family: 'Ubuntu', sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	src: url('../fonts/ubuntu-v11-greek-ext_cyrillic-ext_latin-ext_latin_greek_cyrillic-300.eot');
@@ -8275,7 +8275,7 @@ button.close {
 }
 
 @font-face {
-	font-family: 'Ubuntu';
+	font-family: 'Ubuntu', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	src: url('../fonts/ubuntu-v11-greek-ext_cyrillic-ext_latin-ext_latin_greek_cyrillic-regular.eot');
@@ -8283,7 +8283,7 @@ button.close {
 }
 
 @font-face {
-	font-family: 'Ubuntu';
+	font-family: 'Ubuntu', sans-serif;
 	font-style: italic;
 	font-weight: 300;
 	src: url('../fonts/ubuntu-v11-greek-ext_cyrillic-ext_latin-ext_latin_greek_cyrillic-300italic.eot');
@@ -8291,7 +8291,7 @@ button.close {
 }
 
 @font-face {
-	font-family: 'Ubuntu';
+	font-family: 'Ubuntu', sans-serif;
 	font-style: italic;
 	font-weight: 400;
 	src: url('../fonts/ubuntu-v11-greek-ext_cyrillic-ext_latin-ext_latin_greek_cyrillic-italic.eot');
@@ -8299,7 +8299,7 @@ button.close {
 }
 
 @font-face {
-	font-family: 'Ubuntu';
+	font-family: 'Ubuntu', sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	src: url('../fonts/ubuntu-v11-greek-ext_cyrillic-ext_latin-ext_latin_greek_cyrillic-500.eot');
@@ -8307,7 +8307,7 @@ button.close {
 }
 
 @font-face {
-	font-family: 'Ubuntu';
+	font-family: 'Ubuntu', sans-serif;
 	font-style: italic;
 	font-weight: 500;
 	src: url('../fonts/ubuntu-v11-greek-ext_cyrillic-ext_latin-ext_latin_greek_cyrillic-500italic.eot');
@@ -8315,7 +8315,7 @@ button.close {
 }
 
 @font-face {
-	font-family: 'Ubuntu';
+	font-family: 'Ubuntu', sans-serif;
 	font-style: italic;
 	font-weight: 700;
 	src: url('../fonts/ubuntu-v11-greek-ext_cyrillic-ext_latin-ext_latin_greek_cyrillic-700italic.eot');
@@ -8323,7 +8323,7 @@ button.close {
 }
 
 @font-face {
-	font-family: 'Ubuntu';
+	font-family: 'Ubuntu', sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	src: url('../fonts/ubuntu-v11-greek-ext_cyrillic-ext_latin-ext_latin_greek_cyrillic-700.eot');
@@ -13404,6 +13404,7 @@ footer .middle .footer-bottom .designed-wrap .designed span {
 	body .slider .left-content-wrap p.animate-opacity {
 		font-size: 14px;
 		line-height: 1.57
+		
 	}
 	body .middle-big {
 		width: 74%
