@@ -778,7 +778,7 @@ a[data-target="#sampleShipmentTrackingCodeModal"] {
     }
 
 body {
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     background-color: #ffffff;
     overflow: hidden;
     padding: 0 !important;
