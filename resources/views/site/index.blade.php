@@ -10,7 +10,7 @@
                                     <div class="cargo-wrap">
                                         <ul class="list-unstyled">
                                             <li class="title active">
-                                                <a href="#follow" data-toggle="tab">GÖNDERİ<br /> TAKİBİ</a>
+                                                <a href="#follow" data-toggle="tab">BAĞLAMANI <br /> İZLƏ</a>
                                             </li>
                                             <li class="title">
                                                 <a href="#search" data-toggle="tab">ŞÖBƏ<br /> SORĞULA</a>
@@ -33,7 +33,7 @@
                                             <div class="tab-content clearfix">
                                                 <div class="tab-pane active" id="follow">
                                                     <div class="form-group label-floating is-empty">
-                                                        <label class="control-label" for="shipment-search-btn">Gönderi kodunuzu girin</label>
+                                                        <label class="control-label" for="shipment-search-btn">AWB kodunuzu girin</label>
                                                         <input type="number" id="shipment-search-btn" oninput="javascript: if (this.value.length > this.max) this.value = this.value.slice(0, this.max);" class="form-control all-radius shipment-tracking-code shipment-search" max="16" min="12" />
                                                         <a class="btn btn-default check-tracking-code">
                                                             <?xml version="1.0" encoding="UTF-8" ?>
@@ -50,7 +50,7 @@
                                                             </svg>
                                                         </a>
                                                     </div>
-                                                    <a href="#" data-toggle="modal" data-target="#shipmentTrackingCodeModal"><span class="all-radius">Gönderi / AWB kodu nədir?</span></a>
+                                                    <a href="#" data-toggle="modal" data-target="#shipmentTrackingCodeModal"><span class="all-radius">AWB kodu nədir?</span></a>
                                                 </div>
                                                 <div class="tab-pane" id="search">
                                                     <div class="input-group">
@@ -141,9 +141,9 @@
 
                         </div>
                         <div class="search-query">
-                            <a href="#follow" data-toggle="tab" class="all-radius">GÖNDERİ TAKİBİ</a>
+                            <a href="#follow" data-toggle="tab" class="all-radius">BAĞLAMANI İZLƏ</a>
                             <a href="#search" data-toggle="tab" class="all-radius">ŞÖBƏ SORĞULA</a>
-                            <a href="#calc" data-toggle="tab" class="all-radius">QİYMƏT HESAPLA</a>
+                            <a href="#calc" data-toggle="tab" class="all-radius">QİYMƏT HESABLA</a>
                             <a href="#call" data-toggle="tab" class="all-radius">KURYER ÇAĞIR</a>
                         </div>
                         <ul class="list-unstyled owl-carousel owl-theme slides">
@@ -254,9 +254,9 @@
                                                     <div class="row slider-content right-align">
                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 center-start left-content slider-left-content">
                                                             <div class="left-content-wrap">
-                                                                <h5 class="animate-left">Qitələri birləştiren kompaniya</h5>
+                                                                <h5 class="animate-left">Şəhərləri birləşdirən kampaniya</h5>
                                                                 <p class="animate-opacity">
-                                                                    ABD ve Kanada göndərilərini yüzdə 40 endirimlə gətiririk!
+                                                                    Açılışa özəl olaraq Rayon göndərişlərini 20 faiz endirimlə gətiririk!
                                                                 </p>
                                                                 <div class="clearfix"></div>
 
