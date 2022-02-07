@@ -11,7 +11,7 @@ class SiteController extends Controller
    }
 
    public function forgetpassword(){
-        return view('customer.forget_corporate');
+        return view('customer.forget_password');
    }
 }
 
