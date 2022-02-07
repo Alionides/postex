@@ -12,6 +12,8 @@ use App\Models\CorporateRequest;
 use App\Http\Resources\UserResource;
 use App\Http\Resources\CustomerResource;
 use App\Filters\UserFilters;
+use App\Mail\FirstEmail;
+use Illuminate\Support\Facades\Mail;
 
 class CustomerController extends Controller
 {
@@ -98,6 +100,44 @@ class CustomerController extends Controller
         if ($request->isMethod('get')) {
             return view('customer.register_individual');
         }
+    }
+    public function forget_password(Request $request){
+        $validator = Validator::make($request->all(), [
+            "email" => "required|email",
+        ]);
+
+        if($validator->fails()) {
+            return response()->json(["message" => 'Xanaları düzgün doldurun',"errors" => $validator->errors()], 400);
+        }
+        $inputs = $request->all();
+
+        if( !Customer::where("email", $request->email)->count() ) {
+            return response()->json(["message" => "Email tapılmadı"], 400);
+        }
+        // $to_email = "alishixiyev@gmail.com";
+        // Mail::to($to_email)->send('postex test email ugurlu');
+
+        $data = []; // Empty array
+
+        Mail::send([], [], function($message)
+        {
+            $message->to('alishixiyev@gmail.com', 'Jon Doe')
+            ->subject('Şifrənin bərpası')
+            ->setBody('
+            Bu emaili postex.az saytında olan hesabınızın parolunu dəyişmək istəyi göndərdiyiniz üçün almısınız..
+            
+            Xahiş olunur aşağıdakı ünvana daxil olub yeni şifrə təyin edəsiniz:
+            
+            <a href="https://postex.az/reset-password/?p1=MjA3NDUy&p2=5y1-ada941bcd0a472051f0f">https://postex.az/reset-password/?p1=MjA3NDUy&p2=5y1-ada941bcd0a472051f0f</a>
+                        
+            Saytımızdan istifadə etdiyiniz üçün təşəkkür edirik.
+            
+            Postex.az komandası', 'text/html');;
+        });
+
+        return response()->json(["message" => "Şifrə dəyişikliyi üçün link emailizə göndərildi
+        Linki əldə etməmisinizsə bir neçə saniyə sonra yenidən cəhd edin"], 200);
+
     }
     public function register_corporate(Request $request){
 
