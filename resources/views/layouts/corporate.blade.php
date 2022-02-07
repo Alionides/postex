@@ -250,9 +250,9 @@
                   <div class="container-small">
                   
                     
-         <!-- content -->
-         @yield('content')
-        <!-- /content -->
+                  <!-- content -->
+                  @yield('content')
+                  <!-- /content -->
 
 
                     <div class="modal fade" id="large-img-modal" role="dialog">
