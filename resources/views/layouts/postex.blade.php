@@ -237,11 +237,11 @@
 						<li><a href='tr.html' class='title'><i><svg width = '20px' height='19px' viewBox='0 0 20 19' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
                 <defs></defs><g class='img' id='Ikonlar' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' stroke-linecap='round' stroke-linejoin='round'><g transform = 'translate(-343.000000, -1279.000000)' stroke-width='2'><g id = 'Anasayfa' transform='translate(344.000000, 1280.000000)'><polyline id = 'Path-78' points='3 11 3 16.0710678 15.0002104 16.0710678 15.0002104 11'></polyline>
                 <polyline id = 'Path-77' points='0 9 9 0 18 9'></polyline></g></g></g></svg></i></a></li>
-                <li><a target='_self' href='tr/kampanyalar.html' class='title'>KAMPANIYALAR</a></li>                        
-						<li><a target='_self' href='tr/kariyer.html' class='title'>ONLINE XİDMƏTLƏR</a></li>
-						<li><a target='_self' href='tr/kariyer.html' class='title'>TARİFLƏR</a></li>
-						<li><a target='_self' href='tr/kariyer.html' class='title'>FİLİALLARIMIZ</a></li>
-						<li><a target='_self' href='tr/urun-ve-hizmetler.html' class='title'>XİDMƏTLƏRİMİZ</a>
+                <li><a target='_self'  class='title'>KAMPANIYALAR</a></li>                        
+						<li><a target='_self'  class='title'>ONLINE XİDMƏTLƏR</a></li>
+						<li><a target='_self'  class='title'>TARİFLƏR</a></li>
+						<li><a target='_self'  class='title'>FİLİALLARIMIZ</a></li>
+						<li><a target='_self'  class='title'>XİDMƏTLƏRİMİZ</a>
 							<a class='menu-toggle' href='#'></a>
 							<ul class='list-unstyled depth-2'>
 								<li><a target='_self' href='tr/urun-ve-hizmetler/yurtici-hizmetler.html' class='title'>AZƏRBAYCAN DAXİLİ ÇATDIRILMA</a></li>
