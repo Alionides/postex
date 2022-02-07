@@ -10,16 +10,16 @@
                                     <div class="cargo-wrap">
                                         <ul class="list-unstyled">
                                             <li class="title active">
-                                                <a href="#follow" data-toggle="tab">GÖNDERİ<br /> TAKİBİ</a>
+                                                <a href="#follow" data-toggle="tab">BAĞLAMANI <br /> İZLƏ</a>
                                             </li>
                                             <li class="title">
-                                                <a href="#search" data-toggle="tab">ŞUBE<br /> SORGULA</a>
+                                                <a href="#search" data-toggle="tab">ŞÖBƏ<br /> SORĞULA</a>
                                             </li>
                                             <li class="title">
-                                                <a href="#calc" data-toggle="tab">FİYAT<br /> HESAPLA</a>
+                                                <a href="#calc" data-toggle="tab">QİYMƏT<br /> HESABLA</a>
                                             </li>
                                             <li class="title">
-                                                <a href="#call" data-toggle="tab">KURYE<br /> ÇAĞIR</a>
+                                                <a href="#call" data-toggle="tab">KURYER<br /> ÇAĞIR</a>
                                             </li>
                                             <li class="tab-menu-icon-wrap">
                                                 <a href="#">
@@ -33,7 +33,7 @@
                                             <div class="tab-content clearfix">
                                                 <div class="tab-pane active" id="follow">
                                                     <div class="form-group label-floating is-empty">
-                                                        <label class="control-label" for="shipment-search-btn">Gönderi kodunuzu girin</label>
+                                                        <label class="control-label" for="shipment-search-btn">AWB kodunuzu girin</label>
                                                         <input type="number" id="shipment-search-btn" oninput="javascript: if (this.value.length > this.max) this.value = this.value.slice(0, this.max);" class="form-control all-radius shipment-tracking-code shipment-search" max="16" min="12" />
                                                         <a class="btn btn-default check-tracking-code">
                                                             <?xml version="1.0" encoding="UTF-8" ?>
@@ -50,11 +50,11 @@
                                                             </svg>
                                                         </a>
                                                     </div>
-                                                    <a href="#" data-toggle="modal" data-target="#shipmentTrackingCodeModal"><span class="all-radius">Gönderi / AWB kodu nedir?</span></a>
+                                                    <a href="#" data-toggle="modal" data-target="#shipmentTrackingCodeModal"><span class="all-radius">AWB kodu nədir?</span></a>
                                                 </div>
                                                 <div class="tab-pane" id="search">
                                                     <div class="input-group">
-                                                        <input type="text" class="form-control all-radius" id="geodistricts-home" placeholder="Örn. Maslak Mh. Sarıyer İstanbul" name="search" />
+                                                        <input type="text" class="form-control all-radius" id="geodistricts-home" placeholder="Məs. İsmail Qutqaşınlı 66" name="search" />
                                                         <a class="btn btn-default">
                                                             <?xml version="1.0" encoding="UTF-8" ?>
                                                             <svg width="24px" height="24px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -78,7 +78,7 @@
                                                                         <rect width="18" height="18" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" rx="4" />
                                                                     </g>
                                                                 </svg>
-                                                                <span>Sorgulamak istediğiniz şubenin; il, ilçe ve mahalle bilgileriyle hızlıca sonuçlarına erişebilirsiniz.</span>
+                                                                <span>Sorgulamaq istədiyiniz şğbənin; şəhər , rayon ve məhəllə bilgilərinə sürətli çata bilərsiz.</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -86,7 +86,7 @@
                                                 <div class="tab-pane search-box-wrap" id="calc">
                                                     <div class="center-between">
                                                         <div class="input-group search-content">
-                                                            <input type="text" class="form-control all-radius" id="home-source-input" placeholder="Nereden" name="" />
+                                                            <input type="text" class="form-control all-radius" id="home-source-input" placeholder="Hardan" name="" />
                                                             <div class="searchContent left" style="display:block">
                                                                 <ul class="dropdown list-unstyled" id="ul-geodistricts-home-source"></ul>
                                                             </div>
@@ -104,13 +104,13 @@
                                                     </div>
                                                     <div class="center-between">
                                                         <div class="input-group search-content">
-                                                            <input type="text" class="form-control all-radius" id="home-destination-input" placeholder="Nereye" name="" />
+                                                            <input type="text" class="form-control all-radius" id="home-destination-input" placeholder="Hara" name="" />
                                                             <div class="searchContent right" style="display:block">
                                                                 <ul class="dropdown list-unstyled" id="ul-geodistricts-home-destination"></ul>
                                                             </div>
                                                         </div>
                                                         <div class="input-group">
-                                                            <button type="submit" id="home-price-calculation-button" class="btn all-radius">DEVAM ET</button>
+                                                            <button type="submit" id="home-price-calculation-button" class="btn all-radius">DAVAM ET</button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -124,11 +124,11 @@
                                                                     <rect width="18" height="18" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" rx="4" />
                                                                 </g>
                                                             </svg>
-                                                            <span class="info">Göndermek istediğiniz kargonuz için kurye çağır sayfamızdan kurye talep edebilirsiniz.</span>
+                                                            <span class="info">Göndərmək istediğiniz kargo üçün kuryer çağır səhifəmizdən kuryer tələb edə bilərsiniz.</span>
                                                         </div>
                                                         <div class="center-between">
                                                             <div class="input-group">
-                                                                <a href="tr/online-servisler/kurye-cagir.html" target="_self" class="btn animate-top all-radius"><span>KURYE ÇAĞIR</span></a>
+                                                                <a  target="_self" class="btn animate-top all-radius"><span>KURYER ÇAĞIR</span></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -141,10 +141,10 @@
 
                         </div>
                         <div class="search-query">
-                            <a href="#follow" data-toggle="tab" class="all-radius">GÖNDERİ TAKİBİ</a>
-                            <a href="#search" data-toggle="tab" class="all-radius">ŞUBE SORGULA</a>
-                            <a href="#calc" data-toggle="tab" class="all-radius">FİYAT HESAPLA</a>
-                            <a href="#call" data-toggle="tab" class="all-radius">KURYE ÇAĞIR</a>
+                            <a href="#follow" data-toggle="tab" class="all-radius">BAĞLAMANI İZLƏ</a>
+                            <a href="#search" data-toggle="tab" class="all-radius">ŞÖBƏ SORĞULA</a>
+                            <a href="#calc" data-toggle="tab" class="all-radius">QİYMƏT HESABLA</a>
+                            <a href="#call" data-toggle="tab" class="all-radius">KURYER ÇAĞIR</a>
                         </div>
                         <ul class="list-unstyled owl-carousel owl-theme slides">
 
@@ -158,14 +158,14 @@
                                                     <div class="row slider-content right-align">
                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 center-start left-content slider-left-content">
                                                             <div class="left-content-wrap">
-                                                                <h5 class="animate-left">Sosyal medya hesaplarımızı takip edenler kazanıyor!</h5>
+                                                                <h5 class="animate-left">Sosial media hesablarımızı izləyənlər qazanır!</h5>
                                                                 <p class="animate-opacity">
-                                                                    Resmi sosyal medya hesaplarımızı takip ederek &#246;zel mesaj ile indirim kodunuzu alabilirsiniz...
+                                                                    Resmi Sosial media hesablarımızı izləyərək &#246;zel mesaj ile endirim kodunuzu ala bilərsiniz...
                                                                 </p>
                                                                 <div class="clearfix"></div>
 
 
-                                                                    <a href="tr/sosyal-medya-hesaplarimizi-takip-edenler-kazaniyor.html" target="_self" class="btn animate-top all-radius"><span>Detaylı Bilgi</span></a>
+                                                                    <a target="_self" class="btn animate-top all-radius"><span>Ətraflı</span></a>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
@@ -190,14 +190,14 @@
                                                     <div class="row slider-content right-align">
                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 center-start left-content slider-left-content">
                                                             <div class="left-content-wrap">
-                                                                <h5 class="animate-left">Dolu Dolu Ge&#231;en Bir Yıl Daha.. 2021&#39;de Neler Yaptık?</h5>
+                                                                <h5 class="animate-left">Dolu Dolu keçən Bir il daha.. 2021 də Nələr etdik?</h5>
                                                                 <p class="animate-opacity">
                                                                      
                                                                 </p>
                                                                 <div class="clearfix"></div>
 
 
-                                                                    <a href="http://youtu.be/_oQpvSigGIY" target="_blank" class="btn animate-top all-radius"><span>İzlemek i&#231;in tıklayın</span></a>
+                                                                    <a  target="_blank" class="btn animate-top all-radius"><span>Ətraflı</span></a>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
@@ -222,14 +222,14 @@
                                                     <div class="row slider-content right-align">
                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 center-start left-content slider-left-content">
                                                             <div class="left-content-wrap">
-                                                                <h5 class="animate-left">YK Plus i&#231;in başvurular devam ediyor!</h5>
+                                                                <h5 class="animate-left">Postex Plus üçün müraciətlər devam edir!</h5>
                                                                 <p class="animate-opacity">
-                                                                    Kendi işini kurmak isteyen girişimcilere ve ek gelir elde etmek isteyen esnaflara b&#252;y&#252;k fırsat
+                                                                    Öz işinizi qurmaq istəyən startupçılar ve əlavə gəlir əldə etmek istəyənlərə böyük fürsət
                                                                 </p>
                                                                 <div class="clearfix"></div>
 
 
-                                                                    <a href="http://www.ykplus.info/?utm_source=yurticikargo&amp;utm_medium=banner&amp;utm_campaign=YK%20Plus" target="_blank" class="btn animate-top all-radius"><span>Başvuru</span></a>
+                                                                    <a  target="_blank" class="btn animate-top all-radius"><span>Ətraflı</span></a>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
@@ -254,14 +254,14 @@
                                                     <div class="row slider-content right-align">
                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 center-start left-content slider-left-content">
                                                             <div class="left-content-wrap">
-                                                                <h5 class="animate-left">Kıtaları birleştiren kampanya</h5>
+                                                                <h5 class="animate-left">Şəhərləri birləşdirən kampaniya</h5>
                                                                 <p class="animate-opacity">
-                                                                    ABD ve Kanada g&#246;nderilerini y&#252;zde 40 indirimle taşıyoruz!
+                                                                    Açılışa özəl olaraq Rayon göndərişlərini 20 faiz endirimlə gətiririk!
                                                                 </p>
                                                                 <div class="clearfix"></div>
 
 
-                                                                    <a href="tr/kitalari-birlestiren-kampanya.html" target="_self" class="btn animate-top all-radius"><span>Detaylı Bilgi</span></a>
+                                                                    <a target="_self" class="btn animate-top all-radius"><span>Ətraflı</span></a>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
@@ -286,14 +286,14 @@
                                                     <div class="row slider-content right-align">
                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 center-start left-content slider-left-content">
                                                             <div class="left-content-wrap">
-                                                                <h5 class="animate-left">Avrupa Birliği yeni g&#252;mr&#252;k uygulamaları hakkında bilgilendirme</h5>
+                                                                <h5 class="animate-left">Avropa İttifaqının yeni gömrük təcrübələri haqqında məlumatlandırma</h5>
                                                                 <p class="animate-opacity">
                                                                      
                                                                 </p>
                                                                 <div class="clearfix"></div>
 
 
-                                                                    <a href="tr/avrupa-birligi-yeni-gumruk-uygulamalari-hakkinda-bilgilendirme.html" target="_self" class="btn animate-top all-radius"><span>Detaylı Bilgi</span></a>
+                                                                    <a target="_self" class="btn animate-top all-radius"><span>Ətraflı</span></a>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
@@ -318,14 +318,14 @@
                                                     <div class="row slider-content right-align">
                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 center-start left-content slider-left-content">
                                                             <div class="left-content-wrap">
-                                                                <h5 class="animate-left">G&#252;venliğiniz i&#231;in temassız teslimat </h5>
+                                                                <h5 class="animate-left">Təhlükəsizliyiniz üçün təmassız çatdırılma </h5>
                                                                 <p class="animate-opacity">
-                                                                    Koronavir&#252;s ile ilgili alınan tedbirler kapsamında SMS ile teslimat d&#246;nemini başlattık.
+                                                                Koronavirusla bağlı görülən tədbirlər çərçivəsində SMS vasitəsilə çatdırılma müddətinə start verdik.
                                                                 </p>
                                                                 <div class="clearfix"></div>
 
 
-                                                                    <a href="tr/guvenliginiz-icin-temassiz-teslimat.html" target="_self" class="btn animate-top all-radius"><span>Detaylı Bilgi</span></a>
+                                                                    <a target="_self" class="btn animate-top all-radius"><span>Ətraflı</span></a>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
@@ -350,14 +350,14 @@
                                                     <div class="row slider-content right-align">
                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 center-start left-content slider-left-content">
                                                             <div class="left-content-wrap">
-                                                                <h5 class="animate-left">&#214;ğrenci ve &#214;ğretmen Kampanyası</h5>
+                                                                <h5 class="animate-left">tələbə və müəllim kampaniyası</h5>
                                                                 <p class="animate-opacity">
-                                                                    Geleceğimizin teminatı &#246;ğrencilere ve onları yetiştiren &#246;ğretmenlerimize %25 indirim!
+                                                                Gələcəyimizin təminatı tələbələrimizə və onları yetişdirən müəllimlərimizə 25% endirimdir!
                                                                 </p>
                                                                 <div class="clearfix"></div>
 
 
-                                                                    <a href="tr/ogrenci-ve-ogretmen-kampanyasi.html" target="_self" class="btn animate-top all-radius"><span>Detaylı Bilgi</span></a>
+                                                                    <a target="_self" class="btn animate-top all-radius"><span>Ətraflı</span></a>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
@@ -382,14 +382,14 @@
                                                     <div class="row slider-content right-align">
                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 center-start left-content slider-left-content">
                                                             <div class="left-content-wrap">
-                                                                <h5 class="animate-left">Kargonuzu mobil uygulamamızla g&#246;nderin %30 indirim kazanın</h5>
+                                                                <h5 class="animate-left">Mobil tətbiqimizlə karqonuzu göndərin və 30% endirim əldə edin</h5>
                                                                 <p class="animate-opacity">
-                                                                    Yurti&#231;i Kargo Mobil Uygulamamızın “Kurye &#199;ağır” &#246;zelliğini kullanarak kargosunu g&#246;nderenlere &#246;zel %30 indirim!
+                                                                  Postex Mobil Tətbiqimizin "Kuryer Çağır" funksiyasından istifadə edərək yükünü göndərənlərə xüsusi 30% endirim!
                                                                 </p>
                                                                 <div class="clearfix"></div>
 
 
-                                                                    <a href="tr/kargonuzu-mobil-uygulamamizla-gonderin-30-indirim-kazanin.html" target="_self" class="btn animate-top all-radius"><span>Detaylı Bilgi</span></a>
+                                                                    <a target="_self" class="btn animate-top all-radius"><span>Ətraflı</span></a>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
@@ -414,14 +414,14 @@
                                                     <div class="row slider-content right-align">
                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 center-start left-content slider-left-content">
                                                             <div class="left-content-wrap">
-                                                                <h5 class="animate-left">Kişisel veriler hakkında bilgilendirme</h5>
+                                                                <h5 class="animate-left">Şəxsi məlumatlar haqqında məlumat</h5>
                                                                 <p class="animate-opacity">
                                                                      
                                                                 </p>
                                                                 <div class="clearfix"></div>
 
 
-                                                                    <a href="tr/kisisel-veriler-hakkinda-bilgilendirme.html" target="_self" class="btn animate-top all-radius"><span>Detaylı Bilgi</span></a>
+                                                                    <a  target="_self" class="btn animate-top all-radius"><span>Ətraflı</span></a>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
@@ -446,14 +446,14 @@
                                                     <div class="row slider-content right-align">
                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 center-start left-content slider-left-content">
                                                             <div class="left-content-wrap">
-                                                                <h5 class="animate-left">Covid-19 salgını hakkında aldığımız &#246;nlemler</h5>
+                                                                <h5 class="animate-left">Covid-19 epidemiyası ilə bağlı gördüyümüz tədbirlər</h5>
                                                                 <p class="animate-opacity">
                                                                      
                                                                 </p>
                                                                 <div class="clearfix"></div>
 
 
-                                                                    <a href="tr/covid-19-salgini-hakkinda-aldigimiz-onlemler.html" target="_self" class="btn animate-top all-radius"><span>Detaylı Bilgi</span></a>
+                                                                    <a target="_self" class="btn animate-top all-radius"><span>Ətraflı</span></a>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-3 col-md-3 right-content">
@@ -503,14 +503,14 @@
                                 <button type="button" class="close" data-dismiss="modal"></button>
                             </div>
                             <div class="modal-body">
-                                <h5 class="blue-title">Gönderi / AWB kodu nedir?</h5>
+                                <h5 class="blue-title">Gönderi / AWB kodu nədir?</h5>
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 ">
                                         <h6 class="main-title-bold">Örnek Gönderi kodu</h6>
                                         <img src="assets/img/gorsel-kodu.png" alt="" />
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 ">
-                                        <h6 class="main-title-bold">Örnek AWB kodu</h6>
+                                        <h6 class="main-title-bold">Örnək AWB kodu</h6>
                                         <img src="assets/img/awb-kodu.png" alt="" />
                                     </div>
                                 </div>

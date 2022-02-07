@@ -12,6 +12,7 @@
     <link type="text/css" rel="stylesheet" href="/assets/login//assets/css/bootstrap.min.css" />
     <link type="text/css" rel="stylesheet" href="/assets/login//assets/css/main3f56.css?v=11" />
     <link type="text/css" rel="stylesheet" href="/assets/login//assets/css/login3f56.css?v=11" />
+    <link rel="stylesheet" href="/assets/css/custom.css">
 </head>
 
 <body class="login-page">
@@ -396,6 +397,7 @@
     </script>
     <script src="/assets/login/Scripts/jquery.maskedinput.js" charset="UTF-8">
     </script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script>
     $.ajaxSetup({
@@ -404,6 +406,48 @@
         }
     });
     
+    $('#btn-forgot-password').click('onclick',function(){
+        Swal.fire({
+        title: 'Şifrəmi unutdum',
+        input: 'text',
+        inputAttributes: {
+            autocapitalize: 'off'
+        },
+        showCancelButton: false,
+        confirmButtonText: 'Göndər',
+        confirmButtonColor: '#ef7d00',
+        showLoaderOnConfirm: true,
+        preConfirm: (email) => {
+            var data = {
+                'email': email
+            };
+            $.ajax({
+                type: 'post',
+                url: "{{ route('login.forget')}}",
+                data:data,
+                success: function(response) {
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Uğurlu',
+                        text: response.message,
+                        showCancelButton: false,
+                        showConfirmButton: false
+                    })                
+                },
+                error: function(xhr, status, error) {     
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Xəta',
+                        text: xhr.responseJSON.message,
+                        showCancelButton: false,
+                        showConfirmButton: false
+                    })
+                }
+            });    
+        },
+        //allowOutsideClick: () => !Swal.isLoading()
+        }) 
+    })
     $('#btn-login').click('onclick',function(){
         var data = {
             'email': $('input[name=email]').val(),

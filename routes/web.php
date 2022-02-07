@@ -19,11 +19,13 @@ use App\Http\Controllers\IndividualController;
 |
 */
 Route::get('/', [SiteController::class, "index"])->name('home');
+Route::get('forgetpassword', [SiteController::class, "forgetpassword"])->name('forgetpassword');
 Route::group(['prefix' => 'login'], function () {
     Route::get("corporate", [CustomerController::class, "login_corporate"])->name('login.corporate');
     Route::get("individual", [CustomerController::class, "login_individual"])->name('login.individual');
     Route::post("corporate", [CustomerController::class, "login_corporate"])->name('login.corporate');
     Route::post("individual", [CustomerController::class, "login_individual"])->name('login.individual');
+    Route::post("forget", [CustomerController::class, "forget_password"])->name('login.forget');
 });
 Route::group(['prefix' => 'register'], function () {
     Route::get('individual', [CustomerController::class, "register_individual"])->name('register.individual');

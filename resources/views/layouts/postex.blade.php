@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Postex</title>
-    <meta name="description" content="Postex, &quot;S&#246;z Verdiğimiz Gibi&quot; sloganından hareketle 1982 yılında, Dr. İbrahim Arıkan liderliğinde ve Arıkanlı Holding &#231;atısı altında, T&#252;rkiye’deki ilk T&#252;rk kargo markası olarak kurulmuştur. " />
+    <meta name="description" content="Postex, " />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link type="text/css" rel="stylesheet" href="/assets/css/yurticikargo_a28.css" />
     <link type="text/css" rel="stylesheet" href="/assets/css/custom.css" />
@@ -165,9 +165,9 @@
                                                                 <div class="quick-access-result-area">
                                                                     <ul class="dropdown list-unstyled" id="ul-quick-access">
                                                                         <li class="disabled"><a onclick="event.preventDefault();">Örneğin;</a></li>
-                                                                        <li><a href="tr/online-servisler/sube-sorgula.html">Şube Sorgula</a></li>
-                                                                        <li><a href="tr/online-servisler/mobil-servisler.html">Mobil Servisler</a></li>
-                                                                        <li><a href="tr/online-servisler/fiyat-hesapla.html"> Fiyat Hesapla</a></li>
+                                                                        <li><a >Şube Sorgula</a></li>
+                                                                        <li><a >Mobil Servisler</a></li>
+                                                                        <li><a > Fiyat Hesapla</a></li>
                                                                     </ul>
                                                                 </div>
                                                             </div>
@@ -237,21 +237,20 @@
 						<li><a href='tr.html' class='title'><i><svg width = '20px' height='19px' viewBox='0 0 20 19' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
                 <defs></defs><g class='img' id='Ikonlar' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' stroke-linecap='round' stroke-linejoin='round'><g transform = 'translate(-343.000000, -1279.000000)' stroke-width='2'><g id = 'Anasayfa' transform='translate(344.000000, 1280.000000)'><polyline id = 'Path-78' points='3 11 3 16.0710678 15.0002104 16.0710678 15.0002104 11'></polyline>
                 <polyline id = 'Path-77' points='0 9 9 0 18 9'></polyline></g></g></g></svg></i></a></li>
-                <li><a target='_self' href='tr/kampanyalar.html' class='title'>KAMPANIYALAR</a></li>                        
-						<li><a target='_self' href='tr/kariyer.html' class='title'>ONLINE XİDMƏTLƏR</a></li>
-						<li><a target='_self' href='tr/kariyer.html' class='title'>TARİFLƏR</a></li>
-						<li><a target='_self' href='tr/kariyer.html' class='title'>FİLYALLARIMIZ</a></li>
-						<li><a target='_self' href='tr/urun-ve-hizmetler.html' class='title'>XİDMƏTLƏRİMİZ</a>
+                <li><a target='_self'  class='title'>KAMPANIYALAR</a></li>                        
+						<li><a target='_self'  class='title'>ONLINE XİDMƏTLƏR</a></li>
+						<li><a target='_self'  class='title'>TARİFLƏR</a></li>
+						<li><a target='_self'  class='title'>FİLİALLARIMIZ</a></li>
+						<li><a target='_self'  class='title'>XİDMƏTLƏRİMİZ</a>
 							<a class='menu-toggle' href='#'></a>
 							<ul class='list-unstyled depth-2'>
 								<li><a target='_self' href='tr/urun-ve-hizmetler/yurtici-hizmetler.html' class='title'>AZƏRBAYCAN DAXİLİ ÇATDIRILMA</a></li>
-								<li><a target='_self' href='tr/urun-ve-hizmetler/yurtdisi-hizmetler.html' class='title'>YQAPIDAN TƏHVİL ALMA</a></li>
-								<li><a target='_self' href='tr/urun-ve-hizmetler/ambalaj-urunleri.html' class='title'>OFİSLƏRİMİZƏ TƏHVİL VERMƏK</a></li>
+								<li><a target='_self' class='title'>QAPIDAN TƏHVİL ALMA</a></li>
+								<li><a target='_self' class='title'>OFİSLƏRİMİZƏ TƏHVİL VERMƏK</a></li>
 								
 							</ul>
 						</li>						
-						<li><a target='_self' href='tr/kariyer.html' class='title'>BİZ KİMİK</a></li>
-						<li><a target='_self' href='tr/kariyer.html' class='title'>HAQQIMIZDA</a></li>
+						<li><a target='_self'  class='title'>HAQQIMIZDA</a></li>
 					</ul>
 					<div class="main-sidebar sidebar-nav">
 						<div class="lang-wrap"> 
@@ -262,21 +261,21 @@
                         <div class="nav">
 							<ul class='list-unstyled depth-1'>
 								
-                         <li><a target='_self' href='tr/kampanyalar.html' class='title'>KAMPANIYALAR</a></li>                        
-						<li><a target='_self' href='tr/kariyer.html' class='title'>ONLINE XİDMƏTLƏR</a></li>
-						<li><a target='_self' href='tr/kariyer.html' class='title'>TARİFLƏR</a></li>
-						<li><a target='_self' href='tr/kariyer.html' class='title'>FİLYALLARIMIZ</a></li>
-						<li><a target='_self' href='tr/urun-ve-hizmetler.html' class='title'>XİDMƏTLƏRİMİZ</a>
+                         <li><a target='_self'class='title'>KAMPANIYALAR</a></li>                        
+						<li><a target='_self' class='title'>ONLINE XİDMƏTLƏR</a></li>
+						<li><a target='_self' class='title'>TARİFLƏR</a></li>
+						<li><a target='_self' class='title'>FİLYALLARIMIZ</a></li>
+						<li><a target='_self' class='title'>XİDMƏTLƏRİMİZ</a>
 							<a class='menu-toggle' href='#'></a>
 							<ul class='list-unstyled depth-2'>
-								<li><a target='_self' href='tr/urun-ve-hizmetler/yurtici-hizmetler.html' class='title'>AZƏRBAYCAN DAXİLİ ÇATDIRILMA</a></li>
-								<li><a target='_self' href='tr/urun-ve-hizmetler/yurtdisi-hizmetler.html' class='title'>YQAPIDAN TƏHVİL ALMA</a></li>
-								<li><a target='_self' href='tr/urun-ve-hizmetler/ambalaj-urunleri.html' class='title'>OFİSLƏRİMİZƏ TƏHVİL VERMƏK</a></li>
+								<li><a target='_self' class='title'>AZƏRBAYCAN DAXİLİ ÇATDIRILMA</a></li>
+								<li><a target='_self' class='title'>QAPIDAN TƏHVİL ALMA</a></li>
+								<li><a target='_self' class='title'>OFİSLƏRİMİZƏ TƏHVİL VERMƏK</a></li>
 								
 							</ul>
 						</li>						
-						<li><a target='_self' href='tr/kariyer.html' class='title'>BİZ KİMİK</a></li>
-						<li><a target='_self' href='tr/kariyer.html' class='title'>HAQQIMIZDA</a></li>
+						<li><a target='_self' class='title'>BİZ KİMİK</a></li>
+						<li><a target='_self' class='title'>HAQQIMIZDA</a></li>
 						</ul>
 						</div>
 					</div>
@@ -355,27 +354,27 @@
                 <div class="middle">
                     <div class="footer-top-header">
                         <div class="col-lg-5 col-md-5 col-sm-4 col-xs-12 left-tophead">
-                            <p>Mobil YurtiçiKargo</p>
-                            <p>Yurtiçi Kargo ile ilgili her şey App Store ve Google Play’de!</p>
+                            <p>Mobil Postex</p>
+                            <p>Postex ile əlaqəli her şey App Store ve Google Play’də!</p>
                             <div>
                                 <img src="assets/img/smart-phone.png" alt="" />
-                                <a href="https://itunes.apple.com/us/app/yurtici-kargo/id358749389?mt=8" target="_blank"><img src="assets/img/ios.png" alt="" /></a>
-                                <a href="https://play.google.com/store/apps/details?id=com.yurticikargo.android&amp;hl=tr" target="_blank"><img src="assets/img/google-play.png" alt="" /></a>
-                                <a href="https://appgallery.huawei.com/#/app/C101466549" target="_blank"><img src="assets/img/appgallery-tr.png" alt="" /></a>
+                                <a target="_blank"><img src="assets/img/ios.png" alt="" /></a>
+                                <a target="_blank"><img src="assets/img/google-play.png" alt="" /></a>
+                                <a target="_blank"><img src="assets/img/appgallery-tr.png" alt="" /></a>
                             </div>
                             <div class="mobile-footer">
                                 <ul class="list-unstyled">
                                     <li>
-                                        <a href="tr/hakkimizda.html" target="_self"><span>HAKKIMIZDA</span></a>
+                                        <a target="_self"><span>HAQQIMIZDA</span></a>
                                     </li>
                                     <li>
-                                        <a href="tr/site-haritasi.html" target="_self"><span>SİTE HARİTASI</span></a>
+                                        <a target="_self"><span>SİTE XƏRİTƏSI</span></a>
                                     </li>
                                     <li>
-                                        <a href="tr/oneri-ve-sikayet.html" target="_self"><span>ÖNERİ VE ŞİKAYET</span></a>
+                                        <a  target="_self"><span>MƏSLƏHƏT VƏ ŞİKAYET</span></a>
                                     </li>
                                     <li>
-                                        <a href="tr/kariyer.html" target="_self"><span>KARİYER</span></a>
+                                        <a  target="_self"><span>KARİYERA</span></a>
                                     </li>
 
                                 </ul>
@@ -404,16 +403,16 @@
                                 <li>
                                     <ul class="list-unstyled">
 
-                                            <li><a href="tr/hakkimizda.html" target="_self"><span>HAKKIMIZDA</span></a></li>
-                                            <li><a href="tr/site-haritasi.html" target="_self"><span>SİTE HARİTASI</span></a></li>
-                                            <li><a href="tr/subelerimiz.html" target="_self"><span>ŞUBELERİMİZ</span></a></li>
-                                            <li><a href="tr/oneri-ve-sikayet.html" target="_self"><span>&#214;NERİ VE ŞİKAYET</span></a></li>
-                                            <li><a href="tr/gizlilik-ve-guvenlik.html" target="_self"><span>GİZLİLİK VE G&#220;VENLİK</span></a></li>
-                                            <li><a href="tr/kvkk.html" target="_self"><span>KVKK</span></a></li>
-                                            <li><a href="http://www.yk2b.com/" target="_blank"><span>ENTEGRASYON</span></a></li>
-                                            <li><a href="tr/s-s-s.html" target="_self"><span>S.S.S.</span></a></li>
-                                            <li><a href="tr/gonderi-rehberleri.html" target="_self"><span>G&#214;NDERİ REHBERLERİ</span></a></li>
-                                            <li><a href="tr/kariyer.html" target="_self"><span>KARİYER</span></a></li>
+                                            <li><a target="_self"><span>HAQQIMIZDA</span></a></li>
+                                            <li><a target="_self"><span>SAYT XƏRİTƏSI</span></a></li>
+                                            <li><a target="_self"><span>ŞÖBƏLƏRİMİZ</span></a></li>
+                                            <li><a target="_self"><span>MƏSLƏHƏT VƏ ŞİKAYET</span></a></li>
+                                            <li><a target="_self"><span>GİZLİLİK VƏ GÜVƏNLİK</span></a></li>
+                                            <li><a ><span>KVKK</span></a></li>
+                                            <li><a target="_blank"><span>İNTEGRASİYA</span></a></li>
+                                            <li><a target="_self"><span>SUALLAR</span></a></li>
+                                            <li><a target="_self"><span>RƏHBƏRLƏR</span></a></li>
+                                            <li><a target="_self"><span>KARİYERA</span></a></li>
                                     </ul>
                                 </li>
 
@@ -487,19 +486,12 @@
                     <div class="row footer-bottom">
                         <div class="col-lg-6 col-md-8 col-sm-10 copyright-wrap">
                             <div class="copyright">
-                                <img src="assets/img/arikanli-holding.svg" alt="arikanli-holding" width="150" height="39" />
-                                <span>
-                                    Yurtiçi Kargo bir Arıkanlı Holding kuruluşudur.<br />
-                                    Copyright © 2022 Yurtiçi Kargo. Bütün hakları saklıdır.
-                                </span>
+                             <span>
+                                    Copyright © 2022 Postex. Bütün hüquqları qorunur.
+                            </span>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-2 col-sm-2  col-lg-offset-4 col-md-offset-2 designed-wrap">
-                            <div class="designed">
-                                <span>Designed by</span>
-                                <a href="https://www.smartiks.com.tr/" target="_blank"><img src="assets/img/smartiks.svg" alt="smartiks" width="130" height="23" /></a>
-                            </div>
-                        </div>
+                     
                     </div>
                 </div>
                 <div class="space right"></div>
@@ -508,12 +500,7 @@
       
         
     </div>
-    <div class="cookie-policy-wrapper">
-        <a class="remove-cookie-policy">
-            Kapat
-        </a>
-        Yurtiçi Kargo, size daha iyi hizmet sunabilmek için, çerezler (cookies) kullanmaktadır. Detaylı bilgi ve kullanım detayları için <a target="_blank" href="gizlilik-ve-guvenlik.html">Çerez Politikamızı</a> inceleyebilirsiniz.
-    </div>
+    
 
     <input type="hidden" value="tr" name="language" id="language" />
     <input type="hidden" id="googleApiKey" value='https://www.google.com/maps/embed/v1/place?key=AIzaSyDF4SZV-4eOTYKWZmw8Cs4nwfYKWpMl15Q&amp;q=' />
