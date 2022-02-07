@@ -164,10 +164,10 @@
                                                             <div class="search-content">
                                                                 <div class="quick-access-result-area">
                                                                     <ul class="dropdown list-unstyled" id="ul-quick-access">
-                                                                        <li class="disabled"><a onclick="event.preventDefault();">Örneğin;</a></li>
-                                                                        <li><a >Şube Sorgula</a></li>
-                                                                        <li><a >Mobil Servisler</a></li>
-                                                                        <li><a > Fiyat Hesapla</a></li>
+                                                                        <li class="disabled"><a onclick="event.preventDefault();">Məs;</a></li>
+                                                                        <li><a >Filial sorğusu</a></li>
+                                                                        <li><a >Mobil Xidmətlər</a></li>
+                                                                        <li><a >Qiyməti Hesablayın</a></li>
                                                                     </ul>
                                                                 </div>
                                                             </div>
@@ -264,7 +264,7 @@
                          <li><a target='_self'class='title'>KAMPANIYALAR</a></li>                        
 						<li><a target='_self' class='title'>ONLINE XİDMƏTLƏR</a></li>
 						<li><a target='_self' class='title'>TARİFLƏR</a></li>
-						<li><a target='_self' class='title'>FİLYALLARIMIZ</a></li>
+						<li><a target='_self' class='title'>FİLİALLARIMIZ</a></li>
 						<li><a target='_self' class='title'>XİDMƏTLƏRİMİZ</a>
 							<a class='menu-toggle' href='#'></a>
 							<ul class='list-unstyled depth-2'>
