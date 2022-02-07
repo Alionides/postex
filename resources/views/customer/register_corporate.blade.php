@@ -380,7 +380,7 @@
          <script type="text/javascript">
             function CheckColors(val){
              var element=document.getElementById('activitytype');
-             if(val=='others')
+             if(val=='diger')
                element.style.display='block';
              else  
                element.style.display='none';
