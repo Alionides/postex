@@ -462,7 +462,14 @@
                         window.location.href = "{{ route('account.corporate') }}";
                     }                  
                 },
-                error: function(response) {                    
+                error: function(xhr, status, error) {  
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Xəta',
+                        text: xhr.responseJSON.message,
+                        showCancelButton: false,
+                        showConfirmButton: false
+                    })                  
                 }
             });        
     })

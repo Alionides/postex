@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Mail;
 use App\Models\Customer;
 use App\Models\User;
 use App\Models\CorporateRequest;
@@ -13,7 +15,7 @@ use App\Http\Resources\UserResource;
 use App\Http\Resources\CustomerResource;
 use App\Filters\UserFilters;
 use App\Mail\FirstEmail;
-use Illuminate\Support\Facades\Mail;
+use App\Models\ForgetPassword;
 
 class CustomerController extends Controller
 {
@@ -33,6 +35,31 @@ class CustomerController extends Controller
         return CustomerResource::collection($users);
     }
 
+    public function forgetpassword(Request $request){
+        if ($request->isMethod('get')) {
+         return view('customer.forget_password');
+        }
+        $validator = Validator::make($request->all(), [
+            "password" => "required",
+            "confirmpassword" => "required",
+            "token" => "required",
+        ]);
+
+        if($validator->fails()) {
+            return response()->json(["message" => 'Xanaları düzgün doldurun', "errors" => $validator->errors()],400);
+        }
+        if($request->password != $request->confirmpassword){
+            return response()->json(["message" => 'Şifrə eyni deyil!', "errors" => $validator->errors()],400);
+        }
+        $get_email = ForgetPassword::where("token",$request->token)->first();
+        $user = Customer::where("email", $get_email->email)->first();
+        $user->password = Hash::make($request->password);
+        if($user->save()){
+            return response()->json(["message" => 'Şifrə uğurla dəyişdirildi'],200);
+        }
+
+    }
+
     public function login_corporate(Request $request) 
     {
         if ($request->isMethod('get')) {
@@ -45,13 +72,13 @@ class CustomerController extends Controller
         ]);
 
         if($validator->fails()) {
-            return response()->json(["errors" => $validator->errors()]);
+            return response()->json(["message" => 'Xanaları düzgün doldurun', "errors" => $validator->errors()], 400);
         }
 
          $user = Customer::where("email", $request->email)->first();
 
         if(is_null($user)) {
-            return response()->json(["error" => "Failed! Email not found"], 404);
+            return response()->json(["message" => 'Email düzgün deyil', "error" => "Failed! Email not found"], 404);
         }
         
         
@@ -60,7 +87,7 @@ class CustomerController extends Controller
             $token = $user->createToken('token')->plainTextToken;
             return response()->json(["login" => true, "token" => $token, "data" => $user], 200);
         } else {
-            return response()->json(["error" => "Whoops! invalid password"], 401);
+            return response()->json(["error" => "Şifrə düzgün deyil!"], 401);
         }
     }
 
@@ -110,16 +137,25 @@ class CustomerController extends Controller
             return response()->json(["message" => 'Xanaları düzgün doldurun',"errors" => $validator->errors()], 400);
         }
         $inputs = $request->all();
-
+        
         if( !Customer::where("email", $request->email)->count() ) {
             return response()->json(["message" => "Email tapılmadı"], 400);
         }
-        // $to_email = "alishixiyev@gmail.com";
-        // Mail::to($to_email)->send('postex test email ugurlu');
+        
+
+        $random = Str::random(40);
+        $check_forget = ForgetPassword::where("email", $request->email);
+        if ($check_forget->count()) {
+            $check_forget->delete();
+        }
+        $forget = new ForgetPassword;
+        $forget->email = $request->email;
+        $forget->token = $random;
+        $forget->save();
 
         $data = []; // Empty array
 
-        Mail::send([], [], function($message)
+        Mail::send([],compact('random'), function($message) use ($random)
         {
             $message->to('alishixiyev@gmail.com', 'Jon Doe')
             ->subject('Şifrənin bərpası')
@@ -128,7 +164,7 @@ class CustomerController extends Controller
             
             Xahiş olunur aşağıdakı ünvana daxil olub yeni şifrə təyin edəsiniz:
             
-            <a href="https://postex.az/reset-password/?p1=MjA3NDUy&p2=5y1-ada941bcd0a472051f0f">https://postex.az/reset-password/?p1=MjA3NDUy&p2=5y1-ada941bcd0a472051f0f</a>
+            <a href="http://127.0.0.1:8000/forgetpassword/'.$random.'">http://127.0.0.1:8000/forgetpassword/'.$random.'</a>
                         
             Saytımızdan istifadə etdiyiniz üçün təşəkkür edirik.
             
