@@ -31,17 +31,6 @@ Route::get('deliveryoffices', [SiteController::class, "deliveryoffices"])->name(
 Route::get('aboutus', [SiteController::class, "aboutus"])->name('home.aboutus');
 
 
-
-Route::get('ajax-book-crud', [CorporateController::class, 'index']);
-Route::post('add-update-book', [CorporateController::class, 'store']);
-Route::post('edit-book', [CorporateController::class, 'edit']);
-Route::post('delete-book', [CorporateController::class, 'destroy']);
-
-
-
-
-
-
 Route::get('forgetpassword', [SiteController::class, "forgetpassword"])->name('forgetpassword');
 Route::group(['prefix' => 'login'], function () {
     Route::get("corporate", [CustomerController::class, "login_corporate"])->name('login.corporate');
