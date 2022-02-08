@@ -20,8 +20,6 @@
     <link href="/assets/login//assets/css/jalert3f56.css?v=11" rel="stylesheet" />
     <link href="/assets/login//assets/plugin/leaflet/leaflet.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  
-  
   </head>
   <body class="special-page">
     <div class="overlay"></div>
