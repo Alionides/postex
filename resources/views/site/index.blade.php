@@ -503,14 +503,14 @@
                                 <button type="button" class="close" data-dismiss="modal"></button>
                             </div>
                             <div class="modal-body">
-                                <h5 class="blue-title">Gönderi / AWB kodu nədir?</h5>
+                                <h5 class="blue-title">AWB kodu nədir?</h5>
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 ">
-                                        <h6 class="main-title-bold">Örnek Gönderi kodu</h6>
+                                        <h6 class="main-title-bold">Göndərmə kodu nümunəsi</h6>
                                         <img src="assets/img/gorsel-kodu.png" alt="" />
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 ">
-                                        <h6 class="main-title-bold">Örnək AWB kodu</h6>
+                                        <h6 class="main-title-bold">AWB kodu nümunəsi</h6>
                                         <img src="assets/img/awb-kodu.png" alt="" />
                                     </div>
                                 </div>
@@ -691,20 +691,20 @@
                             <ul class="list-unstyled owl-carousel owl-theme">
                                 <li class="all-radius item active" style="max-width:325px; min-width:100px;">
                                     <div class="module-overlay"></div>
-                                    <a data-href="#section-social-responsibilities"><span>SOSYAL SORUMLULUK</span></a>
+                                    <a data-href="#section-social-responsibilities"><span>SOSİAL MƏSULİYYƏT</span></a>
                                 </li>
                                 <li class="all-radius item" style="max-width:325px; min-width:100px;">
-                                    <div class="module-overlay"></div><a data-href="#section-yurtici-kargo-paro-card"><span>YURTİÇİ KARGO PARO KART</span></a>
+                                    <div class="module-overlay"></div><a data-href="#section-yurtici-kargo-paro-card"><span>POSTEX KARGO PARO KART</span></a>
                                 </li>
                                 <li class="all-radius item" style="max-width:325px; min-width:100px;">
-                                    <div class="module-overlay"></div><a data-href="#section-do-you-know-these"><span>BUNLARI BİLİYOR MUSUNUZ? </span></a>
+                                    <div class="module-overlay"></div><a data-href="#section-do-you-know-these"><span>BUNLARI BİLİRSİNİZ? </span></a>
                                 </li>
                                 <li class="all-radius item" style="max-width:325px; min-width:100px;">
-                                    <div class="module-overlay"></div><a data-href="#section-news"><span>HABERLER</span></a>
+                                    <div class="module-overlay"></div><a data-href="#section-news"><span>XƏBƏRLƏR</span></a>
                                 </li>
 
                                 <li class="all-radius item" style="max-width:325px; min-width:100px;">
-                                    <div class="module-overlay"></div><a data-href="#section-announcements"><span>DUYURULAR</span></a>
+                                    <div class="module-overlay"></div><a data-href="#section-announcements"><span>ELANLAR</span></a>
                                 </li>
 
                             </ul>
@@ -740,7 +740,7 @@
                                             <span>
                                                 Yurti&#231;i Kargo, 2022 itibariyle Pilly filosuna 80 aracı daha ilave ederek elektrikli ara&#231; sayısını 270’e &#231;ıkardı.
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/kargo-sektorunde-cevreci-donusum-hamlesi.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -759,7 +759,7 @@
                                             <span>
                                                 Yurti&#231;i Kargo’nun sosyal medya hesaplarını takip ederek, &#246;zel mesaj yolu ile indirim kodu alanlar, y&#252;zde 25 indirim kazanıyor.
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/yurtici-kargo-hesaplarini-takip-edenler-kazaniyor.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -778,7 +778,7 @@
                                             <span>
                                                 Yurti&#231;i Kargo, e-ticaret kullanıcılarının kargo iade s&#252;recini kolaylaştıran bir uygulamayı daha hayata ge&#231;irdi.
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/yurtici-kargo-7-24-iade-donemini-baslatti.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -797,7 +797,7 @@
                                             <span>
                                                 Yurti&#231;i Kargo, ‘T&#252;rkiye’nin En İtibarlı İş Ortakları’ araştırmasında kargo sekt&#246;r&#252;n&#252;n birincisi oldu.
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/kargo-sektorunde-yilin-en-itibarli-is-ortagi-yurtici-kargo.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -816,7 +816,7 @@
                                             <span>
                                                 Turkcell Global Bilgi ve Fast Company&#39;nin yaptığı “M&#252;şteri Deneyimi Araştırması”nda kargo sekt&#246;r&#252;n&#252;n lideri Yurti&#231;i Kargo oldu.
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/yurtici-kargo-musteri-deneyimi-arastirmasi-nda-zirvede.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -835,7 +835,7 @@
                                             <span>
                                                 Yurti&#231;i Kargo, Ankara&#39;da yeni b&#246;lge m&#252;d&#252;rl&#252;ğ&#252;n&#252;n a&#231;ılışını ger&#231;ekleştirdi.
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/yurtici-kargo-18-inci-bolge-mudurlugunun-acilisini-yapti.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -854,7 +854,7 @@
                                             <span>
                                                 Yurti&#231;i Kargo, 2021 yılının &#252;&#231;&#252;nc&#252; &#231;eyreğinde m&#252;şteri deneyimi endeksine g&#246;re m&#252;şteri deneyim puanı en y&#252;ksek kargo şirketi oldu
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/yurtici-kargo-musteri-deneyimi-endeksinde-zirvede.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -873,7 +873,7 @@
                                             <span>
                                                 T&#252;rkiye’nin en b&#252;y&#252;k otomasyon sistemine sahip kargo transfer merkezi, g&#246;rkemli bir t&#246;renle İstanbul Esenyurt’ta a&#231;ıldı.
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/turkiye-nin-en-buyuk-otomasyon-merkezinin-acilisini-yapti.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -892,7 +892,7 @@
                                             <span>
                                                  Yurti&#231;i Kargo Genel M&#252;d&#252;r&#252; Fatih &#214;nyol, Yurti&#231;i Kargo&#39;nun kapasitesini y&#252;zde 50 artırdığını belirtti.
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/yurtici-kargo-sayili-otomasyon-sistemlerinden-birini-kuruyor.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -911,7 +911,7 @@
                                             <span>
                                                 T&#252;rkiye İtibar Akademisi’nin (TİA) Yıldız Teknik &#220;niversitesi ve Bursa Teknik &#220;niversitesi &#246;ğretim &#252;yelerinin akademik denetimin
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/genclerin-en-guvendigi-ilk-10-marka-arasinda-tek-kargo-sirketi.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -930,7 +930,7 @@
                                             <span>
                                                 Haberler&#39;in devamına ulaşmak i&#231;in tıklayın.
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/basin/haberler.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -965,7 +965,7 @@
                                             <span>
                                                 Genel m&#252;d&#252;rl&#252;ğ&#252;m&#252;z yeni adresinde hizmetlerine devam ediyor.
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/tasindik.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -984,7 +984,7 @@
                                             <span>
                                                 Kampanya kapsamında barınaklara destek olmak isteyen m&#252;şterilerimizin g&#246;nderilerini barınaklara y&#252;zde 30 indirimle taşıyoruz. 
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/minik-dostlarimizin-yanindayiz.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -1003,7 +1003,7 @@
                                             <span>
                                                 1996 yılından bu yana eğitim, taşımacılık, medya ve yayıncılık ile sanayi ve inşaat alanlarında faaliyetlerini s&#252;rd&#252;ren Arıkanlı
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/arikanli-holding-yeni-ceo-su-hakan-subasi-oldu.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -1022,7 +1022,7 @@
                                             <span>
                                                 Detaylar i&#231;in l&#252;tfen tıklayınız.
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/yurtici-kargo-guncel-fiyat-listesi-bilgilendirmesi.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -1041,7 +1041,7 @@
                                             <span>
                                                 Detaylar i&#231;in l&#252;tfen tıklayınız.
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/posta-hizmet-saglayicisi-yetki-belgelendirmesi.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -1060,7 +1060,7 @@
                                             <span>
                                                 Detaylar i&#231;in l&#252;tfen tıklayınız.
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/yurtici-kargo-cumartesi-uygulamasi.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -1079,7 +1079,7 @@
                                             <span>
                                                 Taşımacılık sekt&#246;r&#252;nde yer alan Kargo Şirketlerinin, Su&#231; Gelirlerinin Aklanması ve Ter&#246;r&#252;n Finansmanının &#214;nlenmesiyle ilgili ...
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/guvenlik-duyurusu.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -1114,7 +1114,7 @@
                                             <span>
                                                  
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/covid-19-salgini-hakkinda-aldigimiz-onlemler.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -1133,7 +1133,7 @@
                                             <span>
                                                 Koronavir&#252;s ile ilgili alınan tedbirler kapsamında SMS ile teslimat d&#246;nemini başlattık
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/guvenliginiz-icin-temassiz-teslimat.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -1152,7 +1152,7 @@
                                             <span>
                                                 Yurti&#231;i Kargo hem kurumsal hem de bireysel m&#252;şterilerinin ihtiya&#231;larına y&#246;nelik 6 ana grupta 35 ten fazla farklı &#252;r&#252;n sunmaktadı
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/sayisiz-urun-sizi-bekliyor.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -1171,7 +1171,7 @@
                                             <span>
                                                 Yurti&#231;i Kargo olarak sizlerin hayatını daha da kolaylaştırmak amacı ile iPhone cep telefonları ve iPad’ler i&#231;in Yurti&#231;i Kargo iP
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/kargo-gondermenin-sayisiz-yolu-var.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -1206,7 +1206,7 @@
                                             <span>
                                                 Yurti&#231;i Kargo, maddi g&#252;&#231;l&#252;kler i&#231;indeki binlerce l&#246;semili &#231;ocuğa &#252;cretsiz tedavi, eğitim, sosyal ve psikolojik hizmetler vermek
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/losev.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -1225,7 +1225,7 @@
                                             <span>
                                                 1998 yılında sınırlı olanaklarla eğitim g&#246;rmeye &#231;alışan k&#246;y &#231;ocuklarına yardım eli uzatmak i&#231;in kurulan İlk&#246;ğretim Okullarına Ya
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/ilkyar.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -1244,7 +1244,7 @@
                                             <span>
                                                 1998 yılında, omurilik fel&#231;lilerinin tıbb&#238;, meslek&#238;, ekonomik, sosyal sorunlarının &#231;&#246;z&#252;m&#252; ve yeni omurilik fel&#231;lilerinin oluşmam
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/turkiye-omurilik-felclileri-dernegi.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -1277,7 +1277,7 @@
                                             <span>
                                                 Paro, sizin i&#231;in duyarlı markaları ortak bir paydada buluşturarak Parolu kartınızla yaptığınız alışverişlerde sizi tanır ...
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/yurtici-kargo-paro-kart-nedir.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -1296,7 +1296,7 @@
                                             <span>
                                                 Parolu kart sahiplerine b&#252;y&#252;k fırsat ! Parolu kartınızla yapacağınız Standart ve VIP ...
                                             </span>
-                                            <div class="clearfix"></div> <a href="tr/parolular-kazanir-kampanyasi.html" target="_self" class="readmore ">DAHA FAZLA</a>
+                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>

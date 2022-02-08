@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="tr" xmlns="http://www.w3.org/1999/xhtml">
-   <!-- Mirrored from bireysel.yurticikargo.com/Account/Register by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Feb 2022 08:22:13 GMT -->
-   <!-- Added by HTTrack -->
    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-   <!-- /Added by HTTrack -->
+   <meta name="csrf-token" content="{{ csrf_token() }}">
    <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,6 +19,8 @@
       <link href="/assets/login/assets/css/jalert3f56.css?v=11" rel="stylesheet" />
       <link href="/assets/login/assets/plugin/leaflet/leaflet.css" rel="stylesheet" />
       <link href="/assets/login/Content/page/register3f56.css?v=11" rel="stylesheet" />
+      <link rel="stylesheet" href="/assets/css/custom.css">
+
    </head>
    <body class="special-page">
       <div class="overlay"></div>
@@ -226,7 +226,7 @@
                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="form-group label-floating is-empty">
                                        <label class="control-label" for="input-name">Yeni şifrə</label>
-                                       <input class="form-control all-radius" data-validate-type="required" tabindex="1" autocomplete="off" id="password" type="password" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="30" minlength="3">
+                                       <input name="password" class="form-control all-radius" data-validate-type="required" tabindex="1" autocomplete="off" id="password" type="password" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="30" minlength="3">
                                        <div class="tooltip-wrap">
                                           <a data-toggle="popover" data-content="Şifrə (ən az 2 simvol)">
                                              <svg class="info" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20">
@@ -243,7 +243,8 @@
                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="form-group label-floating is-empty">
                                        <label class="control-label" for="input-surname">Yeni şifrənin təkrarı </label>
-                                       <input class="form-control all-radius" data-validate-type="required" tabindex="2" autocomplete="off" id="repeatpassword" type="password" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="30" minlength="2">
+                                       <input name="confirmpassword" class="form-control all-radius" data-validate-type="required" tabindex="2" autocomplete="off" id="repeatpassword" type="password" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="30" minlength="2">
+                                       <input name="token" type="hidden" value="{{ Route::input('token') }}">
                                        <div class="tooltip-wrap">
                                           <a data-toggle="popover" data-content="Şifrənin təkrarı (ən az 2 simvol)">
                                              <svg class="info" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20">
@@ -259,11 +260,9 @@
                                  </div>
                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="form-group">
-                                       <button type="button" id="btn-user-information" tabindex="7" class="btn all-radius">DAVAM ET</button>
+                                       <button type="button" id="btn-user-information" tabindex="7" class="resetpassword btn all-radius">DAVAM ET</button>
                                     </div>
                                  </div>
-                              </div>
-                              <div class="modal fade" id="usagecontract" data-backdrop="static" aria-hidden="true" role="dialog">
                               </div>
                            </div>
                         </div>
@@ -316,19 +315,48 @@
          <script src="/assets/login/Scripts/jAlert.js"></script>
          <script src="/assets/login/Scripts/jTimeout.js"></script>
          <script src="/assets/login/assets/plugin/leaflet/leaflet.js"></script>
-         <!-- Global site tag (gtag.js) - Google Analytics -->
-         <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-119024172-2"></script>
-         <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            
-            gtag('config', 'UA-119024172-2');
-         </script>
-         <script src="/assets/login/Scripts/page/geo-address-generator3f56.js?v=11"></script>
-         <script src="/assets/login/Scripts/page/register3f56.js?v=11"></script>
-         <script src="/assets/login/Scripts/service/register-service3f56.js?v=11"></script>
+         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
       </div>
+
+      <script>
+         $.ajaxSetup({
+             headers: {
+                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+             }
+         });
+
+         //resetpassword
+         $('.resetpassword').click('onclick',function(){
+            
+             var data = {
+                 'password': $('input[name=password]').val(),
+                 'confirmpassword': $('input[name=confirmpassword]').val(),
+                 'token': $('input[name=token]').val(),
+             };
+                 $.ajax({
+                     type: 'post',
+                     url: "{{ route('forgetpassword')}}",
+                     data:data,                    
+                     success: function(response) {  
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Uğurlu',
+                            text: response.message,
+                            showCancelButton: false,
+                            showConfirmButton: false
+                        })                                     
+                     },
+                     error: function(xhr, status, error){
+                         Swal.fire({
+                            icon: 'error',
+                            title: 'Xəta',
+                            text: xhr.responseJSON.message,
+                            showCancelButton: false,
+                            showConfirmButton: false
+                        })
+                     }
+                 });        
+         })
+      </script>
    </body>
-   <!-- Mirrored from bireysel.yurticikargo.com/Account/Register by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Feb 2022 08:22:47 GMT -->
 </html>
