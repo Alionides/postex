@@ -22,16 +22,18 @@
                         <table class="table" id="table-tracking">
                           <thead>
                             <tr>
-                              <th>İşlem Tarihi</th>
-                              <th>Gönderi Adı</th>
-                              <th align="center">Durum</th>
-                              <th align="center"> Gönderici Adı <br> Alıcı Adı </th>
-                              <th align="center">Açıklama</th>
-                              <th colspan="4" align="center">İşlemler</th>
+                              <th>Qəbul Tarixi</th>
+                              <th>Təhvil Tarixi</th>
+                              <th>İzləmə Kodu</th>
+                              <th align="center">Status</th>
+                              <th align="center"> Göndərənin Adı<br> Alanın Adı </th>
+                              <th align="center">Bağlama növü</th>
+                              <th colspan="4" align="center">Əməliyyatlar</th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr id="909376052773">
+                              <td> 20.3.2019 </td>
                               <td> 20.3.2019 </td>
                               <td> Gelen Gönderi </td>
                               <td align="center">Çıkış Biriminde.</td>
@@ -60,7 +62,9 @@
                                 </a>
                               </td>
                               <td align="center" class="iconss">
-                                <i style="color:green" class="fas fa-info-circle fa-2x1"></i>
+                              <a>  
+                              <i style="color:green; size:24px;" class="fas fa-plus fa-2x"></i>
+                              </a>
                               </td>
                             </tr>
                           </tbody>
