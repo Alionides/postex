@@ -21,8 +21,8 @@ class CreateAcceptancesTable extends Migration
             $table->string('first_name');
             $table->string('last_name');
             $table->string('tracking_id')->nullable();
-            $table->integer('kg');
-            $table->double('price', 3, 2);
+            $table->double('kg', 3, 2);
+            $table->integer('price');
             $table->string('package_type')->default('qutu');
             $table->string('delivery_location')->nullable();
             $table->string('phone')->nullable();
