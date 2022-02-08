@@ -503,14 +503,14 @@
                                 <button type="button" class="close" data-dismiss="modal"></button>
                             </div>
                             <div class="modal-body">
-                                <h5 class="blue-title">Gönderi / AWB kodu nədir?</h5>
+                                <h5 class="blue-title">AWB kodu nədir?</h5>
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 ">
-                                        <h6 class="main-title-bold">Örnek Gönderi kodu</h6>
+                                        <h6 class="main-title-bold">Göndərmə kodu nümunəsi</h6>
                                         <img src="assets/img/gorsel-kodu.png" alt="" />
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 ">
-                                        <h6 class="main-title-bold">Örnək AWB kodu</h6>
+                                        <h6 class="main-title-bold">AWB kodu nümunəsi</h6>
                                         <img src="assets/img/awb-kodu.png" alt="" />
                                     </div>
                                 </div>
