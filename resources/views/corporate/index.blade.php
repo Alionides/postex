@@ -20,21 +20,21 @@
          <tbody>
             @foreach ($acceptance as $accept)
             <tr>
-               <td align="center">{{ $accept->id }}</td>
-               <td align="center">{{ $accept->id }}</td>
-               <td align="center">{{ $accept->id }}</td>
-               <td align="center">{{ $accept->id }}</td>
+               <td align="center">{{ substr($accept->created_at ,0,10)  }}</td>
+               <td align="center">{{ substr($accept->created_at ,0,10)  }}</td>
+               <td align="center">{{ $accept->tracking_id}}</td>
+               <td align="center">{{ $accept->status }}</td>
 
                <td align="center" class="border-wrap">
               <div class="dot-border-first">
-                <span class="title" id="pop" data-toggle="popover" data-content="{{ $accept->id }}" data-original-title="" title="">{{ $accept->id }}</span>
+                <span class="title" id="pop" data-toggle="popover" data-content="{{ $accept->first_name.' '.$accept->last_name }}" data-original-title="" title="">{{ $accept->first_name.' '.$accept->last_name }}</span>
               </div>
               <div class="dot-border-last">
-                <span class="title" id="pop" data-toggle="popover" data-content="{{ $accept->id }}" data-original-title="" title="">{{ $accept->id }}</span>
+                <span class="title" id="pop" data-toggle="popover" data-content="{{ $accept->first_name.' '.$accept->last_name }}" data-original-title="" title="">{{ $accept->first_name.' '.$accept->last_name }}</span>
               </div>
                </td>
 
-               <td align="center">{{ $accept->id }}</td>
+               <td align="center">{{ $accept->package_type }}</td>
                <td width="20%">
                <a onclick="" title="tıklayınız."> <i style="color:red" class="fas fa-window-close fa-2x"></i> </a>
                <a data-id="909376052773"  title="Gönderi ."> <i style="color:grey" class="fas fa-envelope fa-2x"></i>  </a>
@@ -45,7 +45,9 @@
             @endforeach
          </tbody>
       </table>
+      
       {!! $acceptance->links() !!}
+      
    </div>
 </div>
 <!-- boostrap model -->
@@ -54,49 +56,44 @@
       <div class="modal-content all-radius">
          <div class="modal-header"><button type="button" class="close" data-dismiss="modal"></button></div>
          <div class="modal-body">
-            <h5 class="blue-title top">Gönderi Özeti</h5>
+            <h5 class="blue-title top">Postun xülasəsi</h5>
             <div class="space-2x"></div>
             <div class="row">
                <div class="product-service summary">
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 summary-info">
                      <span class="first">
-                     Gönderici Adresi Kısa Ad
+                     Göndərənin  Adı
                      </span>
-                     <span class="last" id="span-sender-address-short-name">demo gönderici</span>
+                     <span class="last" id="span-sender-name"></span>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 summary-info">
                      <span class="first">
-                     Gönderici Adı
+                     Göndərənin Ünvanı
                      </span>
-                     <span class="last" id="title"></span>
+                     <span class="last" id="span-sender-adress"></span>
                      </div>
                   <div class="space-2x"></div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 summary-info">
                      <span class="first">
-                     Alıcı Kısa Ad
+                     Alıcının Adı
                      </span>
-                     <span class="last" id="span-receiver-address-short-name">demo alıcı</span>
+                     <span class="last" id="span-receiver-name"></span>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 summary-info">
                      <span class="first">
-                     Alıcı Adı
+                     Alıcının Ünvanı
                      </span>
-                     <span class="last" id="span-receiver-name">DEMO ALICI</span>
+                     <span class="last" id="span-receiver-adress">DEMO ALICI</span>
                   </div>
                   <div class="space-2x"></div>
-                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 summary-info">
-                     <span class="first">
-                     Alıcı adresi
-                     </span>
-                     <span class="last" id="span-receiver-address">İçmeler Mh. Yılmaz Sk.  No: 2 D: 2 Tuzla İstanbul</span>
-                  </div>
+                 
                   <div class="space-2x"></div>
                   <div class="table-responsive col-lg-12 col-md-12 col-sm-12 col-xs-12">
                      <table class="table module" id="table-shipment-detal-modal">
                         <tbody>
                            <tr>
                               <td width="530">
-                                 <div class="summary-info"><span class="first">Gönderi Türü</span><span class="last" id="span-shipment-type">Dosya/Evrak</span></div>
+                                 <div class="summary-info"><span class="first">Bağlama növü</span><span class="last" id="span-package-type"></span></div>
                               </td>
                               <td width="200" align="center"><span class="grey"><span></span></span></td>
                            </tr>
@@ -106,7 +103,7 @@
                            <tr>
                               <td width="530">
                                  <div class="summary-info tooltip-table">
-                                    <span class="first">Gönderi Tipi</span><span class="last"> STANDART</span>
+                                    <span class="first">Bağlama Tipi</span><span class="last"> STANDART</span>
                                     <div class="tooltip-wrap left">
                                        <a href="#" data-toggle="popover" data-content="Tüm Türkiye Standart Taşıma Hizmeti.
                                           " data-original-title="" title="">
@@ -131,7 +128,7 @@
                            <tr>
                               <td width="530">
                                  <div class="summary-info tooltip-table">
-                                    <span class="first">Alım Tipi</span><span class="last">Gönderiyi Şubeye Kendim Getireceğim</span>
+                                    <span class="first">Qəbul Tipi</span><span class="last">Gönderiyi Şubeye Kendim Getireceğim</span>
                                     <div class="tooltip-wrap left">
                                        <a href="#" data-toggle="popover" data-content="Kargonuzu adresinize gelecek kuryemize teslim ederek gönderi yapmak için seçiniz" data-original-title="" title="">
                                           <svg class="info" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20">
@@ -152,7 +149,7 @@
                            <tr>
                               <td width="530">
                                  <div class="summary-info tooltip-table">
-                                    <span class="first">Teslimat Tipi</span><span class="last">Alıcının Adresine Teslim Edilsin</span>
+                                    <span class="first">Təslim Tipi</span><span class="last">Alıcının Adresine Teslim Edilsin</span>
                                     <div class="tooltip-wrap left">
                                        <a href="#" data-toggle="popover" data-content="Gönderinin, alıcının belirttiğiniz adresine ulaştırılıp adreste teslim edilmesi hizmetidir." data-original-title="" title="">
                                           <svg class="info" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20">
@@ -176,28 +173,28 @@
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 summary-info">
                      <div class="space-2x"></div>
                      <span class="first">
-                     Kampanya Kod
+                     İzləmə Kodu
                      </span>
-                     <span class="last" id="span-campaign-key">120101</span>
+                     <span class="last" id="span-tracking-id"></span>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 summary-info">
                      <div class="space-2x"></div>
                      <span class="first">
-                     Çıkış YK Şubesi
+                     Çıxış Şöbəsi
                      </span>
                      <span class="last" id="span-departure-unit-name">MERKEZ</span>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 summary-info">
                      <div class="space-2x"></div>
                      <span class="first">
-                     Varış Şubesi
+                     Qəbul Şöbəsi
                      </span>
                      <span class="last" id="span-arrival-unit-name">İÇMELER</span>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 summary-info">
                      <div class="space-2x"></div>
                      <span class="first">
-                     Ücrete Esas Ağırlık
+                     Bağlamanın Çəkisi
                      </span>
                      <span class="last" id="span-kg-ds">0</span>
                   </div>
@@ -208,39 +205,16 @@
                            <tr>
                               <td>
                                  <div class="summary-info">
-                                    <span class="last">Toplam tutar</span>
+                                    <span class="last">Ümumi məbləğ</span>
                                  </div>
                               </td>
                               <td align="center">
                                  <span class="grey">
-                                 <span id="span-total-price">8.28 <span> ₺</span></span>
+                                 <span id="span-total-price">8.28 <span> &#8380; </span></span>
                                  </span>
                               </td>
-                           </tr>
-                           <tr>
-                              <td>
-                                 <div class="summary-info">
-                                    <span class="last">KDV tutarı</span>
-                                 </div>
-                              </td>
-                              <td align="center">
-                                 <span class="grey">
-                                 <span id="span-vat">1.49 <span> ₺</span></span>
-                                 </span>
-                              </td>
-                           </tr>
-                           <tr>
-                              <td>
-                                 <div class="summary-info">
-                                    <span class="last bold">KDV’li Toplam tutar</span>
-                                 </div>
-                              </td>
-                              <td align="center">
-                                 <span class="grey">
-                                 <span id="span-total-price-with-vat">9.77 <span> ₺</span></span>
-                                 </span>
-                              </td>
-                           </tr>
+                           </tr>                           
+                        
                         </tbody>
                      </table>
                   </div>
@@ -272,6 +246,12 @@
               success: function(res){
                 $('#ajax-book-model').modal('show');
                 $('span#title').html( res.id );
+                $('span#span-sender-name').html( res.first_name+' '+res.first_name );
+                $('span#span-sender-adress').html( res.delivery_location);
+                $('span#span-receiver-name').html( res.first_name+' '+res.first_name);
+                $('span#span-receiver-adress').html( res.delivery_location);
+                $('span#span-package-type').html( res.package_type);
+                $('span#span-tracking-id').html( res.tracking_id);
                 $('#id').val(res.id);
                 $('#title').val(res.id);
                 $('#code').val(res.id);

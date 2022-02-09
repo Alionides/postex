@@ -17,7 +17,7 @@ class CreateAcceptancesTable extends Migration
             $table->id();
             //$table->unsignedBigInteger('user_id');
             //$table->foreign('user_id')->references('id')->on('customers')->onDelete('restrict');
-            $table->integer('user_id');
+            $table->integer('customer_id');
             $table->string('first_name');
             $table->string('last_name');
             $table->string('tracking_id')->nullable();

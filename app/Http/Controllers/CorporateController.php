@@ -25,20 +25,12 @@ class CorporateController extends Controller
         });
     }
 
-    // public function index(Request $request)
-    // {
-    //     $data['books'] = Acceptance::orderBy('id','desc')->paginate(5);
-        
-    //     return view('corporate.index',$data);
-    // }
-
-
-
+   
 
 
     public function index()
     {
-        $data['acceptance'] = Acceptance::orderBy('id','desc')->paginate(5);   
+        $data['acceptance'] = Acceptance::orderBy('id','desc')->paginate(20);   
         return view('corporate.index',$data);
     }
     
