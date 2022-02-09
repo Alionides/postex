@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Auth;
+use App\Models\Acceptance;
 
 class CorporateController extends Controller
 {
@@ -24,8 +25,22 @@ class CorporateController extends Controller
         });
     }
 
-    public function index(Request $request)
+   
+
+
+    public function index()
     {
-        return view('corporate.index');
+        $data['acceptance'] = Acceptance::orderBy('id','desc')->paginate(20);   
+        return view('corporate.index',$data);
     }
+    
+  
+    public function GetJsonAcceptance(Request $request)
+    {   
+        $where = array('id' => $request->id);
+        $item  = Acceptance::where($where)->first(); 
+        return response()->json($item);
+    }
+ 
+   
 }
