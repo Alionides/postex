@@ -38,7 +38,7 @@
                <td width="20%">
                <a onclick="" title="tıklayınız."> <i style="color:red" class="fas fa-window-close fa-2x"></i> </a>
                <a data-id="909376052773"  title="Gönderi ."> <i style="color:grey" class="fas fa-envelope fa-2x"></i>  </a>
-               <a  href="{{route('account.corporate.wherecargo',$accept->id)}}" title="Karqom haradadır"><i style="color:orange" class="fas fa-truck fa-2x"></i></a>
+               <a  href="{{route('account.corporate.wherecargo', ['id' => $accept->id])}}" title="Karqom haradadır"><i style="color:orange" class="fas fa-truck fa-2x"></i></a>
                <a href="javascript:void(0)" class="faplus" data-id="{{ $accept->id }}"><i style="color:green;" class="fas fa-plus fa-2x"></i></a>
                 </td>
             </tr>

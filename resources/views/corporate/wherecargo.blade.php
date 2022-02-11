@@ -20,12 +20,12 @@
                   <stop offset="0" style="stop-color: #F8AB1C;"></stop>
                   <stop offset="1" style="stop-color: #EF720C;"></stop>
                </lineargradient>
-               <path class="st3" id="info-graphic-index-2" d="M351.6,420.9V240.4c0-3.6-2.9-6.5-6.5-6.5s-6.5,2.9-6.5,6.5v180.4c0,3.6,2.9,6.5,6.5,6.5  C348.6,427.4,351.6,424.4,351.6,420.9z" > </path>
-               <circle class="st5 step-1 step-2 step-3 step-4 step-5" cx="175.1" cy="320.1" r="13"></circle>
-               <circle class="st5 step-2 step-3 step-4 step-5" cx="240.1" cy="227.3" r="13"></circle>
-               <circle class="st5 step-3 step-4 step-5" cx="345.3" cy="191.9" r="13"></circle>
-               <circle class="st5 step-4 step-5" cx="449.7" cy="227.3" r="13"></circle>
-               <circle class="st5 step-5" id="circlefinish" cx="516.4" cy="320.1" r="13"></circle>
+               <path class="st3" id="info-graphic-index-2" d="M351.6,420.9V240.4c0-3.6-2.9-6.5-6.5-6.5s-6.5,2.9-6.5,6.5v180.4c0,3.6,2.9,6.5,6.5,6.5  C348.6,427.4,351.6,424.4,351.6,420.9z" transform="rotate(-90, 345, 375)"> </path>
+               <circle id="step-1" class="st5 step-1 step-2 step-3 step-4 step-5"style="display:none;" cx="175.1" cy="320.1" r="13"></circle>
+               <circle id="step-2" class="st5 step-2 step-3 step-4 step-5" style="display:none;" cx="240.1" cy="227.3" r="13"></circle>
+               <circle id="step-3" class="st5 step-3 step-4 step-5" style="display:none;" cx="345.3" cy="191.9" r="13"></circle>
+               <circle id="step-4" class="st5 step-4 step-5" style="display:none;"   cx="449.7" cy="227.3" r="13"></circle>
+               <circle id="step-5" class="st5 step-5" style="display:none;" cx="516.4" cy="320.1" r="13"></circle>
                <path class="st6" d="M169.9,318.9c-0.6-0.6-1.5-0.6-2.1,0s-0.6,1.5,0,2.1l4.6,4.6c0.6,0.6,1.5,0.6,2.1,0l7.9-7.9  c0.6-0.6,0.6-1.5,0-2.1s-1.5-0.6-2.1,0l-6.8,6.8L169.9,318.9z"></path>
                <path class="st6" d="M444.6,226c-0.6-0.6-1.5-0.6-2.1,0s-0.6,1.5,0,2.1l4.6,4.6c0.6,0.6,1.5,0.6,2.1,0l7.9-7.9  c0.6-0.6,0.6-1.5,0-2.1c-0.6-0.6-1.5-0.6-2.1,0l-6.8,6.8L444.6,226z"></path>
                <path class="st6" d="M511.6,318.9c-0.6-0.6-1.5-0.6-2.1,0s-0.6,1.5,0,2.1l4.6,4.6c0.6,0.6,1.5,0.6,2.1,0l7.9-7.9  c0.6-0.6,0.6-1.5,0-2.1c-0.6-0.6-1.5-0.6-2.1,0l-6.8,6.8L511.6,318.9z"></path>
@@ -42,15 +42,15 @@
                <line class="st10" x1="241.1" y1="57.1" x2="281.8" y2="179.9"></line>
                <line class="st10" x1="446.3" y1="59.3" x2="407.3" y2="178"></line>
                <line class="st10" x1="610.3" y1="178.8" x2="510.3" y2="252.8"></line>
-               <path class="st11" id="finish"d="M623.3,329.6c-25.9,0-46.9-21-46.9-46.9c0-25.9,21-46.9,46.9-46.9c25.9,0,46.9,21,46.9,46.9   C670.2,308.6,649.2,329.6,623.3,329.6z"></path>
+               <path id="fivest12"     class="st12" d="M623.3,329.6c-25.9,0-46.9-21-46.9-46.9c0-25.9,21-46.9,46.9-46.9c25.9,0,46.9,21,46.9,46.9   C670.2,308.6,649.2,329.6,623.3,329.6z"></path>
                <path class="grey-border step-5" d="M623.3,238.3c24.5,0,44.4,19.9,44.4,44.4c0,24.5-19.9,44.4-44.4,44.4c-24.5,0-44.4-19.9-44.4-44.4   C579,258.2,598.9,238.3,623.3,238.3 M623.3,233.3c-27.3,0-49.4,22.1-49.4,49.4s22.1,49.4,49.4,49.4c27.3,0,49.4-22.1,49.4-49.4   S650.6,233.3,623.3,233.3L623.3,233.3z"></path>
-               <path class="st11" d="M515.3,183.1c-25.9,0-46.9-21-46.9-46.9s21-46.9,46.9-46.9c25.9,0,46.9,21,46.9,46.9S541.2,183.1,515.3,183.1   z"></path>
+               <path id="fourst12"   class="st12" d="M515.3,183.1c-25.9,0-46.9-21-46.9-46.9s21-46.9,46.9-46.9c25.9,0,46.9,21,46.9,46.9S541.2,183.1,515.3,183.1   z"></path>
                <path class="grey-border step-4 step-5" d="M515.3,91.8c24.5,0,44.4,19.9,44.4,44.4c0,24.5-19.9,44.4-44.4,44.4S471,160.7,471,136.2   C471,111.7,490.9,91.8,515.3,91.8 M515.3,86.8c-27.3,0-49.4,22.1-49.4,49.4c0,27.3,22.1,49.4,49.4,49.4c27.3,0,49.4-22.1,49.4-49.4   C564.7,108.9,542.6,86.8,515.3,86.8L515.3,86.8z"></path>
-               <path class="st11" d="M345.3,132.6c-25.9,0-46.9-21-46.9-46.9s21-46.9,46.9-46.9c25.9,0,46.9,21,46.9,46.9S371.2,132.6,345.3,132.6   z"></path>
+               <path id="threest12"  class="st12" d="M345.3,132.6c-25.9,0-46.9-21-46.9-46.9s21-46.9,46.9-46.9c25.9,0,46.9,21,46.9,46.9S371.2,132.6,345.3,132.6   z"></path>
                <path class="grey-border step-3 step-4 step-5" d="M345.3,41.3c24.5,0,44.4,19.9,44.4,44.4s-19.9,44.4-44.4,44.4s-44.4-19.9-44.4-44.4S320.9,41.3,345.3,41.3    M345.3,36.3c-27.3,0-49.4,22.1-49.4,49.4s22.1,49.4,49.4,49.4c27.3,0,49.4-22.1,49.4-49.4S372.6,36.3,345.3,36.3L345.3,36.3z"></path>
-               <path class="st11" d="M170.3,183.1c-25.9,0-46.9-21-46.9-46.9s21-46.9,46.9-46.9c25.9,0,46.9,21,46.9,46.9S196.2,183.1,170.3,183.1   z"></path>
+               <path  id="twost12"   class="st12" d="M170.3,183.1c-25.9,0-46.9-21-46.9-46.9s21-46.9,46.9-46.9c25.9,0,46.9,21,46.9,46.9S196.2,183.1,170.3,183.1   z"></path>
                <path class="grey-border step-2 step-3 step-4 step-5" d="M170.3,91.8c24.5,0,44.4,19.9,44.4,44.4s-19.9,44.4-44.4,44.4c-24.5,0-44.4-19.9-44.4-44.4   S145.9,91.8,170.3,91.8 M170.3,86.8c-27.3,0-49.4,22.1-49.4,49.4s22.1,49.4,49.4,49.4c27.3,0,49.4-22.1,49.4-49.4   S197.6,86.8,170.3,86.8L170.3,86.8z"></path>
-               <path class="st11" d="M70.3,329.6c-25.9,0-46.9-21-46.9-46.9c0-25.9,21-46.9,46.9-46.9c25.9,0,46.9,21,46.9,46.9   C117.2,308.6,96.2,329.6,70.3,329.6z"></path>
+               <path id="onest12"  class="st12" d="M70.3,329.6c-25.9,0-46.9-21-46.9-46.9c0-25.9,21-46.9,46.9-46.9c25.9,0,46.9,21,46.9,46.9   C117.2,308.6,96.2,329.6,70.3,329.6z"></path>
                <path class="grey-border step-1 step-2 step-3 step-4 step-5" d="M70.3,238.3c24.5,0,44.4,19.9,44.4,44.4c0,24.5-19.9,44.4-44.4,44.4c-24.5,0-44.4-19.9-44.4-44.4   C25.9,258.2,45.9,238.3,70.3,238.3 M70.3,233.3c-27.3,0-49.4,22.1-49.4,49.4c0,27.3,22.1,49.4,49.4,49.4   c27.3,0,49.4-22.1,49.4-49.4C119.7,255.4,97.6,233.3,70.3,233.3L70.3,233.3z"></path>
                <path class="st14" d="M85,297.6v-9h-9v9H85z M75,299.6c-0.6,0-1-0.4-1-1v-11c0-0.6,0.4-1,1-1h11c0.6,0,1,0.4,1,1v11c0,0.6-0.4,1-1,1  H75z M67.4,259.7c0.3,0.1,0.6,0.3,0.5,0.4l-6.7,4.8c-0.3,0.2-0.3,0.3,0,0.6l8.2,6.9c0.8,0.7,0.8,1.6,0,2c-0.8,0.5-2.2,0.2-2.9-0.5  l-8-7.4c-0.7-0.6-0.1-1.1-0.1-1.1l8.3-5.7C66.9,259.7,67,259.6,67.4,259.7z M45.5,274.6c-0.4-0.1-0.6-0.5-0.3-0.9l5.3-6.6  c0.4-0.5,0-1,0-1l-4.8-5.3c-0.3-0.3,0-0.8,0.8-1c0.7-0.2,1.5-0.1,1.9,0.2l4.9,4.8c0,0,0.4,0.4,0,1l-6.4,8.4  C46.5,274.6,45.9,274.7,45.5,274.6z M61.6,260.6l-9,13.1c-0.5,0.8-1.9,1.2-2.9,0.8c-1.1-0.3-1.4-1.2-0.9-1.9l9.9-12.5  c0.3-0.4,1.1-0.5,1.9-0.4C61.4,259.8,61.9,260.2,61.6,260.6z M56.3,294.5v13.2c0,0.6-0.4,1-1,1H50c-2.8,0-5-2.2-5-5v-19  c0-0.6,0.4-1,1-1c0.6,0,1,0.4,1,1v19c0,1.7,1.3,3,3,3h4.3v-13.2c0-0.6,0.4-1,1-1H67c0.6,0,1,0.4,1,1v13.1h23c1.7,0,3-1.3,3-3v-19  c0-0.6,0.4-1,1-1c0.6,0,1,0.4,1,1v19c0,2.8-2.2,5-5,5H67c-0.6,0-1-0.4-1-1v-13.1H56.3z M89.1,263.6H71.3c-0.6,0-1-0.4-1-1s0.4-1,1-1  h18.4c0.4,0,0.7,0.2,0.9,0.5l7.6,13c0.8,1.4,0.4,3.3-1.1,4.1c-0.5,0.3-1,0.4-1.5,0.4H43c-0.6,0-1-0.4-1-1s0.4-1,1-1h52.5  c0.2,0,0.4,0,0.5-0.1c0.5-0.3,0.6-0.9,0.4-1.4L89.1,263.6z"></path>
                <path class="st14" d="M361.1,100.2v-9h-9v9H361.1z M351.1,102.2c-0.6,0-1-0.4-1-1v-11c0-0.6,0.4-1,1-1h11c0.6,0,1,0.4,1,1v11  c0,0.6-0.4,1-1,1H351.1z M343.4,62.2c0.3,0.1,0.6,0.3,0.5,0.4l-6.7,4.8c-0.3,0.2-0.3,0.3,0,0.6l8.2,6.9c0.8,0.7,0.8,1.6,0,2  c-0.8,0.5-2.2,0.2-2.9-0.5l-8-7.4c-0.7-0.6-0.1-1.1-0.1-1.1l8.3-5.7C342.9,62.2,343.1,62.2,343.4,62.2z M321.5,77.1  c-0.4-0.1-0.6-0.5-0.3-0.9l5.3-6.6c0.4-0.5,0-1,0-1l-4.8-5.3c-0.3-0.3,0-0.8,0.8-1c0.7-0.2,1.5-0.1,1.9,0.2l4.9,4.8c0,0,0.4,0.4,0,1  l-6.4,8.4C322.6,77.1,322,77.3,321.5,77.1z M337.7,63.2l-9,13.1c-0.5,0.8-1.9,1.2-2.9,0.8c-1.1-0.3-1.4-1.2-0.9-1.9l9.9-12.5  c0.3-0.4,1.1-0.5,1.9-0.4C337.5,62.4,337.9,62.8,337.7,63.2z M332.4,97v13.2c0,0.6-0.4,1-1,1h-5.3c-2.8,0-5-2.2-5-5v-19  c0-0.6,0.4-1,1-1c0.6,0,1,0.4,1,1v19c0,1.7,1.3,3,3,3h4.3V96c0-0.6,0.4-1,1-1h11.7c0.6,0,1,0.4,1,1v13.1h23c1.7,0,3-1.3,3-3v-19  c0-0.6,0.4-1,1-1s1,0.4,1,1v19c0,2.8-2.2,5-5,5h-24c-0.6,0-1-0.4-1-1V97H332.4z M365.2,66.2h-17.8c-0.6,0-1-0.4-1-1c0-0.6,0.4-1,1-1  h18.4c0.4,0,0.7,0.2,0.9,0.5l7.6,13c0.8,1.4,0.4,3.3-1.1,4.1c-0.5,0.3-1,0.4-1.5,0.4h-52.5c-0.6,0-1-0.4-1-1c0-0.6,0.4-1,1-1h52.5  c0.2,0,0.4,0,0.5-0.1c0.5-0.3,0.6-0.9,0.4-1.4L365.2,66.2z"></path>
@@ -64,36 +64,7 @@
    </div>
 </div>
 </div>
-<span class="last">{{$acceptance[0]->first_name}}</span>
-
-<!-- 
-<style>
-#container{
-  padding: 100px;
-}
-#mydiv{
-  height: 200px;
-  width: 200px;
-  background: pink;
-  transform: rotate(30deg);
-}
-
-</style>
-<div id="container">
-  <div id="mydiv"></div>
-</div> -->
-
-
-<script>
- 
- var innerArrow = document.getElementById("info-graphic-index-2").setAttribute("transform", "rotate(-90, 345, 375)");
- var innerArrow = document.getElementById("finish").setAttribute("class", "st12");
- var innerArrow = document.getElementById("circlefinish").outerHTML="";
- 
-
-
-//document.getElementById("info-graphic-index-2").style.transform = "rotateX(20deg)"; 
-</script>
+<span class="last" id="span-sender-name"></span>
 
 
 <script type="text/javascript">
@@ -104,7 +75,7 @@
           }
       });
    
-          var id = 2;           
+          var id = {{$acceptance[0]->id}};            
           // ajax
           $.ajax({
               type:"POST",
@@ -112,18 +83,67 @@
               data: { id: id },
               dataType: 'json',
               success: function(res){
-                $('span#title').html( res.id );
                 $('span#span-sender-name').html( res.first_name+' '+res.first_name );
-                $('span#span-sender-adress').html( res.delivery_location);
-                $('span#span-receiver-name').html( res.first_name+' '+res.first_name);
-                $('span#span-receiver-adress').html( res.delivery_location);
-                $('span#span-package-type').html( res.package_type);
-                $('span#span-tracking-id').html( res.tracking_id);
-                $('#id').val(res.id);
-                $('#title').val(res.id);
-                $('#code').val(res.id);
-                var value = 60;
-               // $("path#info-graphic-index-2").css('transform', -90, 345, 375);
+
+                if(res.status=='st1'){
+               document.getElementById("info-graphic-index-2").setAttribute("transform", "rotate(-72, 345, 375)");
+               document.getElementById("onest12").setAttribute("class", "st11");
+               document.getElementById("step-1").style.display = "block";
+                }
+                if(res.status=='st2'){
+               document.getElementById("info-graphic-index-2").setAttribute("transform", "rotate(-36, 345, 375)");
+               document.getElementById("onest12").setAttribute("class", "st11");
+               document.getElementById("twost12").setAttribute("class", "st11");
+               document.getElementById("step-1").style.display = "block";
+               document.getElementById("step-2").style.display = "block";
+                }
+
+                
+                if(res.status=='st3'){
+               document.getElementById("info-graphic-index-2").setAttribute("transform", "rotate(0, 345, 375)");
+               
+               document.getElementById("onest12").setAttribute("class", "st11");
+               document.getElementById("twost12").setAttribute("class", "st11");
+               document.getElementById("threest12").setAttribute("class", "st11");
+
+               document.getElementById("step-1").style.display = "block";
+               document.getElementById("step-2").style.display = "block";
+               document.getElementById("step-3").style.display = "block";
+                }
+
+                if(res.status=='st4'){
+               document.getElementById("info-graphic-index-2").setAttribute("transform", "rotate(36, 345, 375)");
+               
+               document.getElementById("onest12").setAttribute("class", "st11");
+               document.getElementById("twost12").setAttribute("class", "st11");
+               document.getElementById("threest12").setAttribute("class", "st11");
+               document.getElementById("fourst12").setAttribute("class", "st11");
+
+               document.getElementById("step-1").style.display = "block";
+               document.getElementById("step-2").style.display = "block";
+               document.getElementById("step-3").style.display = "block";
+               document.getElementById("step-4").style.display = "block";
+                }
+
+                if(res.status=='st5'){
+               document.getElementById("info-graphic-index-2").setAttribute("transform", "rotate(72, 345, 375)");
+               
+               document.getElementById("onest12").setAttribute("class", "st11");
+               document.getElementById("twost12").setAttribute("class", "st11");
+               document.getElementById("threest12").setAttribute("class", "st11");
+               document.getElementById("fourst12").setAttribute("class", "st11");
+               document.getElementById("fivest12").setAttribute("class", "st11");
+
+               document.getElementById("step-1").style.display = "block";
+               document.getElementById("step-2").style.display = "block";
+               document.getElementById("step-3").style.display = "block";
+               document.getElementById("step-4").style.display = "block";
+               document.getElementById("step-5").style.display = "block";
+                }
+
+
+
+
              }
           });
     
