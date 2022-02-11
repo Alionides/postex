@@ -10,10 +10,15 @@ class Acceptance extends Model
     use HasFactory;
 
     protected $fillable = [
-        'user_id',
-        'first_name',
-        'last_name',
-        'phone',
+        'customer_id',
+        'sender_fin',
+        'sender_first_name',
+        'sender_last_name',
+        'sender_phone',
+        'receiver_fin',
+        'receiver_first_name',
+        'receiver_last_name',
+        'receiver_phone',
         'tracking_id',
         'kg',
         'price',
@@ -22,4 +27,11 @@ class Acceptance extends Model
         'barcodes',
         'status'
     ];
+    
+    public function customer()
+    {
+        return $this->belongsTo(Customer::class);
+    }
 }
+
+    

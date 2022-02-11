@@ -44,11 +44,13 @@ Route::group(['prefix' => 'register'], function () {
     Route::post('corporate', [CustomerController::class, "register_corporate"])->name('register.corporate');
 });
 Route::get('shippingsender', [SiteController::class, "shippingsender"])->name('shipping.sender');
+
 Route::group(['middleware' => ['auth:customer']],function(){
     Route::group(['prefix' => 'account'], function () {
         Route::post("logout", [CustomerController::class, "logout"])->name('logout');
         Route::get('individual', [IndividualController::class, "index"])->name('account.individual');
         Route::get('corporate', [CorporateController::class, "index"])->name('account.corporate');
+        Route::post('corporate', [CorporateController::class, 'GetJsonAcceptance']);
     });
 });
 

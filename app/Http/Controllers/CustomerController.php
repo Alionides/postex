@@ -62,6 +62,10 @@ class CustomerController extends Controller
 
     public function login_corporate(Request $request) 
     {
+        if(Auth::guard('customer')->check()){
+            return redirect()->route('account.corporate');
+        }
+
         if ($request->isMethod('get')) {
             return view('customer.login_corporate');
         }

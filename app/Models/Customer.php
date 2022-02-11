@@ -24,6 +24,7 @@ class Customer extends Authenticatable
     protected $guard = 'customer';
     protected $fillable = [
         'email',
+        'fin',
         'password',
         'first_name',
         'last_name',
@@ -33,34 +34,26 @@ class Customer extends Authenticatable
         'notes',
         'calendly_url',
     ];
-
-    /**
-     * The attributes that should be hidden for serialization.
-     *
-     * @var array
-     */
+  
+ 
     protected $hidden = [
         'password',
         'remember_token',
     ];
 
-    /**
-     * The attributes that should be cast.
-     *
-     * @var array
-     */
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
 
-    /**
-     * The accessors to append to the model's array form.
-     *
-     * @var array
-     */
     protected $appends = [
         'full_name'
     ];
+
+
+    public function acceptances()
+    {
+        return $this->hasMany(Acceptance::class);
+    }
 
     // public function companies()
     // {
