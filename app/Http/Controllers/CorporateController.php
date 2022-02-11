@@ -30,8 +30,8 @@ class CorporateController extends Controller
 
     public function index()
     {
-        $customer_id=Auth::guard('customer')->user()->id;
-        $data['acceptance'] = Acceptance::orderBy('id','desc')->where('customer_id',$customer_id)->paginate(20);   
+        $customer_id=Auth::guard('customer')->user()->fin;
+        $data['acceptance'] = Acceptance::orderBy('id','desc')->where('sender_fin',$customer_id)->paginate(20);   
         return view('corporate.index',$data);
     }
     

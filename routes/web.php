@@ -30,15 +30,6 @@ Route::get('getfromdoor', [SiteController::class, "getfromdoor"])->name('home.ge
 Route::get('deliveryoffices', [SiteController::class, "deliveryoffices"])->name('home.deliveryoffices');
 Route::get('aboutus', [SiteController::class, "aboutus"])->name('home.aboutus');
 
-
-
-
-
-
-
-
-
-
 Route::get('forgetpassword', [SiteController::class, "forgetpassword"])->name('forgetpassword');
 Route::group(['prefix' => 'login'], function () {
     Route::get("corporate", [CustomerController::class, "login_corporate"])->name('login.corporate');
