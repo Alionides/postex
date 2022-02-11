@@ -22,7 +22,7 @@ class Acceptance extends Model
         'kg',
         'price',
         'package_type',
-        'delivery_location',
+        'location_id',
         'barcodes',
         'status'
     ];

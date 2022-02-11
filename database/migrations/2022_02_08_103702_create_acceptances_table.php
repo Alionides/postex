@@ -29,7 +29,7 @@ class CreateAcceptancesTable extends Migration
             $table->double('kg', 5, 2);
             $table->integer('price');
             $table->string('package_type')->default('qutu');
-            $table->string('delivery_location')->nullable();            
+            $table->integer('location_id');            
             $table->text('barcodes');
             $table->string('status')->default('qebul edildi');
             $table->timestamps();
