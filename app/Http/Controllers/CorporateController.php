@@ -36,12 +36,32 @@ class CorporateController extends Controller
     }
     
   
-    public function GetJsonAcceptance(Request $request)
+    public function getjsonacceptance(Request $request)
     {   
         $where = array('id' => $request->id);
         $item  = Acceptance::where($where)->first(); 
         return response()->json($item);
     }
  
+
+    public function wherecargo(Request $request)
+    {
+
+        $cargo_id=$request->id;
+
+        $customer_id=Auth::guard('customer')->user()->id;
+        $data['acceptance'] = Acceptance::orderBy('id','desc')->where('customer_id',$customer_id)->where('id',$cargo_id)->paginate(20);   
+
+        return view('corporate.wherecargo',$data);
+    }
+   
+    public function wherecargojson(Request $request)
+    {
+        $cargo_id=$request->id;
+        $where = array('id' => $request->id);
+        $customer_id=Auth::guard('customer')->user()->id;
+        $item  = Acceptance::where('customer_id',$customer_id)->where('id',$cargo_id)->first(); 
+        return response()->json($item);
+    }
    
 }
