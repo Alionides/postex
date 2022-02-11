@@ -26,4 +26,9 @@ class Acceptance extends Model
         'barcodes',
         'status'
     ];
+
+    public function customer()
+    {
+        return $this->belongsTo(Customer::class);
+    }
 }
