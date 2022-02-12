@@ -31,7 +31,7 @@ class CreateAcceptancesTable extends Migration
             $table->integer('price');
             $table->string('package_type')->default('qutu');
             $table->integer('location_id');            
-            $table->text('barcodes');
+            $table->text('barcodes')->nullable();
             $table->string('status')->default('qebul edildi');
             $table->timestamps();
         });
