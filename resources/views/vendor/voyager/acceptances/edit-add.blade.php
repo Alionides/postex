@@ -166,9 +166,15 @@
     <script>
         
         $(document).on('click', '.btn', function() {
-            var location_id = $('select[name=location_id]').val();
+            var receiver_address = $('select[name=receiver_address]').val();
             var sender_fin = $('input[name=sender_fin]').val();
-            $('select[name=location_id]').attr('required', true);
+            var regExp = /[a-zA-Z]/g;
+            if(regExp.test(sender_fin)){
+                var fin = 'P0'; 
+            }else{
+                var fin = sender_fin;
+            }
+            $('select[name=receiver_address]').attr('required', true);
             
             var date = new Date();
             var year = date.getFullYear();
@@ -176,8 +182,8 @@
             var hour = date.getHours();
             var minutes = date.getMinutes();
             var seconds = date.getSeconds();
-            var tracking_id = sender_fin+''+location_id+''+year+''+month+''+hour+''+minutes+''+seconds;
-            if(location_id != '' && sender_fin != ''){
+            var tracking_id = fin+''+receiver_address+''+year+''+month+''+hour+''+minutes+''+seconds;
+            if(receiver_address != '' && fin != ''){
                 $('input[name=tracking_id]').val(tracking_id);
             }
         });
@@ -217,9 +223,6 @@
             jsonStr = a;
         });
 
-        
-        
-        
 
         var params = {};
         var $file;

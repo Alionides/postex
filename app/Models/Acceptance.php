@@ -15,15 +15,16 @@ class Acceptance extends Model
         'sender_first_name',
         'sender_last_name',
         'sender_phone',
+        'sender_address',
         'receiver_fin',
         'receiver_first_name',
         'receiver_last_name',
         'receiver_phone',
+        'receiver_address',
         'tracking_id',
         'kg',
         'price',
         'package_type',
-        'location_id',
         'barcodes',
         'status'
     ];
