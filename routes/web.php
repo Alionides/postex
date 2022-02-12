@@ -50,7 +50,9 @@ Route::group(['middleware' => ['auth:customer']],function(){
         Route::post("logout", [CustomerController::class, "logout"])->name('logout');
         Route::get('individual', [IndividualController::class, "index"])->name('account.individual');
         Route::get('corporate', [CorporateController::class, "index"])->name('account.corporate');
-        Route::post('corporate', [CorporateController::class, 'GetJsonAcceptance']);
+        Route::post('corporate', [CorporateController::class, 'getjsonacceptance']);
+        Route::get('corporate/wherecargo', [CorporateController::class, 'wherecargo'])->name('account.corporate.wherecargo');
+        Route::post('corporate/wherecargo', [CorporateController::class, 'wherecargo'])->name('account.corporate.wherecargo');
     });
 });
 
