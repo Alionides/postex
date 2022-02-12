@@ -47,21 +47,18 @@ class CorporateController extends Controller
     public function wherecargo(Request $request)
     {
 
-        $cargo_id=$request->id;
+        $id=$request->id;
 
-        $customer_id=Auth::guard('customer')->user()->id;
-        $data['acceptance'] = Acceptance::orderBy('id','desc')->where('customer_id',$customer_id)->where('id',$cargo_id)->paginate(20);   
+        $data['acceptance'] = Acceptance::orderBy('id','desc')->where('id',$id)->paginate(20); 
+        
+        if ($request->ajax()) {
+
+            $item  = Acceptance::where('id',$id)->orderBy('id','desc')->first(); 
+            return response()->json($item);
+        }
 
         return view('corporate.wherecargo',$data);
-    }
-   
-    public function wherecargojson(Request $request)
-    {
-        $cargo_id=$request->id;
-        $where = array('id' => $request->id);
-        $customer_id=Auth::guard('customer')->user()->id;
-        $item  = Acceptance::where('customer_id',$customer_id)->where('id',$cargo_id)->first(); 
-        return response()->json($item);
-    }
+    }  
+  
    
 }
