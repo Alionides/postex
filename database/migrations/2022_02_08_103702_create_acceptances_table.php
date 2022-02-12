@@ -22,10 +22,12 @@ class CreateAcceptancesTable extends Migration
             $table->string('sender_first_name');
             $table->string('sender_last_name');
             $table->string('sender_phone')->nullable();
+            $table->string('sender_adress')->nullable();
             $table->string('reciever_fin');
             $table->string('receiver_first_name');
             $table->string('receiver_last_name');
             $table->string('receiver_phone')->nullable();
+            $table->string('receiver_adress')->nullable();
             $table->string('tracking_id')->nullable();
             $table->double('kg', 5, 2);
             $table->integer('price');

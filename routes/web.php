@@ -52,7 +52,7 @@ Route::group(['middleware' => ['auth:customer']],function(){
         Route::get('corporate', [CorporateController::class, "index"])->name('account.corporate');
         Route::post('corporate', [CorporateController::class, 'getjsonacceptance']);
         Route::get('corporate/wherecargo', [CorporateController::class, 'wherecargo'])->name('account.corporate.wherecargo');
-        Route::post('corporate/wherecargo', [CorporateController::class, 'wherecargojson'])->name('account.corporate.wherecargo');
+        Route::post('corporate/wherecargo', [CorporateController::class, 'wherecargo'])->name('account.corporate.wherecargo');
     });
 });
 

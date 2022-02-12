@@ -64,7 +64,7 @@
    </div>
 </div>
 </div>
-<span class="last" id="span-sender-name"></span>
+
 
 
 <script type="text/javascript">
@@ -83,7 +83,6 @@
               data: { id: id },
               dataType: 'json',
               success: function(res){
-                $('span#span-sender-name').html( res.first_name+' '+res.first_name );
 
                 if(res.status=='st1'){
                document.getElementById("info-graphic-index-2").setAttribute("transform", "rotate(-72, 345, 375)");
