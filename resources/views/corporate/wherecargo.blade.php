@@ -1,8 +1,6 @@
 @extends('layouts.corporate')
 @section('content')
-<link type="text/css" rel="stylesheet" href="/assets/login/assets/css/bootstrap.min.css" />
-<script src="/assets/login/Scripts/jquery.min.js"></script>
-<script src="/assets/login/Scripts/bootstrap.min.js"></script>                 
+              
 <div class="row cargo-tracking-wrap">
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
    <div class="cargo-info-graphic-wrap" style="">

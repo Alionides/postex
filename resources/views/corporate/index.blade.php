@@ -1,8 +1,6 @@
 @extends('layouts.corporate')
-@section('content')                 
-<link type="text/css" rel="stylesheet" href="/assets/login/assets/css/bootstrap.min.css" />
-<script src="/assets/login/Scripts/jquery.min.js"></script>
-<script src="/assets/login/Scripts/bootstrap.min.js"></script>
+@section('content')            
+
 <div class="row">   
    <div class="table-responsive">
       <table class="table" id="table-tracking">
@@ -68,7 +66,7 @@
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 summary-info">
                      <span class="first">
-                     Göndərənin Ünvanı
+                     Çıxış filialı
                      </span>
                      <span class="last" id="span-sender-adress"></span>
                      </div>
@@ -81,7 +79,7 @@
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 summary-info">
                      <span class="first">
-                     Alıcının Ünvanı
+                     Qəbul  filialı
                      </span>
                      <span class="last" id="span-receiver-adress">DEMO ALICI</span>
                   </div>
@@ -91,12 +89,7 @@
                   <div class="table-responsive col-lg-12 col-md-12 col-sm-12 col-xs-12">
                      <table class="table module" id="table-shipment-detal-modal">
                         <tbody>
-                           <tr>
-                              <td width="530">
-                                 <div class="summary-info"><span class="first">Bağlama növü</span><span class="last" id="span-package-type"></span></div>
-                              </td>
-                              <td width="200" align="center"><span class="grey"><span></span></span></td>
-                           </tr>
+                         
                            <tr class="table-space">
                               <td></td>
                            </tr>
@@ -136,21 +129,7 @@
                      </span>
                      <span class="last" id="span-tracking-id"></span>
                   </div>
-                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 summary-info">
-                     <div class="space-2x"></div>
-                     <span class="first">
-                     Çıxış Şöbəsi
-                     </span>
-                     <span class="last" id="span-departure-unit-name"></span>
-                  </div>
                   
-                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 summary-info">
-                     <div class="space-2x"></div>
-                     <span class="first">
-                     Qəbul Şöbəsi
-                     </span>
-                     <span class="last" id="span-arrival-unit-name"></span>
-                  </div>
                   
                   
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 summary-info">
