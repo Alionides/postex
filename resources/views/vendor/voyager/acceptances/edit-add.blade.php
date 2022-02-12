@@ -164,6 +164,24 @@
 @section('javascript')
 <script src="/assets/js/jquery.scannerdetection.js"></script>
     <script>
+        
+        $(document).on('click', '.btn', function() {
+            var location_id = $('select[name=location_id]').val();
+            var sender_fin = $('input[name=sender_fin]').val();
+            $('select[name=location_id]').attr('required', true);
+            
+            var date = new Date();
+            var year = date.getFullYear();
+            var month = date.getMonth();
+            var hour = date.getHours();
+            var minutes = date.getMinutes();
+            var seconds = date.getSeconds();
+            var tracking_id = sender_fin+''+location_id+''+year+''+month+''+hour+''+minutes+''+seconds;
+            if(location_id != '' && sender_fin != ''){
+                $('input[name=tracking_id]').val(tracking_id);
+            }
+        });
+        
         var num = 0;
         var jsonStr = '{"barcodes": []}';
         $(document).scannerDetection({
