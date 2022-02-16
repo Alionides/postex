@@ -8,6 +8,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\CorporateController;
 use App\Http\Controllers\IndividualController;
+use App\Http\Controllers\Admin\AcceptancesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -56,6 +57,10 @@ Route::group(['middleware' => ['auth:customer']],function(){
     });
 });
 
+
+Route::group(['prefix' => 'admin'], function () {
+    Route::get('acceptances/print', [AcceptancesController::class, "index"])->name('acceptances.print');
+   });
 
 
 Route::group(['prefix' => 'admin'], function () {
