@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Postex</title>
-    <link rel="shortcut icon" href="https://bireysel.yurticikargo.com/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.jpg" type="image/x-icon" />
     <link type="text/css" rel="stylesheet" href="/assets/login//assets/css/bootstrap.min.css" />
     <link type="text/css" rel="stylesheet" href="/assets/login//assets/css/main3f56.css?v=11" />
     <link type="text/css" rel="stylesheet" href="/assets/login//assets/css/login3f56.css?v=11" />
@@ -151,11 +151,6 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="login-info">
-                                <h6>İçində nələr var?</h6>
-                                <p class="info">Fərdi İnternet Şöbəsini və onun həyatınızı asanlaşdıracaq xüsusiyyətlərini kəşf edin!</p>
-                                <a ><h6>Demo Girişi</h6></a>
                             </div>
                         </div>
 
@@ -355,21 +350,7 @@
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="container-wrap-content">
-                <div class="space left"></div>
-                <div class="middle">
-                    <div class="row footer-bottom">
-                        <div class="col-lg-6 col-md-8 col-sm-10 copyright-wrap">
-                            <div class="copyright">
-                                <img src="https://bireysel.yurticikargo.com//assets/img/arikanli-holding.svg" alt="arikanli-holding" width="150" height="39" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="space right"></div>
-            </div>
-        </footer>
+     
     </div>
     <script src="/assets/login/Scripts/jquery.min.js">
     </script>
