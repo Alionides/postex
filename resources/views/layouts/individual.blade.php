@@ -190,50 +190,47 @@
                           <div class="nav">
                             <ul class="depth-1">
                               <li>
-                                <a href="assets/login/index.html" class="title">Anasayfa</a>
+                                <a  class="title">Əsas səhifə</a>
                               </li>
                               <li>
-                                <a href="#" class="title">Gönderi İşlemleri</a>
+                                <a href="#" class="title">Bağlama əməliyyatları</a>
                                 <a class="menu-toggle" href="#"></a>
                                 <ul class="depth-2">
                                   <li>
-                                    <a href="{{route('shipping.sender')}}" class="title">Gönderi Yap</a>
+                                    <a  class="title">Bağlama Göndər</a>
                                   </li>
                                   <li>
-                                    <a href="CreateQuery.html" class="title">Gönderilerim</a>
+                                    <a href="CreateQuery.html" class="title">Bağlamalarım</a>
                                   </li>
                                 </ul>
                               </li>
                               <li>
-                                <a href="Tracking.html" class="title">Kargom Nerede ?</a>
+                                <a href="Tracking.html" class="title">Bağlamalarım hardadır ?</a>
                               </li>
                               <li>
-                                <a href="#" class="title">İletişim & Şubeler</a>
+                                <a href="#" class="title">Əlaqə & Filiallar</a>
                                 <a class="menu-toggle" href="#"></a>
                                 <ul class="depth-2">
                                   <li>
-                                    <a href="assets/login/Contact/ContactUs.html" class="title">Bize Ulaşın</a>
+                                    <a  class="title">Əlaqə</a>
                                   </li>
                                   <li>
-                                    <a href="assets/login/Contact/SearchUnit.html" class="title">Şube Arama</a>
-                                  </li>
-                                  <li>
-                                    <a href="assets/login/Contact/Support.html" class="title">Mesaj Gönder</a>
+                                    <a class="title">Filial Axtarışı</a>
                                   </li>
                                 </ul>
                               </li>
                               <li>
-                                <a href="assets/login/Reporting/CreateQuery.html" class="title">Raporlar</a>
+                                <a  class="title">Hesabatlar</a>
                               </li>
                               <li>
-                                <a href="#" class="title">Ayarlar & Tanımlar</a>
+                                <a href="#" class="title">Parametrlər</a>
                                 <a class="menu-toggle" href="#"></a>
                                 <ul class="depth-2">
                                   <li>
-                                    <a href="assets/login/Setting/UserInfo.html" class="title">Üyelik Bilgileri</a>
+                                    <a  class="title">Üzvlük məlumatları</a>
                                   </li>
                                   <li>
-                                    <a href="assets/login/Setting/AddressList.html" class="title">Adres Defterim</a>
+                                    <a  class="title">Adres Dəftərim</a>
                                   </li>
                                 </ul>
                               </li>
