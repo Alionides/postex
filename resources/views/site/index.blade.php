@@ -284,7 +284,7 @@
                                                 <div class="space left"></div>
                                                 <div class="middle">
                                                     <div class="row slider-content right-align">
-                                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 center-start left-content slider-left-content">
+                                                        <!-- <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 center-start left-content slider-left-content">
                                                             <div class="left-content-wrap">
                                                                 <h5 class="animate-left">Avropa İttifaqının yeni gömrük təcrübələri haqqında məlumatlandırma</h5>
                                                                 <p class="animate-opacity">
@@ -295,7 +295,7 @@
 
                                                                     <a target="_self" class="btn animate-top all-radius"><span>Ətraflı</span></a>
                                                             </div>
-                                                        </div>
+                                                        </div> -->
                                                         <div class="col-lg-3 col-md-3 right-content">
                                                             <div class="right-content-img">
                                                                 <img src="assets/img/banner/thumb/ab-uygulamalar.png" alt=""
