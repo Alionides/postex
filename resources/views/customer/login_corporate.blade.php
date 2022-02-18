@@ -88,7 +88,7 @@
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="form-group label-floating is-empty">
                                                 <label class="control-label" for="input-password">Şifrə</label>
-                                                <input class="form-control all-radius" type="text" name="password">
+                                                <input class="form-control all-radius" type="password" name="password">
                                             </div>
                                         </div>
 
