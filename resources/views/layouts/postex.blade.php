@@ -212,9 +212,9 @@
                </div>
             </div>
             <div class="customer-btn-wrap mobile">
-               <h4>ÜYE GİRİŞİ / ÜYE OLUN</h4>
+               <h4>GİRİŞ/ QEYDİYYAT</h4>
                <a href="{{ route('login.individual')}}" class="customer-btn-default all-radius">FƏRDİ</a>
-               <a href="http://selfservis.yurticikargo.com/" target="_blank" class="customer-btn-default all-radius">KORPORATİV</a>
+               <a href="{{ route('login.corporate')}}"  class="customer-btn-default all-radius">KORPORATİV</a>
             </div>
          </header>
          <section class="middle-content">
