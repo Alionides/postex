@@ -6,7 +6,7 @@
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Yurtiçi Kargo - &#220;ye Ol</title>
-      <link rel="shortcut icon" href="/assets/login/favicon.ico" type="image/x-icon" />
+      <link rel="shortcut icon" href="/favicon.jpg" type="image/x-icon" />
       <!-- Bootstrap -->
       <link type="text/css" rel="stylesheet" href="/assets/login/assets/css/bootstrap.min.css" />
       <!-- Owl Carousel -->
