@@ -76,9 +76,9 @@
     </div>
 </div>
 <div class="customer-btn-wrap mobile">
-    <h4>ÜYE GİRİŞİ / ÜYE OLUN</h4>
-    <a class="customer-btn-default all-radius">BİREYSEL</a>
-    <a class="customer-btn-default all-radius">KURUMSAL</a>
+<h4>GİRİŞ/ QEYDİYYAT</h4>
+    <a class="customer-btn-default all-radius" href="{{route('register.individual')}}">FƏRDİ</a>
+    <a class="customer-btn-default all-radius" href="{{route('register.corporate')}}">KORPORATİV</a>
 </div>
 <div class="container-wrap container-wrap-content">
     <div class="space left"></div>
