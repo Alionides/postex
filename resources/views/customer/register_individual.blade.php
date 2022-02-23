@@ -20,10 +20,10 @@
    </div>
    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
       <div class="form-group label-floating is-empty">
-         <label class="control-label" for="input-name">Tam Adınız</label>
+         <label class="control-label" for="input-name">Adınız</label>
          <input class="form-control all-radius" data-validate-type="required" tabindex="1" autocomplete="off" id="input-name" type="text" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="30" minlength="3">
          <div class="tooltip-wrap">
-            <a data-toggle="popover" data-content="Tam adınızı giriniz. (en az 2 karakter)">
+            <a data-toggle="popover" data-content="Adınızı daxil edin. (ən az 2 hərf)">
                <svg class="info" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20">
                   <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
                      <rect width="2" height="8" x="8" y="6.878" fill="#ee7d00" rx="1"></rect>
@@ -40,7 +40,7 @@
          <label class="control-label" for="input-surname">Soyadınız</label>
          <input class="form-control all-radius" data-validate-type="required" tabindex="2" autocomplete="off" id="input-surname" type="text" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="30" minlength="2">
          <div class="tooltip-wrap">
-            <a data-toggle="popover" data-content="Soyadınızı giriniz. (en az 2 karakter)">
+            <a data-toggle="popover" data-content="Soyadınızı daxil edin. (ən az 2 hərf)">
                <svg class="info" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20">
                   <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
                      <rect width="2" height="8" x="8" y="6.878" fill="#ee7d00" rx="1"></rect>
@@ -54,10 +54,10 @@
    </div>
    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
       <div class="form-group label-floating is-empty">
-         <label class="control-label" for="input-tck-number">T.C Kimlik No</label>
+         <label class="control-label" for="input-tck-number">FİN</label>
          <input class="form-control all-radius" data-validate-type="tcnumber" tabindex="3" autocomplete="off" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="11" minlength="11" id="input-tck-number" type="number">
          <div class="tooltip-wrap">
-            <a data-toggle="popover" data-content="T.C. Kimlik numaranızı giriniz.">
+            <a data-toggle="popover" data-content="FİN nömrənizi daxil edin. ( 7 hərflər və rəqəmlər)">
                <svg class="info" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20">
                   <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
                      <rect width="2" height="8" x="8" y="6.878" fill="#ee7d00" rx="1"></rect>
@@ -71,10 +71,10 @@
    </div>
    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
       <div class="form-group label-floating date is-empty">
-         <label class="control-label" for="input-birthday">Doğum Tarihi</label>
+         <label class="control-label" for="input-birthday">Doğum Tarixi</label>
          <input class="form-control all-radius date-validation" tabindex="4" data-validate-type="required" autocomplete="off" id="input-birthday" type="text">
          <div class="tooltip-wrap">
-            <a data-toggle="popover" data-content="Doğum tarihinizi giriniz.">
+            <a data-toggle="popover" data-content="Doğum tarixinizi daxil edin.">
                <svg class="info" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20">
                   <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
                      <rect width="2" height="8" x="8" y="6.878" fill="#ee7d00" rx="1"></rect>
@@ -91,7 +91,7 @@
          <label class="control-label" for="input-email">Email</label>
          <input class="form-control all-radius" data-validate-type="email" tabindex="5" autocomplete="off" id="input-email" type="text" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="50" minlength="5">
          <div class="tooltip-wrap">
-            <a data-toggle="popover" data-content="E-Posta adresinizi giriniz.">
+            <a data-toggle="popover" data-content="Email ünvanınızı daxil edin.">
                <svg class="info" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20">
                   <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
                      <rect width="2" height="8" x="8" y="6.878" fill="#ee7d00" rx="1"></rect>
@@ -105,10 +105,10 @@
    </div>
    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
       <div class="form-group label-floating is-empty">
-         <label class="control-label" for="input-phone-number">GSM no</label>
+         <label class="control-label" for="input-phone-number">MOBİL TEL</label>
          <input class="form-control all-radius" data-validate-type="phone" tabindex="6" id="input-phone-number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="11" minlength="10" autocomplete="off" type="number">
          <div class="tooltip-wrap">
-            <a data-toggle="popover" data-content="Cep telefonu numarasını 05XXXXXXXXX olarak toplam 11 hane şeklinde eksiksiz olarak giriniz.">
+            <a data-toggle="popover" data-content="Mobil telefon nömrəsini 05XXXXXXXXX şəklində  10 xana  olaraq daxil edin.">
                <svg class="info" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20">
                   <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
                      <rect width="2" height="8" x="8" y="6.878" fill="#ee7d00" rx="1"></rect>
