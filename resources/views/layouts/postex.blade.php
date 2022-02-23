@@ -10,10 +10,11 @@
       <meta name="csrf-token" content="{{ csrf_token() }}">
       <title>Postex</title>
       <meta name="description" content="Postex, " />
-      <link rel="shortcut icon" type="image/x-icon" href="favicon.jpg" />
+      <link rel="shortcut icon" type="image/x-icon" href="/favicon.jpg" />
       <link type="text/css" rel="stylesheet" href="/assets/css/yurticikargo_a28.css" />
       <link type="text/css" rel="stylesheet" href="/assets/css/custom.css" />
       <meta name="google-site-verification" content="i1ppcHyFMEcxQB6gduwpAgmCZW2bE6x4VG1ep_-Qsgk" />
+      
    </head>
    <body>
       <div class="overlay"></div>

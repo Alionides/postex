@@ -88,7 +88,7 @@
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="form-group label-floating is-empty">
                                                 <label class="control-label" for="input-password">Şifrə</label>
-                                                <input class="form-control all-radius" type="text" name="password">
+                                                <input class="form-control all-radius" type="password" name="password">
                                             </div>
                                         </div>
 
@@ -152,11 +152,6 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="login-info">
-                                <h6>İçeride neler var?</h6>
-                                <p class="info">Bireysel İnternet Şubesini ve onun hayatınızı kolaylaştıracak özelliklerini keşfedin!</p>
-                                <a href="https://bireysel.yurticikargo.com/"><h6>Demo Girişi</h6></a>
                             </div>
                         </div>
 
@@ -357,21 +352,7 @@
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="container-wrap-content">
-                <div class="space left"></div>
-                <div class="middle">
-                    <div class="row footer-bottom">
-                        <div class="col-lg-6 col-md-8 col-sm-10 copyright-wrap">
-                            <div class="copyright">
-                                <img src="https://bireysel.yurticikargo.com//assets/img/arikanli-holding.svg" alt="arikanli-holding" width="150" height="39" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="space right"></div>
-            </div>
-        </footer>
+ 
     </div>
     <script src="/assets/login/Scripts/jquery.min.js">
     </script>

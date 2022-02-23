@@ -20,6 +20,10 @@
     <link href="/assets/login//assets/css/jalert3f56.css?v=11" rel="stylesheet" />
     <link href="/assets/login//assets/plugin/leaflet/leaflet.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link type="text/css" rel="stylesheet" href="/assets/login/assets/css/bootstrap.min.css" />
+    <script src="/assets/login/Scripts/jquery.min.js"></script>
+    <script src="/assets/login/Scripts/bootstrap.min.js"></script>   
   </head>
   <body class="special-page">
     <div class="overlay"></div>
@@ -53,18 +57,18 @@
             <div class="container-middle">
                 <div class="row">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-10 header-logo">
-                        <a href="{{route('home')}}"> <img src="/assets/img/logo.png" alt="Yurtiçi Kargo" class="logo" width="178" height="44" /></a>
+                        <a href="{{route('account.corporate')}}"> <img src="/assets/img/logo.png" alt="Yurtiçi Kargo" class="logo" width="178" height="44" /></a>                        
                     </div>
                     <div class="col-lg-9 col-md-10 col-sm-10 col-xs-2 col-lg-offset-1">
                         <div class="right-form">
                             <div class="contact-form">
-                                <a href="assets/login/Help.html">
-                                    <span>S.S.S.</span>
+                                <a >
+                                    <span>SUAL CAVAB</span>
                                 </a>
                             </div>
                                 <div class="member-info left-radius">
                                     <a id="btn-logouts" class="all-radius logout">
-                                        <span>ÇIKIŞ</span>
+                                        <span>ÇIXIŞ</span>
                                     </a>
                                 </div>
                         </div>
@@ -111,50 +115,47 @@
                     <div id="slidemenu" class="nav navbar-nav">
                       <ul class="depth-1">
                         <li>
-                          <a href="assets/login/index.html" class="title">Anasayfa</a>
+                          <a  class="title">Əsas səhifə</a>
                         </li>
                         <li>
-                          <a href="#" class="title">Gönderi İşlemleri</a>
+                          <a href="#" class="title">Bağlama əməliyyatları</a>
                           <a class="menu-toggle" href="#"></a>
                           <ul class="depth-2">
                             <li>
-                              <a href="{{route('shipping.sender')}}" class="title">Gönderi Yap</a>
+                              <a  class="title">Bağlama Göndər</a>
                             </li>
                             <li>
-                              <a href="CreateQuery.html" class="title">Gönderilerim</a>
+                              <a  class="title">Bağlamalarım</a>
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <a href="Tracking.html" class="title">Kargom Nerede ?</a>
+                          <a href="Tracking.html" class="title">Bağlamalarım hardadır ?</a>
                         </li>
                         <li>
-                          <a href="#" class="title">İletişim & Şubeler</a>
+                          <a href="#" class="title">Əlaqə & Filiallar</a>
                           <a class="menu-toggle" href="#"></a>
                           <ul class="depth-2">
                             <li>
-                              <a href="assets/login/Contact/ContactUs.html" class="title">Bize Ulaşın</a>
+                              <a  class="title">Əlaqə</a>
                             </li>
                             <li>
-                              <a href="assets/login/Contact/SearchUnit.html" class="title">Şube Arama</a>
-                            </li>
-                            <li>
-                              <a href="assets/login/Contact/Support.html" class="title">Mesaj Gönder</a>
+                              <a  class="title">Filial Axtarışı</a>
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <a href="assets/login/Reporting/CreateQuery.html" class="title">Raporlar</a>
+                          <a  class="title">Hesabatlar</a>
                         </li>
                         <li>
-                          <a href="#" class="title">Ayarlar & Tanımlar</a>
+                          <a href="#" class="title">Parametrlər</a>
                           <a class="menu-toggle" href="#"></a>
                           <ul class="depth-2">
                             <li>
-                              <a href="assets/login/Setting/UserInfo.html" class="title">Üyelik Bilgileri</a>
+                              <a  class="title">Üzvlük məlumatları</a>
                             </li>
                             <li>
-                              <a href="assets/login/Setting/AddressList.html" class="title">Adres Defterim</a>
+                              <a  class="title">Adres Dəftərim</a>
                             </li>
                           </ul>
                         </li>
@@ -191,50 +192,47 @@
                           <div class="nav">
                             <ul class="depth-1">
                               <li>
-                                <a href="assets/login/index.html" class="title">Anasayfa</a>
+                                <a  class="title">Əsas səhifə</a>
                               </li>
                               <li>
-                                <a href="#" class="title">Gönderi İşlemleri</a>
+                                <a href="#" class="title">Bağlama əməliyyatları</a>
                                 <a class="menu-toggle" href="#"></a>
                                 <ul class="depth-2">
                                   <li>
-                                    <a href="{{route('shipping.sender')}}" class="title">Gönderi Yap</a>
+                                    <a  class="title">Bağlama Göndər</a>
                                   </li>
                                   <li>
-                                    <a href="CreateQuery.html" class="title">Gönderilerim</a>
+                                    <a href="CreateQuery.html" class="title">Bağlamalarım</a>
                                   </li>
                                 </ul>
                               </li>
                               <li>
-                                <a href="Tracking.html" class="title">Kargom Nerede ?</a>
+                                <a href="Tracking.html" class="title">Bağlamalarım hardadır ?</a>
                               </li>
                               <li>
-                                <a href="#" class="title">İletişim & Şubeler</a>
+                                <a href="#" class="title">Əlaqə & Filiallar</a>
                                 <a class="menu-toggle" href="#"></a>
                                 <ul class="depth-2">
                                   <li>
-                                    <a href="assets/login/Contact/ContactUs.html" class="title">Bize Ulaşın</a>
+                                    <a  class="title">Əlaqə</a>
                                   </li>
                                   <li>
-                                    <a href="assets/login/Contact/SearchUnit.html" class="title">Şube Arama</a>
-                                  </li>
-                                  <li>
-                                    <a href="assets/login/Contact/Support.html" class="title">Mesaj Gönder</a>
+                                    <a class="title">Filial Axtarışı</a>
                                   </li>
                                 </ul>
                               </li>
                               <li>
-                                <a href="assets/login/Reporting/CreateQuery.html" class="title">Raporlar</a>
+                                <a  class="title">Hesabatlar</a>
                               </li>
                               <li>
-                                <a href="#" class="title">Ayarlar & Tanımlar</a>
+                                <a href="#" class="title">Parametrlər</a>
                                 <a class="menu-toggle" href="#"></a>
                                 <ul class="depth-2">
                                   <li>
-                                    <a href="assets/login/Setting/UserInfo.html" class="title">Üyelik Bilgileri</a>
+                                    <a  class="title">Üzvlük məlumatları</a>
                                   </li>
                                   <li>
-                                    <a href="assets/login/Setting/AddressList.html" class="title">Adres Defterim</a>
+                                    <a  class="title">Adres Dəftərim</a>
                                   </li>
                                 </ul>
                               </li>
@@ -402,17 +400,10 @@
               <div class="row footer-bottom">
                 <div class="col-lg-6 col-md-8 col-sm-10 copyright-wrap">
                   <div class="copyright">
-                    <img src="/assets/login//assets/img/arikanli-holding.svg" alt="arikanli-holding" width="150" height="39" />
-                    <span> Yurtiçi Kargo bir Arıkanlı Holding kuruluşudur. <br /> Copyright © 2017 Yurtiçi Kargo. Bütün hakları saklıdır. </span>
+                     <span>Copyright © 2022 Posstex. Bütün hüquqları qorunur. </span>
                   </div>
                 </div>
-                <div class="col-lg-2 col-md-2 col-sm-2  col-lg-offset-4 col-md-offset-2 designed-wrap">
-                  <div class="designed">
-                    <span>Designed by</span>
-                    <img src="/assets/login//assets/img/smartiks.svg" alt="smartiks" width="130" height="23" />
-                  </div>
-                </div>
-              </div>
+                
             </div>
             <div class="space right"></div>
           </div>
