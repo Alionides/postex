@@ -33,7 +33,9 @@
                                             <div class="tab-content clearfix">
                                                 <div class="tab-pane active" id="follow">
                                                     <div class="form-group label-floating is-empty">
-                                                        <label class="control-label" for="shipment-search-btn">AVB kodunuzu girin</label>
+
+                                                        <label class="control-label" for="shipment-search-btn">İzləmə kodunuzu girin</label>
+
                                                         <input type="number" id="shipment-search-btn" oninput="javascript: if (this.value.length > this.max) this.value = this.value.slice(0, this.max);" class="form-control all-radius shipment-tracking-code shipment-search" max="16" min="12" />
                                                         <a class="btn btn-default check-tracking-code">
                                                             <?xml version="1.0" encoding="UTF-8" ?>
@@ -50,7 +52,9 @@
                                                             </svg>
                                                         </a>
                                                     </div>
-                                                    <a href="#" data-toggle="modal" data-target="#shipmentTrackingCodeModal"><span class="all-radius">AVB kodu nədir?</span></a>
+
+                                                    <a href="#" data-toggle="modal" data-target="#shipmentTrackingCodeModal"><span class="all-radius">İzləmə kodu nədir?</span></a>
+
                                                 </div>
                                                 <div class="tab-pane" id="search">
                                                     <div class="input-group">
@@ -503,14 +507,18 @@
                                 <button type="button" class="close" data-dismiss="modal"></button>
                             </div>
                             <div class="modal-body">
-                                <h5 class="blue-title">AVB kodu nədir?</h5>
+
+                                <h5 class="blue-title">İzləmə kodu nədir?</h5>
+
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 ">
                                         <h6 class="main-title-bold">Göndərmə kodu nümunəsi</h6>
                                         <img src="assets/img/gorsel-kodu.png" alt="" />
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 ">
-                                        <h6 class="main-title-bold">AVB kodu nümunəsi</h6>
+
+                                        <h6 class="main-title-bold">İzləmə kodu nümunəsi</h6>
+
                                         <img src="assets/img/awb-kodu.png" alt="" />
                                     </div>
                                 </div>

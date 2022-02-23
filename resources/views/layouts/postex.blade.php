@@ -170,7 +170,7 @@
                                     </form>
                                  </div>
                                  <div class="contact-form">
-                                    <a href="tr/oneri-ve-sikayet.html">
+                                    <a >
                                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="19" viewBox="0 0 27 19">
                                           <g class="img" fill-rule="nonzero">
                                              <path d="M4 6h6a.5.5 0 1 0 0-1H4a.5.5 0 0 0 0 1zM4 8h6a.5.5 0 1 0 0-1H4a.5.5 0 0 0 0 1zM4 10h4a.5.5 0 0 0 0-1H4a.5.5 0 0 0 0 1zM4 12h3a.5.5 0 1 0 0-1H4a.5.5 0 1 0 0 1zM4 14h3a.5.5 0 1 0 0-1H4a.5.5 0 1 0 0 1zM4 16h3a.5.5 0 1 0 0-1H4a.5.5 0 1 0 0 1z" />
