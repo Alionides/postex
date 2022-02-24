@@ -664,7 +664,7 @@
                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 center">
                                 <div class="center">
                                     <img src="assets/img/help.svg" class=" " alt=" " width="60 " height="62 " />
-                                    <span>Size nasıl yardımcı olabiliriz?</span>
+                                    <span>Sizə necə kömək edə bilərik?</span>
                                 </div>
 
                             </div>
