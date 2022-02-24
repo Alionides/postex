@@ -59,7 +59,72 @@
                             @php
                                 $dataTypeRows = $dataType->{($edit ? 'editRows' : 'addRows' )};
                             @endphp
-                            <div class="form-group  col-md-3">
+
+                            @if(isset($_GET['status']) == 'filialda')
+                                <div class="form-group  col-md-12">
+                                    <label class="control-label" for="status">Status</label>
+                                    <select name="status" class="form-control statusselect">
+                                        <option>Seçim et</option>
+                                        <option value="filialda">Filialda</option>
+                                    </select>
+                                </div>
+                            @elseif ($edit)
+                                <div class="form-group  col-md-12">
+                                    <label class="control-label" for="status">Status</label>
+                                    <select name="status" class="form-control statusselect">
+                                        <option>Seçim et</option>
+                                        <option value="yolda">Yolda</option>
+                                    </select>
+                                </div>
+                            @elseif ($add)
+                                <div class="form-group col-md-12">
+                                    <label class="control-label" for="status">Status</label>
+                                    <select name="status" class="form-control statusselect" data-name="status">
+                                        <option>Seçim et</option>
+                                        <option value="hazirlanir">Hazırlanır</option>
+                                    </select>
+                                </div>
+                            @endif
+
+                            @if(isset($_GET['status']) == 'filialda')
+                            <div class="form-group col-md-4">
+                                <label class="control-label" for="name">Barkod</label>
+                                <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input checkall" type="checkbox" onClick="check_uncheck_checkbox(this.checked);">
+                                            </div>
+                                        </th>
+                                        <th scope="col">Barkod</th>
+                                        <th scope="col">Ad</th>
+                                        <th scope="col">Soyad</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                        @if ($edit && $dataTypeContent->barcodes)
+                                            @php
+                                                $barcodes = json_decode($dataTypeContent->barcodes);
+                                            @endphp
+                                            @foreach ($barcodes->barcodes as $i)
+                                            <tr>
+                                                <td>
+                                                    <div class="form-check">
+                                                        <input class="checkbox" value="{{$i->barcode_name}}" name="checkbox[]" class="form-check-input" type="checkbox" value="">
+                                                    </div>
+                                                </td>
+                                                <td>{{$i->barcode_name}}</td>
+                                                <td>Ad </td>
+                                                <td>Soyad</td>
+                                            </tr>
+                                            @endforeach
+                                        @endif
+                                    </tbody>
+                                </table>
+                            </div>
+                            @else
+                            <div class="form-group col-md-4">
                                 <label class="control-label" for="name">Barkod</label>
                                 <ul class="list-group">
                                     @if ($edit && $dataTypeContent->barcodes)
@@ -71,13 +136,9 @@
                                             <li class="list-group-item delete_barcode" data-barcode_id="{{$i->barcode_id}}"><span class="icon voyager-x"></span> {{$i->barcode_id}}. {{$i->barcode_name}}</li>                                        
                                         @endforeach
                                     @endif
-                                    
-                                    {{-- <li class="list-group-item">1. Cras justo odio</li>
-                                    <li class="list-group-item">2. Dapibus ac facilisis in</li>
-                                    <li class="list-group-item">3. Morbi leo risus</li>
-                                    <li class="list-group-item">4. Porta ac consectetur ac</li> --}}
                                 </ul>
                             </div>
+                            @endif
                             @foreach($dataTypeRows as $row)
                                 <!-- GET THE DISPLAY OPTIONS -->
                                 @php
@@ -164,30 +225,24 @@
 @section('javascript')
 <script src="/assets/js/jquery.scannerdetection.js"></script>
     <script>
+
+        function check_uncheck_checkbox(isChecked) {
+            if(isChecked) {
+                $('.checkbox').each(function() { 
+                    this.checked = true; 
+                });
+            } else {
+                $('.checkbox').each(function() {
+                    this.checked = false;
+                });
+            }
+        }
         
-        $(document).on('click', '.btn', function() {
-            var receiver_address = $('select[name=receiver_address]').val();
-            var sender_fin = $('input[name=sender_fin]').val();
-            var regExp = /[a-zA-Z]/g;
-            if(regExp.test(sender_fin)){
-                var fin = 'P0'; 
-            }else{
-                var fin = sender_fin;
-            }
-            $('select[name=receiver_address]').attr('required', true);
-            
-            var date = new Date();
-            var year = date.getFullYear();
-            var month = date.getMonth();
-            var hour = date.getHours();
-            var minutes = date.getMinutes();
-            var seconds = date.getSeconds();
-            var tracking_id = fin+''+receiver_address+''+year+''+month+''+hour+''+minutes+''+seconds;
-            if(receiver_address != '' && fin != ''){
-                $('input[name=tracking_id]').val(tracking_id);
-            }
+        $(document).on('change', '.statusselect', function() {
+             var status = $('select[name=status]').val();
+            $('input[name=status]').val(status);
         });
-        
+
         var num = 0;
         var jsonStr = '{"barcodes": []}';
         $(document).scannerDetection({

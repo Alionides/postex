@@ -12,23 +12,6 @@
                 <i class="voyager-plus"></i> <span>{{ __('voyager::generic.add_new') }}</span>
             </a>
         @endcan
-        @if ($status == 'hazirlanir')
-            <a href="{{ route('voyager.readies.create') }}" class="btn btn-success btn-add-new">
-                <i class="voyager-plus"></i> <span>Hazirlaya ver</span>
-            </a>    
-        @elseif ($status == 'yolda')
-            <a href="{{ route('voyager.readies.index', ['status' => 'hazirlanir']) }}" class="btn btn-success btn-add-new">
-                <i class="voyager-plus"></i> <span>Yola sal</span>
-            </a>  
-        @elseif ($status == 'filialda')
-            <a href="{{ route('voyager.readies.index', ['status' => 'yolda']) }}" class="btn btn-success btn-add-new">
-                <i class="voyager-plus"></i> <span>Filiala qebul et</span>
-            </a>  
-        @elseif ($status == 'teslim')
-            <a href="{{ route('teslim', ['status' => 'filialda']) }}" class="btn btn-success btn-add-new">
-                <i class="voyager-plus"></i> <span>Teslim et</span>
-            </a>  
-        @endif
         @can('delete', app($dataType->model_name))
             @include('voyager::partials.bulk-delete')
         @endcan
@@ -70,14 +53,12 @@
                                         </div>
                                         <div class="col-sm-2" style="padding-top: 2px;">
                                             <select value="{{$status}}" name="status" class="form-select input-sm" style="height: 32px;font-size: 14px;">
-                                                <option @if($status == 'qebul') selected @endif value="qebul">Qəbul</option>
                                                 <option @if($status == 'hazirlanir') selected @endif value="hazirlanir">Hazırlanır</option>
                                                 <option @if($status == 'yolda') selected @endif value="yolda">Yolda</option>
-                                                <option @if($status == 'filialda') selected @endif value="filialda">Filialda</option>
+                                                <option @if($status == 'fililda') selected @endif value="filialda">Filialda</option>
                                                 <option @if($status == 'teslim') selected @endif value="teslim">Təslim edildi</option>
                                               </select>
                                         </div>
-                                        <div class="col-sm-2"><input value="{{$fin}}" name="fin" class="form-control" placeholder="Fin" type="text"></div>
                                     </div>
                                 {{-- <div id="search-input">                                    
                                     <div class="col-2">
@@ -102,7 +83,6 @@
                                         </span>
                                     </div>
                                 </div> --}}
-                                </div>
                                 @if (Request::has('sort_order') && Request::has('order_by'))
                                     <input type="hidden" name="sort_order" value="{{ Request::get('sort_order') }}">
                                     <input type="hidden" name="order_by" value="{{ Request::get('order_by') }}">
@@ -138,7 +118,6 @@
                                         @endforeach
                                         <th class="actions text-right dt-not-orderable">{{ __('voyager::generic.actions') }}</th>
                                     </tr>
-                                   
                                 </thead>
                                 <tbody>
                                     @foreach($dataTypeContent as $data)
@@ -287,15 +266,17 @@
                                             </td>
                                         @endforeach
                                         <td class="no-sort no-click bread-actions">
-                                            @foreach($actions as $action)
-                                                @if (!method_exists($action, 'massAction'))
-                                                    @include('voyager::bread.partials.actions', ['action' => $action])
-                                                
-                                                @endif                                  
-                                            @endforeach
-                                            <a  class="btn btn-sm btn-danger " target="_blank" href="{{ route('acceptances.print', ['id' => $data->id])}}" id="printbutton" >
-                                            <i class="voyager-trash"></i> <span class="hidden-xs hidden-sm">Print</span>
-                                            </a>
+                                            @if ($status == 'yolda')
+                                                <a href="{{ route('voyager.readies.edit', ['id'=>$data->getKey(),'status' => 'filialda']) }}" title="Edit" class="btn btn-sm btn-primary pull-right edit">
+                                                    <i class="voyager-edit"></i> <span class="hidden-xs hidden-sm">Edit</span>
+                                                </a>                                                
+                                            @else
+                                                @foreach($actions as $action)
+                                                    @if (!method_exists($action, 'massAction'))
+                                                        @include('voyager::bread.partials.actions', ['action' => $action])
+                                                    @endif
+                                                @endforeach
+                                            @endif
                                         </td>
                                     </tr>
                                     @endforeach
@@ -327,9 +308,6 @@
             </div>
         </div>
     </div>
-
-
-    
 
     {{-- Single delete modal --}}
     <div class="modal modal-danger fade" tabindex="-1" id="delete_modal" role="dialog">

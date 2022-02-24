@@ -8,6 +8,8 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\CorporateController;
 use App\Http\Controllers\IndividualController;
+use App\Http\Controllers\Voyager\AcceptanceController;
+use App\Http\Controllers\Voyager\ReadyController;
 use App\Http\Controllers\Admin\AcceptancesController;
 /*
 |--------------------------------------------------------------------------
@@ -57,12 +59,9 @@ Route::group(['middleware' => ['auth:customer']],function(){
     });
 });
 
-
 Route::group(['prefix' => 'admin'], function () {
     Route::get('acceptances/print', [AcceptancesController::class, "index"])->name('acceptances.print');
-   });
-
-
-Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
+    Route::get('teslim', ['uses' => 'Voyager\AcceptanceController@teslim','as' => 'teslim']);
+    
 });
