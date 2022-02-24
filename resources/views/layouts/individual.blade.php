@@ -6,8 +6,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Yurtiçi Kargo - G&#246;nderi Yap</title>
-    <link rel="shortcut icon" href="/assets/login/favicon.ico" type="image/x-icon" />
+    <title>Postex</title>
+    <link rel="shortcut icon" href="/favicon.jpg" type="image/x-icon" />
     <!-- Bootstrap -->
     <link type="text/css" rel="stylesheet" href="/assets/login//assets/css/bootstrap.min.css" />
     <!-- Owl Carousel -->
@@ -57,8 +57,8 @@
                     <div class="col-lg-9 col-md-10 col-sm-10 col-xs-2 col-lg-offset-1">
                         <div class="right-form">
                             <div class="contact-form">
-                                <a href="assets/login/Help.html">
-                                    <span>S.S.S.</span>
+                                <a >
+                                    <span>SUAL CAVAB</span>
                                 </a>
                             </div>
                                 <div class="member-info left-radius">
@@ -76,9 +76,9 @@
     </div>
 </div>
 <div class="customer-btn-wrap mobile">
-    <h4>ÜYE GİRİŞİ / ÜYE OLUN</h4>
-    <a class="customer-btn-default all-radius">BİREYSEL</a>
-    <a class="customer-btn-default all-radius">KURUMSAL</a>
+<h4>GİRİŞ/ QEYDİYYAT</h4>
+    <a class="customer-btn-default all-radius" href="{{route('register.individual')}}">FƏRDİ</a>
+    <a class="customer-btn-default all-radius" href="{{route('register.corporate')}}">KORPORATİV</a>
 </div>
 <div class="container-wrap container-wrap-content">
     <div class="space left"></div>
@@ -102,6 +102,10 @@
             <div id="page-content">
             <section class="middle-content">
             <!--Mobile Menu-->
+            
+            
+            
+            
             <nav>
               <div class="container-wrap">
                 <div class="container-wrap-content">
@@ -110,50 +114,47 @@
                     <div id="slidemenu" class="nav navbar-nav">
                       <ul class="depth-1">
                         <li>
-                          <a href="assets/login/index.html" class="title">Anasayfa</a>
+                          <a href="{{route('home')}}" class="title">Əsas səhifə</a>
                         </li>
                         <li>
-                          <a href="#" class="title">Gönderi İşlemleri</a>
+                          <a href="#" class="title">Bağlama əməliyyatları</a>
                           <a class="menu-toggle" href="#"></a>
                           <ul class="depth-2">
                             <li>
-                              <a href="{{route('shipping.sender')}}" class="title">Gönderi Yap</a>
+                              <a  class="title">Bağlama Göndər</a>
                             </li>
                             <li>
-                              <a href="CreateQuery.html" class="title">Gönderilerim</a>
+                              <a  class="title">Bağlamalarım</a>
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <a href="Tracking.html" class="title">Kargom Nerede ?</a>
+                          <a  class="title">Bağlamalarım hardadır ?</a>
                         </li>
                         <li>
-                          <a href="#" class="title">İletişim & Şubeler</a>
+                          <a href="#" class="title">Əlaqə & Filiallar</a>
                           <a class="menu-toggle" href="#"></a>
                           <ul class="depth-2">
                             <li>
-                              <a href="assets/login/Contact/ContactUs.html" class="title">Bize Ulaşın</a>
+                              <a  class="title">Əlaqə</a>
                             </li>
                             <li>
-                              <a href="assets/login/Contact/SearchUnit.html" class="title">Şube Arama</a>
-                            </li>
-                            <li>
-                              <a href="assets/login/Contact/Support.html" class="title">Mesaj Gönder</a>
+                              <a  class="title">Filial Axtarışı</a>
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <a href="assets/login/Reporting/CreateQuery.html" class="title">Raporlar</a>
+                          <a  class="title">Hesabatlar</a>
                         </li>
                         <li>
-                          <a href="#" class="title">Ayarlar & Tanımlar</a>
+                          <a href="#" class="title">Parametrlər</a>
                           <a class="menu-toggle" href="#"></a>
                           <ul class="depth-2">
                             <li>
-                              <a href="assets/login/Setting/UserInfo.html" class="title">Üyelik Bilgileri</a>
+                              <a  class="title">Üzvlük məlumatları</a>
                             </li>
                             <li>
-                              <a href="assets/login/Setting/AddressList.html" class="title">Adres Defterim</a>
+                              <a  class="title">Adres Dəftərim</a>
                             </li>
                           </ul>
                         </li>
@@ -164,6 +165,11 @@
                 </div>
               </div>
             </nav>
+
+
+
+
+
             <div class="banner subpage-banner">
               <div class="top-mask">
                 <img src="/assets/login/assets/img/top-mask.svg" alt=" " />
@@ -190,7 +196,7 @@
                           <div class="nav">
                             <ul class="depth-1">
                               <li>
-                                <a  class="title">Əsas səhifə</a>
+                                <a href="{{route('home')}}" class="title">Əsas səhifə</a>
                               </li>
                               <li>
                                 <a href="#" class="title">Bağlama əməliyyatları</a>
@@ -200,12 +206,12 @@
                                     <a  class="title">Bağlama Göndər</a>
                                   </li>
                                   <li>
-                                    <a href="CreateQuery.html" class="title">Bağlamalarım</a>
+                                    <a  class="title">Bağlamalarım</a>
                                   </li>
                                 </ul>
                               </li>
                               <li>
-                                <a href="Tracking.html" class="title">Bağlamalarım hardadır ?</a>
+                                <a  class="title">Bağlamalarım hardadır ?</a>
                               </li>
                               <li>
                                 <a href="#" class="title">Əlaqə & Filiallar</a>
@@ -395,20 +401,15 @@
           <div class="container-wrap-content">
             <div class="space left"></div>
             <div class="middle">
-              <div class="row footer-bottom">
-                <div class="col-lg-6 col-md-8 col-sm-10 copyright-wrap">
-                  <div class="copyright">
-                    <img src="/assets/login//assets/img/arikanli-holding.svg" alt="arikanli-holding" width="150" height="39" />
-                    <span> Yurtiçi Kargo bir Arıkanlı Holding kuruluşudur. <br /> Copyright © 2017 Yurtiçi Kargo. Bütün hakları saklıdır. </span>
-                  </div>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2  col-lg-offset-4 col-md-offset-2 designed-wrap">
-                  <div class="designed">
-                    <span>Designed by</span>
-                    <img src="/assets/login//assets/img/smartiks.svg" alt="smartiks" width="130" height="23" />
-                  </div>
-                </div>
-              </div>
+            <div class="row footer-bottom">
+                     <div class="col-lg-6 col-md-8 col-sm-10 copyright-wrap">
+                        <div class="copyright">
+                           <span>
+                           Copyright © 2022 Postex. Bütün hüquqları qorunur.
+                           </span>
+                        </div>
+                     </div>
+             </div>
             </div>
             <div class="space right"></div>
           </div>

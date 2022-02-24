@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Postex</title>
-    <link rel="shortcut icon" href="/assets/login/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.jpg" type="image/x-icon" />
     <!-- Bootstrap -->
     <link type="text/css" rel="stylesheet" href="/assets/login//assets/css/bootstrap.min.css" />
     <!-- Owl Carousel -->
@@ -81,9 +81,9 @@
     </div>
 </div>
 <div class="customer-btn-wrap mobile">
-    <h4>ÜYE GİRİŞİ / ÜYE OLUN</h4>
-    <a class="customer-btn-default all-radius">BİREYSEL</a>
-    <a class="customer-btn-default all-radius">KURUMSAL</a>
+    <h4>GİRİŞ/ QEYDİYYAT</h4>
+    <a class="customer-btn-default all-radius" href="{{route('register.individual')}}">FƏRDİ</a>
+    <a class="customer-btn-default all-radius" href="{{route('register.corporate')}}">KORPORATİV</a>
 </div>
 <div class="container-wrap container-wrap-content">
     <div class="space left"></div>
@@ -130,7 +130,7 @@
                           </ul>
                         </li>
                         <li>
-                          <a href="Tracking.html" class="title">Bağlamalarım hardadır ?</a>
+                          <a  class="title">Bağlamalarım hardadır ?</a>
                         </li>
                         <li>
                           <a href="#" class="title">Əlaqə & Filiallar</a>
@@ -192,7 +192,7 @@
                           <div class="nav">
                             <ul class="depth-1">
                               <li>
-                                <a  class="title">Əsas səhifə</a>
+                                <a href="{{route('home')}}" class="title">Əsas səhifə</a>
                               </li>
                               <li>
                                 <a href="#" class="title">Bağlama əməliyyatları</a>
@@ -202,12 +202,12 @@
                                     <a  class="title">Bağlama Göndər</a>
                                   </li>
                                   <li>
-                                    <a href="CreateQuery.html" class="title">Bağlamalarım</a>
+                                    <a  class="title">Bağlamalarım</a>
                                   </li>
                                 </ul>
                               </li>
                               <li>
-                                <a href="Tracking.html" class="title">Bağlamalarım hardadır ?</a>
+                                <a  class="title">Bağlamalarım hardadır ?</a>
                               </li>
                               <li>
                                 <a href="#" class="title">Əlaqə & Filiallar</a>

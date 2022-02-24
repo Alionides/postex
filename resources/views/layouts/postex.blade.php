@@ -212,9 +212,9 @@
                </div>
             </div>
             <div class="customer-btn-wrap mobile">
-               <h4>ÜYE GİRİŞİ / ÜYE OLUN</h4>
+               <h4>GİRİŞ/ QEYDİYYAT</h4>
                <a href="{{ route('login.individual')}}" class="customer-btn-default all-radius">FƏRDİ</a>
-               <a href="http://selfservis.yurticikargo.com/" target="_blank" class="customer-btn-default all-radius">KORPORATİV</a>
+               <a href="{{ route('login.corporate')}}"  class="customer-btn-default all-radius">KORPORATİV</a>
             </div>
          </header>
          <section class="middle-content">
@@ -242,7 +242,7 @@
                                     </i>
                                  </a>
                               </li>
-                              <li><a target='_self' href="{{route('home.campaigns')}}"  class='title'>KAMPANIYALAR</a></li>
+                              <li><a target='_self' href="{{route('home.campaigns')}}"  class='title'>KAMPANİYALAR</a></li>
                               <li><a target='_self' href="{{route('home.onlineservices')}}" class='title'>ONLINE XİDMƏTLƏR</a></li>
                               <li><a target='_self' href="{{route('home.tariffs')}}" class='title'>TARİFLƏR</a></li>
                               <li><a target='_self' href="{{route('home.branches')}}" class='title'>FİLİALLARIMIZ</a></li>
@@ -264,7 +264,7 @@
                               </div>
                               <div class="nav">
                                  <ul class='list-unstyled depth-1'>
-                                    <li><a target='_self' href="{{route('home.campaigns')}}"  class='title'>KAMPANIYALAR</a></li>
+                                    <li><a target='_self' href="{{route('home.campaigns')}}"  class='title'>KAMPANİYALAR</a></li>
                                     <li><a target='_self' href="{{route('home.onlineservices')}}" class='title'>ONLINE XİDMƏTLƏR</a></li>
                                     <li><a target='_self' href="{{route('home.tariffs')}}"  class='title'>TARİFLƏR</a></li>
                                     <li><a target='_self' href="{{route('home.branches')}}" class='title'>FİLİALLARIMIZ</a></li>
