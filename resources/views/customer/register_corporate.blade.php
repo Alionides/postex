@@ -3,12 +3,12 @@
 @section('content')
 
                               <div class="container-small">
-                              <h3 class="slideTitle">Qeydiyyat</h3>
+                              <h3 class="slideTitle">Korporati̇v olaraq qeydiyyatdan keç</h3>
                               <div class="breadcrumb-wrap">
                                  <div class="row">
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                        <ul class="list-unstyled">
-                                          <li><a >Əsas Səhifə</a></li>
+                                          <li><a href="{{route('home')}}" >Əsas Səhifə</a></li>
                                           <li class="active"><a>Qeydiyyat</a></li>
                                        </ul>
                                     </div>
@@ -16,7 +16,7 @@
                               </div>
                               <div class="sender-address-detail all-radius create-query" id="div-user-address-information">
                                  <div class="col-lg-12 col-md-12">
-                                    <h5 class="title-blue">Qeydiyyat Bilgiləri</h5>
+                                    <h5 class="title-blue">İstifadəçi məlumatları</h5>
                                  </div>
                                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <div class="form-group label-floating is-empty">
