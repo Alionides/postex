@@ -130,7 +130,7 @@
                           </ul>
                         </li>
                         <li>
-                          <a href="Tracking.html" class="title">Bağlamalarım hardadır ?</a>
+                          <a  class="title">Bağlamalarım hardadır ?</a>
                         </li>
                         <li>
                           <a href="#" class="title">Əlaqə & Filiallar</a>
@@ -192,7 +192,7 @@
                           <div class="nav">
                             <ul class="depth-1">
                               <li>
-                                <a  class="title">Əsas səhifə</a>
+                                <a href="{{route('home')}}" class="title">Əsas səhifə</a>
                               </li>
                               <li>
                                 <a href="#" class="title">Bağlama əməliyyatları</a>
@@ -202,12 +202,12 @@
                                     <a  class="title">Bağlama Göndər</a>
                                   </li>
                                   <li>
-                                    <a href="CreateQuery.html" class="title">Bağlamalarım</a>
+                                    <a  class="title">Bağlamalarım</a>
                                   </li>
                                 </ul>
                               </li>
                               <li>
-                                <a href="Tracking.html" class="title">Bağlamalarım hardadır ?</a>
+                                <a  class="title">Bağlamalarım hardadır ?</a>
                               </li>
                               <li>
                                 <a href="#" class="title">Əlaqə & Filiallar</a>

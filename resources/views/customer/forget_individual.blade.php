@@ -275,23 +275,15 @@
                <div class="container-wrap-content">
                   <div class="space left"></div>
                   <div class="middle">
-                     <div class="row footer-bottom">
-                        <div class="col-lg-6 col-md-8 col-sm-10 copyright-wrap">
-                           <div class="copyright">
-                              <img src="/assets/login/assets/img/arikanli-holding.svg" alt="arikanli-holding" width="150" height="39" />
-                              <span>
-                              Yurtiçi Kargo bir Arıkanlı Holding kuruluşudur.<br />
-                              Copyright © 2017 Yurtiçi Kargo. Bütün hakları saklıdır.
-                              </span>
-                           </div>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-2  col-lg-offset-4 col-md-offset-2 designed-wrap">
-                           <div class="designed">
-                              <span>Designed by</span>
-                              <img src="/assets/login/assets/img/smartiks.svg" alt="smartiks" width="130" height="23" />
-                           </div>
+                  <div class="row footer-bottom">
+                     <div class="col-lg-6 col-md-8 col-sm-10 copyright-wrap">
+                        <div class="copyright">
+                           <span>
+                           Copyright © 2022 Postex. Bütün hüquqları qorunur.
+                           </span>
                         </div>
                      </div>
+                  </div>
                   </div>
                   <div class="space right"></div>
                </div>

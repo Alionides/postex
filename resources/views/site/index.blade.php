@@ -114,7 +114,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="input-group">
-                                                            <button type="submit" id="home-price-calculation-button" class="btn all-radius">DAVAM ET</button>
+                                                            <button type="submit"  class="btn all-radius">DAVAM ET</button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -659,7 +659,7 @@
                     <div class="middle ">
                         <div class="row info ">
                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 center">
-                                <img src="assets/img/phone-yurtici.svg" class=" " alt=" " width="168 " height="25 " />
+                                <img src="assets/img/phone-postex.svg" class=" " alt=" " width="168 " height="25 " />
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 center">
                                 <div class="center">
