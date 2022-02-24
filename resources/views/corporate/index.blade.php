@@ -81,7 +81,7 @@
                      <span class="first">
                      Qəbul  filialı
                      </span>
-                     <span class="last" id="span-receiver-adress">DEMO ALICI</span>
+                     <span class="last" id="span-receiver-adress"></span>
                   </div>
                   <div class="space-2x"></div>
                  
@@ -212,9 +212,9 @@
                 $('#ajax-book-model').modal('show');
                 $('span#title').html( res.id );
                 $('span#span-sender-name').html( res.sender_first_name+' '+res.sender_last_name );
-                $('span#span-sender-adress').html( res.sender_adress);
+                $('span#span-sender-adress').html( res.sender_address);
                 $('span#span-receiver-name').html( res.receiver_first_name+' '+res.receiver_last_name);
-                $('span#span-receiver-adress').html( res.receiver_adress);
+                $('span#span-receiver-adress').html( res.receiver_address);
                 $('span#span-package-type').html( res.package_type);
                 $('span#span-tracking-id').html( res.tracking_id);
                 $('span#span-departure-unit-name').html( res.sender_adress);

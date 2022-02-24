@@ -102,6 +102,7 @@
                                         </span>
                                     </div>
                                 </div> --}}
+                                </div>
                                 @if (Request::has('sort_order') && Request::has('order_by'))
                                     <input type="hidden" name="sort_order" value="{{ Request::get('sort_order') }}">
                                     <input type="hidden" name="order_by" value="{{ Request::get('order_by') }}">
@@ -137,6 +138,7 @@
                                         @endforeach
                                         <th class="actions text-right dt-not-orderable">{{ __('voyager::generic.actions') }}</th>
                                     </tr>
+                                   
                                 </thead>
                                 <tbody>
                                     @foreach($dataTypeContent as $data)
@@ -288,8 +290,12 @@
                                             @foreach($actions as $action)
                                                 @if (!method_exists($action, 'massAction'))
                                                     @include('voyager::bread.partials.actions', ['action' => $action])
-                                                @endif
+                                                
+                                                @endif                                  
                                             @endforeach
+                                            <a  class="btn btn-sm btn-danger " target="_blank" href="{{ route('acceptances.print', ['id' => $data->id])}}" id="printbutton" >
+                                            <i class="voyager-trash"></i> <span class="hidden-xs hidden-sm">Print</span>
+                                            </a>
                                         </td>
                                     </tr>
                                     @endforeach
@@ -321,6 +327,9 @@
             </div>
         </div>
     </div>
+
+
+    
 
     {{-- Single delete modal --}}
     <div class="modal modal-danger fade" tabindex="-1" id="delete_modal" role="dialog">

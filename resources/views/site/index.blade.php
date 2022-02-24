@@ -33,7 +33,9 @@
                                             <div class="tab-content clearfix">
                                                 <div class="tab-pane active" id="follow">
                                                     <div class="form-group label-floating is-empty">
-                                                        <label class="control-label" for="shipment-search-btn">AWB kodunuzu girin</label>
+
+                                                        <label class="control-label" for="shipment-search-btn">İzləmə kodunuzu daxil edin</label>
+
                                                         <input type="number" id="shipment-search-btn" oninput="javascript: if (this.value.length > this.max) this.value = this.value.slice(0, this.max);" class="form-control all-radius shipment-tracking-code shipment-search" max="16" min="12" />
                                                         <a class="btn btn-default check-tracking-code">
                                                             <?xml version="1.0" encoding="UTF-8" ?>
@@ -50,7 +52,9 @@
                                                             </svg>
                                                         </a>
                                                     </div>
-                                                    <a href="#" data-toggle="modal" data-target="#shipmentTrackingCodeModal"><span class="all-radius">AWB kodu nədir?</span></a>
+
+                                                    <a href="#" data-toggle="modal" data-target="#shipmentTrackingCodeModal"><span class="all-radius">İzləmə kodu nədir?</span></a>
+
                                                 </div>
                                                 <div class="tab-pane" id="search">
                                                     <div class="input-group">
@@ -110,7 +114,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="input-group">
-                                                            <button type="submit" id="home-price-calculation-button" class="btn all-radius">DAVAM ET</button>
+                                                            <button type="submit"  class="btn all-radius">DAVAM ET</button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -284,7 +288,7 @@
                                                 <div class="space left"></div>
                                                 <div class="middle">
                                                     <div class="row slider-content right-align">
-                                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 center-start left-content slider-left-content">
+                                                        <!-- <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 center-start left-content slider-left-content">
                                                             <div class="left-content-wrap">
                                                                 <h5 class="animate-left">Avropa İttifaqının yeni gömrük təcrübələri haqqında məlumatlandırma</h5>
                                                                 <p class="animate-opacity">
@@ -295,7 +299,7 @@
 
                                                                     <a target="_self" class="btn animate-top all-radius"><span>Ətraflı</span></a>
                                                             </div>
-                                                        </div>
+                                                        </div> -->
                                                         <div class="col-lg-3 col-md-3 right-content">
                                                             <div class="right-content-img">
                                                                 <img src="assets/img/banner/thumb/ab-uygulamalar.png" alt=""
@@ -503,15 +507,13 @@
                                 <button type="button" class="close" data-dismiss="modal"></button>
                             </div>
                             <div class="modal-body">
-                                <h5 class="blue-title">AWB kodu nədir?</h5>
+
+                                <h5 class="blue-title">İzləmə kodu nədir?</h5>
+
                                 <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-6 ">
-                                        <h6 class="main-title-bold">Göndərmə kodu nümunəsi</h6>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 ">
+                                        <h6 class="main-title-bold">İzləmə kodu nümunəsi</h6>
                                         <img src="assets/img/gorsel-kodu.png" alt="" />
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 ">
-                                        <h6 class="main-title-bold">AWB kodu nümunəsi</h6>
-                                        <img src="assets/img/awb-kodu.png" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -657,7 +659,7 @@
                     <div class="middle ">
                         <div class="row info ">
                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 center">
-                                <img src="assets/img/phone-yurtici.svg" class=" " alt=" " width="168 " height="25 " />
+                                <img src="assets/img/phone-postex.svg" class=" " alt=" " width="168 " height="25 " />
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 center">
                                 <div class="center">

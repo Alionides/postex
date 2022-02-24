@@ -6,7 +6,7 @@
    <div class="subpage-slide-wrap">
       <div class="subpage-slide " style="background-image:url(/assets/img/banner.png); ">
          <div class="container-small">
-            <h3 class="slideTitle">KAMPANIYALAR</h3>
+            <h3 class="slideTitle">KAMPANİYALAR</h3>
          </div>
       </div>
    </div>

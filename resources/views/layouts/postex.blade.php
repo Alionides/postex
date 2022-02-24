@@ -10,7 +10,7 @@
       <meta name="csrf-token" content="{{ csrf_token() }}">
       <title>Postex</title>
       <meta name="description" content="Postex, " />
-      <link rel="shortcut icon" type="image/x-icon" href="favicon.jpg" />
+      <link rel="shortcut icon" type="image/x-icon" href="/favicon.jpg" />
       <link type="text/css" rel="stylesheet" href="/assets/css/yurticikargo_a28.css" />
       <link type="text/css" rel="stylesheet" href="/assets/css/custom.css" />
       <meta name="google-site-verification" content="i1ppcHyFMEcxQB6gduwpAgmCZW2bE6x4VG1ep_-Qsgk" />
@@ -170,7 +170,7 @@
                                     </form>
                                  </div>
                                  <div class="contact-form">
-                                    <a href="tr/oneri-ve-sikayet.html">
+                                    <a >
                                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="19" viewBox="0 0 27 19">
                                           <g class="img" fill-rule="nonzero">
                                              <path d="M4 6h6a.5.5 0 1 0 0-1H4a.5.5 0 0 0 0 1zM4 8h6a.5.5 0 1 0 0-1H4a.5.5 0 0 0 0 1zM4 10h4a.5.5 0 0 0 0-1H4a.5.5 0 0 0 0 1zM4 12h3a.5.5 0 1 0 0-1H4a.5.5 0 1 0 0 1zM4 14h3a.5.5 0 1 0 0-1H4a.5.5 0 1 0 0 1zM4 16h3a.5.5 0 1 0 0-1H4a.5.5 0 1 0 0 1z" />
@@ -212,9 +212,9 @@
                </div>
             </div>
             <div class="customer-btn-wrap mobile">
-               <h4>ÜYE GİRİŞİ / ÜYE OLUN</h4>
+               <h4>GİRİŞ/ QEYDİYYAT</h4>
                <a href="{{ route('login.individual')}}" class="customer-btn-default all-radius">FƏRDİ</a>
-               <a href="http://selfservis.yurticikargo.com/" target="_blank" class="customer-btn-default all-radius">KORPORATİV</a>
+               <a href="{{ route('login.corporate')}}"  class="customer-btn-default all-radius">KORPORATİV</a>
             </div>
          </header>
          <section class="middle-content">
@@ -242,7 +242,7 @@
                                     </i>
                                  </a>
                               </li>
-                              <li><a target='_self' href="{{route('home.campaigns')}}"  class='title'>KAMPANIYALAR</a></li>
+                              <li><a target='_self' href="{{route('home.campaigns')}}"  class='title'>KAMPANİYALAR</a></li>
                               <li><a target='_self' href="{{route('home.onlineservices')}}" class='title'>ONLINE XİDMƏTLƏR</a></li>
                               <li><a target='_self' href="{{route('home.tariffs')}}" class='title'>TARİFLƏR</a></li>
                               <li><a target='_self' href="{{route('home.branches')}}" class='title'>FİLİALLARIMIZ</a></li>
@@ -264,7 +264,7 @@
                               </div>
                               <div class="nav">
                                  <ul class='list-unstyled depth-1'>
-                                    <li><a target='_self' href="{{route('home.campaigns')}}"  class='title'>KAMPANIYALAR</a></li>
+                                    <li><a target='_self' href="{{route('home.campaigns')}}"  class='title'>KAMPANİYALAR</a></li>
                                     <li><a target='_self' href="{{route('home.onlineservices')}}" class='title'>ONLINE XİDMƏTLƏR</a></li>
                                     <li><a target='_self' href="{{route('home.tariffs')}}"  class='title'>TARİFLƏR</a></li>
                                     <li><a target='_self' href="{{route('home.branches')}}" class='title'>FİLİALLARIMIZ</a></li>
