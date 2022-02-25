@@ -305,7 +305,7 @@
                         </g>
                       </svg>
                     </i>
-                    <span class="modal-span-message"></span>
+                    
                   </div>
                 </div>
                 <div class="errorContent">
@@ -329,7 +329,7 @@
                     <i id="icon-warning" style="display:none">
                       <img src="/assets/login//assets/img/important.png" />
                     </i>
-                    <span class="modal-span-message"></span>
+                    
                   </div>
                 </div>
               </div>
@@ -352,7 +352,7 @@
                   <i>
                     <img src="/assets/login//assets/img/important.png" style="width:50px" />
                   </i>
-                  <span class="modal-span-message" id="span-cofirm-message"> Takip listem içinden kayıt silinecek onaylıyor musunuz ? </span>
+                 
                 </div>
               </div>
               <div class="modal-footer">

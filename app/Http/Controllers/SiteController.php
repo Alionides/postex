@@ -41,5 +41,9 @@ class SiteController extends Controller
    public function aboutus(){
         return view('site.aboutus');
    }
+
+   public function advice_complaint(){
+        return view('site.advice_complaint');
+   }
 }
 

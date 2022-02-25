@@ -32,6 +32,7 @@ Route::get('internaldelivery', [SiteController::class, "internaldelivery"])->nam
 Route::get('getfromdoor', [SiteController::class, "getfromdoor"])->name('home.getfromdoor');
 Route::get('deliveryoffices', [SiteController::class, "deliveryoffices"])->name('home.deliveryoffices');
 Route::get('aboutus', [SiteController::class, "aboutus"])->name('home.aboutus');
+Route::get('advice-and-complaint', [SiteController::class, "advice_complaint"])->name('home.advice_complaint');
 
 Route::get('forgetpassword', [SiteController::class, "forgetpassword"])->name('forgetpassword');
 Route::group(['prefix' => 'login'], function () {
