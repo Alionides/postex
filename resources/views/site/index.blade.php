@@ -617,7 +617,7 @@
                                                 </g>
                                             </svg>
                                         </i>
-                                        <span class="modal-span-message"></span>
+                                       
                                     </div>
                                     <a href="#" id="modal-success-action" class="btn all-radius pasive-item">Anasayfaya Dön</a>
                                 </div>
@@ -639,7 +639,7 @@
                                                 </g>
                                             </svg>
                                         </i>
-                                        <span class="modal-span-message"></span>
+                                        
                                     </div>
                                 </div>
                             </div>
