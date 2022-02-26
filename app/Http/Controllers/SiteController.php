@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\AdviceComplaint;
+use Illuminate\Support\Facades\Validator;
 
 class SiteController extends Controller
 {
@@ -42,8 +44,31 @@ class SiteController extends Controller
         return view('site.aboutus');
    }
 
-   public function advice_complaint(){
-        return view('site.advice_complaint');
+   public function advice_complaint(Request $request){
+        
+     if ($request->isMethod('get')) {
+     return view('site.advice_complaint');
+     }
+
+     $validator = Validator::make($request->all(), [
+          
+          "first_name" => "required",
+          "last_name" => "required",
+          "email" => "required|email",
+          "phone" => "required",
+          "tracking_id" => "required",
+          "notes" => "required",
+      ]);
+
+      $inputs = $request->all();
+
+      $data = AdviceComplaint::create($inputs);
+
+      if(!is_null($data)) {
+          return response()->json(["message" => "Sorğunuz uğurla qeydə alındı"], 200);
+      }
+
+
    }
 }
 
