@@ -14,6 +14,7 @@
       <link type="text/css" rel="stylesheet" href="/assets/css/yurticikargo_a28.css" />
       <link type="text/css" rel="stylesheet" href="/assets/css/custom.css" />
       <meta name="google-site-verification" content="i1ppcHyFMEcxQB6gduwpAgmCZW2bE6x4VG1ep_-Qsgk" />
+      <script src="/assets/login/Scripts/jquery.min.js"></script>
       
    </head>
    <body>
