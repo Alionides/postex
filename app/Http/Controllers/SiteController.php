@@ -60,6 +60,11 @@ class SiteController extends Controller
           "notes" => "required",
       ]);
 
+      if($validator->fails()) {
+          return response()->json(["message" => 'Xanaları doldurun',"errors" => $validator->errors()], 400);
+      }
+
+
       $inputs = $request->all();
 
       $data = AdviceComplaint::create($inputs);
