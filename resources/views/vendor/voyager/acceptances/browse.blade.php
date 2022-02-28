@@ -293,9 +293,11 @@
                                                 
                                                 @endif                                  
                                             @endforeach
-                                            <a  class="btn btn-sm btn-danger " target="_blank" href="{{ route('acceptances.print', ['id' => $data->id])}}" id="printbutton" >
-                                            <i class="voyager-trash"></i> <span class="hidden-xs hidden-sm">Print</span>
-                                            </a>
+                                            @if ($status == 'qebul')
+                                                <a  class="btn btn-sm btn-danger pull-right view" target="_blank" href="{{ route('acceptances.print', ['id' => $data->id])}}" id="printbutton" >
+                                                <i class="voyager-receipt"></i> <span class="hidden-xs hidden-sm">Print</span>
+                                                </a>
+                                            @endif
                                         </td>
                                     </tr>
                                     @endforeach
