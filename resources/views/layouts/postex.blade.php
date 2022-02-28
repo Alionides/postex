@@ -379,7 +379,7 @@
                         </div>
                      </div>
                      <div class="col-lg-4 col-md-4 col-sm-5 hidden-xs middle-tophead">
-                        <img src="assets/img/yk_footer_and.png" alt="" />
+                        <img src="assets/img/pe_footer_and.png" alt="" />
                         <img src="assets/img/yk_footer_ios.png" alt="" />
                      </div>
                      <div class="col-lg-3 col-md-3 hidden-sm hidden-xs right-tophead">
