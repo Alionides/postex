@@ -9,7 +9,7 @@
 <style type="text/css">
 	.st0{fill:#A2D73A;}
 	.st1{fill:#F1F0EE;}
-	.st2{fill:#FFFFFF;}
+	.st2{fill:#AAAAAA;}
 	.st3{fill:#98D933;}
 	.st4{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.3602;stroke-miterlimit:10;}
 	.st5{fill:#E6F7FF;}
@@ -79,27 +79,27 @@
 		S408.37,142.15,425.46,142.15 M425.46,139.15c-18.72,0-33.95,15.23-33.95,33.95c0,18.72,15.23,33.95,33.95,33.95
 		s33.95-15.23,33.95-33.95C459.41,154.38,444.18,139.15,425.46,139.15L425.46,139.15z"/>
 </g>
-<g id="step3">
+<g id="step3"  style="display: none;">
 	<circle class="st3" cx="229.29" cy="109.34" r="10.4"/>
 	<path class="st4" d="M225.58,110.61c-0.29-0.3-0.75-0.3-1.04,0c-0.29,0.3-0.29,0.78,0,1.08l2.6,2.69c0.29,0.3,0.75,0.3,1.04,0
 		l7.3-7.57c0.29-0.3,0.29-0.78,0-1.08c-0.29-0.3-0.75-0.3-1.04,0l-6.78,7.03L225.58,110.61z"/>
 </g>
-<g id="step4">
+<g id="step4"  style="display: none;">
 	<circle class="st3" cx="303.87" cy="134.99" r="10.4"/>
 	<path class="st4" d="M300.16,136.27c-0.29-0.3-0.75-0.3-1.04,0c-0.29,0.3-0.29,0.78,0,1.08l2.6,2.69c0.29,0.3,0.75,0.3,1.04,0
 		l7.3-7.57c0.29-0.3,0.29-0.78,0-1.08c-0.29-0.3-0.75-0.3-1.04,0l-6.78,7.03L300.16,136.27z"/>
 </g>
-<g id="step5">
+<g id="step5"  style="display: none;">
 	<circle class="st3" cx="350.44" cy="199.06" r="10.4"/>
 	<path class="st4" d="M346.73,200.34c-0.29-0.3-0.75-0.3-1.04,0c-0.29,0.3-0.29,0.78,0,1.08l2.6,2.69c0.29,0.3,0.75,0.3,1.04,0
 		l7.3-7.57c0.29-0.3,0.29-0.78,0-1.08c-0.29-0.3-0.75-0.3-1.04,0l-6.78,7.03L346.73,200.34z"/>
 </g>
-<g id="step2">
+<g id="step2"  style="display: none;">
 	<circle class="st3" cx="155.01" cy="133.99" r="10.4"/>
 	<path class="st4" d="M151.3,135.27c-0.29-0.3-0.75-0.3-1.04,0c-0.29,0.3-0.29,0.78,0,1.08l2.6,2.69c0.29,0.3,0.75,0.3,1.04,0
 		l7.3-7.57c0.29-0.3,0.29-0.78,0-1.08c-0.29-0.3-0.75-0.3-1.04,0l-6.78,7.03L151.3,135.27z"/>
 </g>
-<g id="step1" >
+<g id="step1"  style="display: none;">
 	<circle class="st3" cx="108.81" cy="199.78" r="10.4"/>
 	<path class="st4" d="M105.1,201.06c-0.29-0.3-0.75-0.3-1.04,0c-0.29,0.3-0.29,0.78,0,1.08l2.6,2.69c0.29,0.3,0.75,0.3,1.04,0
 		l7.3-7.57c0.29-0.3,0.29-0.78,0-1.08c-0.29-0.3-0.75-0.3-1.04,0l-6.78,7.03L105.1,201.06z"/>
@@ -290,47 +290,64 @@
                 if(res.status=='st1'){
                document.getElementById("info-graphic-index-2").setAttribute("transform", "rotate(-144, 230, 240)");
                
-               document.getElementById("step2").style.display = "none";
-               document.getElementById("step3").style.display = "none";
-               document.getElementById("step4").style.display = "none";
-               document.getElementById("step5").style.display = "none";
-
-               document.getElementById("filltwo").style.fill = "#AAAAAA";
-               document.getElementById("fillthree").style.fill = "#AAAAAA";
-               document.getElementById("fillfour").style.fill = "#AAAAAA";
-               document.getElementById("fillfive").style.fill = "#AAAAAA";
+               document.getElementById("step1").style.display = "block";
+               document.getElementById("fillone").style.fill = "#FFFFFF";
                 }
                 if(res.status=='st2'){
                document.getElementById("info-graphic-index-2").setAttribute("transform", "rotate(-108, 230, 240)");
                
-               document.getElementById("step3").style.display = "none";
-               document.getElementById("step4").style.display = "none";
-               document.getElementById("step5").style.display = "none";
+               document.getElementById("step1").style.display = "block";
+               document.getElementById("step2").style.display = "block";
 
-               document.getElementById("fillthree").style.fill = "#AAAAAA";
-               document.getElementById("fillfour").style.fill = "#AAAAAA";
-               document.getElementById("fillfive").style.fill = "#AAAAAA";
+
+               document.getElementById("fillone").style.fill = "#FFFFFF";
+               document.getElementById("filltwo").style.fill = "#FFFFFF";
                 }
 
                 
                 if(res.status=='st3'){
                document.getElementById("info-graphic-index-2").setAttribute("transform", "rotate(-72, 230, 240)");
                
-               document.getElementById("step5").style.display = "none";
-               document.getElementById("step4").style.display = "none";
+               document.getElementById("step1").style.display = "block";
+               document.getElementById("step2").style.display = "block";
+               document.getElementById("step3").style.display = "block";
 
-               document.getElementById("fillfour").style.fill = "#AAAAAA";
-               document.getElementById("fillfive").style.fill = "#AAAAAA";
+
+               document.getElementById("fillone").style.fill = "#FFFFFF";
+               document.getElementById("filltwo").style.fill = "#FFFFFF";
+               document.getElementById("fillthree").style.fill = "#FFFFFF";
                 }
 
                 if(res.status=='st4'){
                document.getElementById("info-graphic-index-2").setAttribute("transform", "rotate(-36, 230, 240)");        
-               document.getElementById("step5").style.display = "none";
-               document.getElementById("fillfive").style.fill = "#AAAAAA";   
+              
+               document.getElementById("step1").style.display = "block";
+               document.getElementById("step2").style.display = "block";
+               document.getElementById("step3").style.display = "block";
+               document.getElementById("step4").style.display = "block";
+
+
+               document.getElementById("fillone").style.fill = "#FFFFFF";
+               document.getElementById("filltwo").style.fill = "#FFFFFF";
+               document.getElementById("fillthree").style.fill = "#FFFFFF"; 
+               document.getElementById("fillfour").style.fill = "#FFFFFF"; 
                 }
 
                 if(res.status=='st5'){
-               document.getElementById("info-graphic-index-2").setAttribute("transform", "rotate(0, 0, 0)");              
+               document.getElementById("info-graphic-index-2").setAttribute("transform", "rotate(0, 0, 0)");    
+
+                document.getElementById("step1").style.display = "block";
+               document.getElementById("step2").style.display = "block";
+               document.getElementById("step3").style.display = "block";
+               document.getElementById("step4").style.display = "block";
+               document.getElementById("step5").style.display = "block";
+
+
+               document.getElementById("fillone").style.fill = "#FFFFFF";
+               document.getElementById("filltwo").style.fill = "#FFFFFF";
+               document.getElementById("fillthree").style.fill = "#FFFFFF"; 
+               document.getElementById("fillfour").style.fill = "#FFFFFF";           
+               document.getElementById("fillfive").style.fill = "#FFFFFF";           
               
                 }
 
