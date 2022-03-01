@@ -278,7 +278,7 @@
                                                 @endforeach                                              
                                             @endif
 
-                                            <a  class="btn btn-sm btn-danger pull-right view" style="margin-right:10px;"  target="_blank" href="{{ route('ready.print', ['id' => $data->id])}}" id="printbutton" >
+                                            <a  class="btn btn-sm btn-danger pull-right view"  target="_blank" href="{{ route('ready.print', ['id' => $data->id])}}" id="printbutton" >
                                                 <i class="voyager-receipt"></i> <span class="hidden-xs hidden-sm">Print</span>
                                                 </a>
                                         </td>
