@@ -17,6 +17,7 @@ use Illuminate\Pipeline\Pipeline;
 use App\Filters\FinNameFilter;
 use App\Models\Ready;
 use App\Models\Acceptance;
+use App\Models\Location;
 class ReadyController extends VoyagerBaseController
 {
     //***************************************
@@ -614,9 +615,39 @@ class ReadyController extends VoyagerBaseController
              $postex_data[$key]['phone'] = $acceptance_data['receiver_phone'];
              $postex_data[$key]['status'] = $acceptance_data['status'];
         }
+      
         //return response($postex_data);
         return Voyager::view($view, compact('postex_data','dataType', 'dataTypeContent', 'isModelTranslatable', 'isSoftDeleted'));
     }
+
+    public function readyprint(Request $request )
+    {
+        $id=$request->id;       
+        $postex = Ready::find($id);
+        $barcodes = json_decode($postex->barcodes);
+        $postex_data = [];
+
+        foreach ($barcodes->barcodes as $key => $i) {
+             $acceptance_data = Acceptance::where('tracking_id', $i->barcode_name)->first();
+             $location_data=Location::where('code',$postex->location_id)->first();
+          
+
+             $postex_data[$key]['barcode_name'] = $i->barcode_name;
+             $postex_data[$key]['name'] = $acceptance_data['receiver_first_name'];
+             $postex_data[$key]['surname'] = $acceptance_data['receiver_last_name'];
+             $postex_data[$key]['receiver_address'] = $location_data['name'];             
+             $postex_data[$key]['receiver_phone'] = $acceptance_data['receiver_phone'];
+             $postex_data[$key]['weight'] = $acceptance_data['kg'];
+             $postex_data[$key]['tracking_id'] = $acceptance_data['tracking_id'];
+        }
+
+
+        return view('vendor.voyager.readies.print',compact('postex_data','postex'));
+
+    }
+
+ 
+
 
     
 }
