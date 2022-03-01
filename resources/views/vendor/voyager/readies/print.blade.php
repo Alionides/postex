@@ -63,7 +63,7 @@ h5 {
                          <tr>
                              <th class="center">#</th>
                              <th>Ad Soyad</th>
-                             <th>Çatış filialı</th>
+                             <th>Təslimat filialı</th>
                              <th class="center">Əlaqə Nömrəsi</th>
                              <th class="right">Çəkisi</th>
                              <th class="right">İzləmə kodu</th>
