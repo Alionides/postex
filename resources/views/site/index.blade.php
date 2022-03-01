@@ -356,7 +356,7 @@
                                                             <div class="left-content-wrap">
                                                                 <h5 class="animate-left">tələbə və müəllim kampaniyası</h5>
                                                                 <p class="animate-opacity">
-                                                                Gələcəyimizin təminatı tələbələrimizə və onları yetişdirən müəllimlərimizə 25% endirimdir!
+                                                                Gələcəyimizin təminatı tələbələrimizə və onları yetişdirən müəllimlərimizə 10% endirimdir!
                                                                 </p>
                                                                 <div class="clearfix"></div>
 
