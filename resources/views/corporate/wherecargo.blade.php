@@ -287,13 +287,13 @@
               dataType: 'json',
               success: function(res){
 
-                if(res.status=='st1'){
+                if(res.status=='qebul'){
                document.getElementById("info-graphic-index-2").setAttribute("transform", "rotate(-144, 230, 240)");
                
                document.getElementById("step1").style.display = "block";
                document.getElementById("fillone").style.fill = "#FFFFFF";
                 }
-                if(res.status=='st2'){
+                if(res.status=='hazirlanir'){
                document.getElementById("info-graphic-index-2").setAttribute("transform", "rotate(-108, 230, 240)");
                
                document.getElementById("step1").style.display = "block";
@@ -305,7 +305,7 @@
                 }
 
                 
-                if(res.status=='st3'){
+                if(res.status=='yolda'){
                document.getElementById("info-graphic-index-2").setAttribute("transform", "rotate(-72, 230, 240)");
                
                document.getElementById("step1").style.display = "block";
@@ -318,7 +318,7 @@
                document.getElementById("fillthree").style.fill = "#FFFFFF";
                 }
 
-                if(res.status=='st4'){
+                if(res.status=='filialda'){
                document.getElementById("info-graphic-index-2").setAttribute("transform", "rotate(-36, 230, 240)");        
               
                document.getElementById("step1").style.display = "block";
@@ -333,7 +333,7 @@
                document.getElementById("fillfour").style.fill = "#FFFFFF"; 
                 }
 
-                if(res.status=='st5'){
+                if(res.status=='teslim'){
                document.getElementById("info-graphic-index-2").setAttribute("transform", "rotate(0, 0, 0)");    
 
                 document.getElementById("step1").style.display = "block";
