@@ -66,6 +66,7 @@ Route::group(['middleware' => ['auth:customer']],function(){
 
 Route::group(['prefix' => 'admin'], function () {
     Route::get('acceptances/print', [AcceptancesController::class, "index"])->name('acceptances.print');
+    Route::get('readies/print', [ReadyController::class, "readyprint"])->name('ready.print');
     Voyager::routes();
     Route::get('teslim', ['uses' => 'Voyager\AcceptanceController@teslim','as' => 'teslim']);
     

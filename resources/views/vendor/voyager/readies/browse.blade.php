@@ -275,8 +275,12 @@
                                                     @if (!method_exists($action, 'massAction'))
                                                         @include('voyager::bread.partials.actions', ['action' => $action])
                                                     @endif
-                                                @endforeach
+                                                @endforeach                                              
                                             @endif
+
+                                            <a  class="btn btn-sm btn-danger pull-right view" style="margin-right:10px;"  target="_blank" href="{{ route('ready.print', ['id' => $data->id])}}" id="printbutton" >
+                                                <i class="voyager-receipt"></i> <span class="hidden-xs hidden-sm">Print</span>
+                                                </a>
                                         </td>
                                     </tr>
                                     @endforeach
