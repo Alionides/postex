@@ -86,7 +86,7 @@ h5 {
       
          </div>
          <div class="card-footer bg-white" style="padding-top:30px; padding-bottom:30px" >
-             <p class="mb-0">Sürücü:  {{$postex->driver}}  <span style="margin-left: 200px;;">İmza:_________________</span></p>
+             <p class="mb-0">Sürücü:  {{$postex->driver}}   <span style="margin-left: 150px;;">İmza:_________________</span> <span style="margin-left: 150px;;">M.Y:</span> </p>
          </div>
      </div>
  </div>
