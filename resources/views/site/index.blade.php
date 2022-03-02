@@ -673,8 +673,8 @@
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 center">
                                 <div class="center">
-                                    <img src="assets/img/paro.png" class=" " alt=" " width="98 " height="83 " />
-                                    <span>PARO'lu olun!</span>
+                                    <img src="assets/img/postkart.png" class=" " alt=" " width="98 " height="83 " />
+                                    <span>POST Karlı olun!</span>
                                 </div>
                             </div>
                         </div>
