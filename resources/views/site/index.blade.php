@@ -684,30 +684,29 @@
             </div>
         </section>
 
+
+                     
+
         <section class="common-slider-wrap">
             <div class="tab-title-wrap ">
                 <div class="container-wrap-content ">
                     <div class="space left "></div>
                     <div class="middle ">
-                        <div class="row">
+                        <div class="row " >                       
                             <ul class="list-unstyled owl-carousel owl-theme">
                                 <li class="all-radius item active" style="max-width:325px; min-width:100px;">
                                     <div class="module-overlay"></div>
                                     <a data-href="#section-social-responsibilities"><span>SOSİAL MƏSULİYYƏT</span></a>
                                 </li>
                                 <li class="all-radius item" style="max-width:325px; min-width:100px;">
-                                    <div class="module-overlay"></div><a data-href="#section-yurtici-kargo-paro-card"><span>POSTEX KARGO PARO KART</span></a>
+                                    <div class="module-overlay"></div><a data-href="#section-yurtici-kargo-paro-card"><span>POSTEX KARGO KART</span></a>
                                 </li>
                                 <li class="all-radius item" style="max-width:325px; min-width:100px;">
                                     <div class="module-overlay"></div><a data-href="#section-do-you-know-these"><span>BUNLARI BİLİRSİNİZ? </span></a>
                                 </li>
                                 <li class="all-radius item" style="max-width:325px; min-width:100px;">
                                     <div class="module-overlay"></div><a data-href="#section-news"><span>XƏBƏRLƏR</span></a>
-                                </li>
-
-                                <li class="all-radius item" style="max-width:325px; min-width:100px;">
-                                    <div class="module-overlay"></div><a data-href="#section-announcements"><span>ELANLAR</span></a>
-                                </li>
+                                </li>                           
 
                             </ul>
                         </div>
@@ -729,213 +728,79 @@
 
                                 <div class="item tab-module all-radius" style="width:340px">
                                     <div class="module-overlay"></div>
-                                    <a href="tr/kargo-sektorunde-cevreci-donusum-hamlesi.html" target="_self">
+                                    <a  href="{{ route('home.shorttime')}}" target="_self">
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/news/butunazerbaycanda.png" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="tab-content ">
-                                            <h4>Kargo sekt&#246;r&#252;nde &#231;evreci d&#246;n&#252;ş&#252;m hamlesi</h4>
+                                            <h4>POSTEX qısa zamanda bütün ölkədə </h4>
                                             <span>
-                                                Yurti&#231;i Kargo, 2022 itibariyle Pilly filosuna 80 aracı daha ilave ederek elektrikli ara&#231; sayısını 270’e &#231;ıkardı.
-                                            </span>
-                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
+                                            POSTEX Bakı, Sumqayıt, Abşeron və regionlar daxil olmaqda ümumilikdə bütün ölkədə fəaliyyətə başlayacaqdır. Qaydalara uyğun istənilən ölkədaxili daşımanı POSTEX ilə edə biləcəyinizi bildirmək istərdik.                                             </span>
+                                            <div class="clearfix"></div> <a  href="{{ route('home.shorttime')}}" target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="item tab-module all-radius" style="width:340px">
                                     <div class="module-overlay"></div>
-                                    <a href="tr/yurtici-kargo-hesaplarini-takip-edenler-kazaniyor.html" target="_self">
+                                    <a href="{{ route('home.postexapp')}}" target="_self">
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/news/app10faizendirim.png" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="tab-content ">
-                                            <h4>Yurti&#231;i Kargo hesaplarını takip edenler kazanıyor!</h4>
+                                            <h4>POSTEX App -da göndərişlərə 10% endirim</h4>
                                             <span>
-                                                Yurti&#231;i Kargo’nun sosyal medya hesaplarını takip ederek, &#246;zel mesaj yolu ile indirim kodu alanlar, y&#252;zde 25 indirim kazanıyor.
-                                            </span>
-                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
+                                            Artıq göndərişlərinizi POSTEX App vasitəsilə izləyə bilərsiniz. Tətbiq üzərindən həmçinin kuryer sifariş verə bilərsiniz. Bütün əməliyyatlarınızı tətbiq üzərindən apara biləcəyiniz POSTEX App-ı telefonunuza endirməyə tələsin.                                             </span>
+                                            <div class="clearfix"></div> <a href="{{ route('home.postexapp')}}" target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="item tab-module all-radius" style="width:340px">
                                     <div class="module-overlay"></div>
-                                    <a href="tr/yurtici-kargo-7-24-iade-donemini-baslatti.html" target="_self">
+                                    <a href="{{ route('home.calculator')}}" target="_self">
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/news/kalkulyator.png" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="tab-content ">
-                                            <h4>Yurti&#231;i Kargo 7/24 iade d&#246;nemini başlattı</h4>
+                                            <h4>GÖNDƏRMƏ Kalkulyatoru aktivləşdirildi</h4>
                                             <span>
-                                                Yurti&#231;i Kargo, e-ticaret kullanıcılarının kargo iade s&#252;recini kolaylaştıran bir uygulamayı daha hayata ge&#231;irdi.
-                                            </span>
-                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
+                                            POSTEX vasitəsilə göndərmək istədyiniz göndərişlərinizdə surpriz yaşamamanız üçün POSTEX kalqulyatoru xidmətinizə təqdim edik. Göndərişlərinizin ödəməsinin nə qədər olacağını öncədən hesablayaraq, surpriz rəqəmlərdən azad olun.                                             </span>
+                                            <div class="clearfix"></div> <a  href="{{ route('home.calculator')}}" target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="item tab-module all-radius" style="width:340px">
                                     <div class="module-overlay"></div>
-                                    <a href="tr/kargo-sektorunde-yilin-en-itibarli-is-ortagi-yurtici-kargo.html" target="_self">
+                                    <a href="{{ route('home.ecommerce')}}" target="_self">
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/news/eticaret.png" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="tab-content ">
-                                            <h4>Kargo sekt&#246;r&#252;nde ‘Yılın En İtibarlı İş Ortağı’: Yurti&#231;i Kargo</h4>
+                                            <h4>E-ticarət Əməkdaşlığı</h4> 
                                             <span>
-                                                Yurti&#231;i Kargo, ‘T&#252;rkiye’nin En İtibarlı İş Ortakları’ araştırmasında kargo sekt&#246;r&#252;n&#252;n birincisi oldu.
-                                            </span>
-                                            <div class="clearfix"></div> <a target="_self" class="readmore ">DAHA ÇOX</a>
+                                            POSTEX yeniliklərə davam edir. E-ticarətin geniş vüsət aldığı günümüzdə, bir çox iş sahibinin ən çox qarşılaşdıqları problemlərdən biridə çatdırılma xidmətidir. Eyni zamanda müştərinin sifarişi verdiyi e-ticarət saytında məhsulunu izləmə istəyidir.                                             </span>
+                                            <div class="clearfix"></div> <a href="{{ route('home.ecommerce')}}" target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item tab-module all-radius" style="width:340px">
-                                    <div class="module-overlay"></div>
-                                    <a href="tr/yurtici-kargo-musteri-deneyimi-arastirmasi-nda-zirvede.html" target="_self">
-                                        <div class="tab-img ">
-                                            <div class="tab-img-wrap top-radius">
-                                                <div class="img-wrap">
-                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tab-content ">
-                                            <h4>Yurti&#231;i Kargo ‘M&#252;şteri Deneyimi Araştırması’nda zirvede</h4>
-                                            <span>
-                                                Turkcell Global Bilgi ve Fast Company&#39;nin yaptığı “M&#252;şteri Deneyimi Araştırması”nda kargo sekt&#246;r&#252;n&#252;n lideri Yurti&#231;i Kargo oldu.
-                                            </span>
-                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="item tab-module all-radius" style="width:340px">
-                                    <div class="module-overlay"></div>
-                                    <a href="tr/yurtici-kargo-18-inci-bolge-mudurlugunun-acilisini-yapti.html" target="_self">
-                                        <div class="tab-img ">
-                                            <div class="tab-img-wrap top-radius">
-                                                <div class="img-wrap">
-                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tab-content ">
-                                            <h4>Yurti&#231;i Kargo 18&#39;inci b&#246;lge m&#252;d&#252;rl&#252;ğ&#252;n&#252;n a&#231;ılışını yaptı</h4>
-                                            <span>
-                                                Yurti&#231;i Kargo, Ankara&#39;da yeni b&#246;lge m&#252;d&#252;rl&#252;ğ&#252;n&#252;n a&#231;ılışını ger&#231;ekleştirdi.
-                                            </span>
-                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="item tab-module all-radius" style="width:340px">
-                                    <div class="module-overlay"></div>
-                                    <a href="tr/yurtici-kargo-musteri-deneyimi-endeksinde-zirvede.html" target="_self">
-                                        <div class="tab-img ">
-                                            <div class="tab-img-wrap top-radius">
-                                                <div class="img-wrap">
-                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tab-content ">
-                                            <h4>Yurti&#231;i Kargo, m&#252;şteri deneyimi endeksinde zirvede</h4>
-                                            <span>
-                                                Yurti&#231;i Kargo, 2021 yılının &#252;&#231;&#252;nc&#252; &#231;eyreğinde m&#252;şteri deneyimi endeksine g&#246;re m&#252;şteri deneyim puanı en y&#252;ksek kargo şirketi oldu
-                                            </span>
-                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="item tab-module all-radius" style="width:340px">
-                                    <div class="module-overlay"></div>
-                                    <a href="tr/turkiye-nin-en-buyuk-otomasyon-merkezinin-acilisini-yapti.html" target="_self">
-                                        <div class="tab-img ">
-                                            <div class="tab-img-wrap top-radius">
-                                                <div class="img-wrap">
-                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tab-content ">
-                                            <h4>T&#252;rkiye’nin en b&#252;y&#252;k otomasyon merkezinin a&#231;ılışını yaptı</h4>
-                                            <span>
-                                                T&#252;rkiye’nin en b&#252;y&#252;k otomasyon sistemine sahip kargo transfer merkezi, g&#246;rkemli bir t&#246;renle İstanbul Esenyurt’ta a&#231;ıldı.
-                                            </span>
-                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="item tab-module all-radius" style="width:340px">
-                                    <div class="module-overlay"></div>
-                                    <a href="tr/yurtici-kargo-sayili-otomasyon-sistemlerinden-birini-kuruyor.html" target="_self">
-                                        <div class="tab-img ">
-                                            <div class="tab-img-wrap top-radius">
-                                                <div class="img-wrap">
-                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tab-content ">
-                                            <h4>Yurti&#231;i Kargo, sayılı otomasyon sistemlerinden birini kuruyor</h4>
-                                            <span>
-                                                 Yurti&#231;i Kargo Genel M&#252;d&#252;r&#252; Fatih &#214;nyol, Yurti&#231;i Kargo&#39;nun kapasitesini y&#252;zde 50 artırdığını belirtti.
-                                            </span>
-                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="item tab-module all-radius" style="width:340px">
-                                    <div class="module-overlay"></div>
-                                    <a href="tr/genclerin-en-guvendigi-ilk-10-marka-arasinda-tek-kargo-sirketi.html" target="_self">
-                                        <div class="tab-img ">
-                                            <div class="tab-img-wrap top-radius">
-                                                <div class="img-wrap">
-                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tab-content ">
-                                            <h4>Gen&#231;lerin en g&#252;vendiği ilk 10 marka arasında tek kargo şirketi</h4>
-                                            <span>
-                                                T&#252;rkiye İtibar Akademisi’nin (TİA) Yıldız Teknik &#220;niversitesi ve Bursa Teknik &#220;niversitesi &#246;ğretim &#252;yelerinin akademik denetimin
-                                            </span>
-                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="item tab-module all-radius" style="width:340px">
-                                    <div class="module-overlay"></div>
-                                    <a href="tr/basin/haberler.html" target="_self">
-                                        <div class="tab-img ">
-                                            <div class="tab-img-wrap top-radius">
-                                                <div class="img-wrap">
-                                                    <img src="assets/img/banner/Uploads/more.png" alt=" " />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tab-content ">
-                                            <h4>Haberler</h4>
-                                            <span>
-                                                Haberler&#39;in devamına ulaşmak i&#231;in tıklayın.
-                                            </span>
-                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
-                                        </div>
-                                    </a>
-                                </div>
+                             
+                             
+                              
                         </div>
                     </div>
                 </div>
@@ -1103,80 +968,61 @@
 
                                 <div class="item tab-module all-radius" style="width:340px">
                                     <div class="module-overlay"></div>
-                                    <a href="tr/covid-19-salgini-hakkinda-aldigimiz-onlemler.html" target="_self">
+                                    <a href="{{ route('home.covid')}}" target="_self">
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/youknow/covid19.png" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="tab-content ">
-                                            <h4>Covid-19 Salgını Hakkında Aldığımız &#214;nlemler</h4>
+                                            <h4>KORONAVİRUS (COVID-19)</h4>
                                             <span>
-                                                 
+                                            Koronaviruslar (CoV), adi soyuqdəymə əlamətlərindən Yaxın Şərq Respirator Sindromu ( Middle East Respiratory Syndrome Coronavirus – MERS – CoV) və Şiddətli Kəskin Respirator Sindrom (SARS – CoV) kimi daha ciddi patologiyalara qədər çeşidli xəstəliklərə səbəb olan böyük bir virus fəsiləsidir.  
                                             </span>
-                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
+                                            <div class="clearfix"></div> <a href="{{ route('home.covid')}}" target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="item tab-module all-radius" style="width:340px">
                                     <div class="module-overlay"></div>
-                                    <a href="tr/guvenliginiz-icin-temassiz-teslimat.html" target="_self">
+                                    <a href="{{ route('home.contactless')}}"  target="_self">
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="assets/img/banner/Uploads/Bunlar%c4%b1%20Biliyor%20Musunuz/sms-teslim-bb.png" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/youknow/təmassıztəslim.png" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="tab-content ">
-                                            <h4>G&#252;venliğiniz i&#231;in temassız teslimat</h4>
+                                            <h4>Təmassız təslim</h4>
                                             <span>
-                                                Koronavir&#252;s ile ilgili alınan tedbirler kapsamında SMS ile teslimat d&#246;nemini başlattık
+                                            Təmassız ödəmə və təslim etmə xidməti ilə, sağlamlığınızı düşünürük. Ödəməsi öncədən, onlayn olaraq həyata keçirilmiş göndərişlərdə, çatdırılma müştəriyə xəbər verildikdən sonra qapıya asılacaq. 
                                             </span>
-                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
+                                            <div class="clearfix"></div> <a href="{{ route('home.contactless')}}"  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="item tab-module all-radius" style="width:340px">
                                     <div class="module-overlay"></div>
-                                    <a href="tr/sayisiz-urun-sizi-bekliyor.html" target="_self">
+                                    <a href="{{ route('home.multiform')}}"  target="_self">
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="assets/img/banner/Uploads/Bunlar%c4%b1%20Biliyor%20Musunuz/img-do-you-know.jpg" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/youknow/xidmetler.png" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="tab-content ">
-                                            <h4>Sayısız &#220;r&#252;n Sizi Bekliyor</h4>
+                                            <h4>Müxtəlif xidmətlər</h4>
                                             <span>
-                                                Yurti&#231;i Kargo hem kurumsal hem de bireysel m&#252;şterilerinin ihtiya&#231;larına y&#246;nelik 6 ana grupta 35 ten fazla farklı &#252;r&#252;n sunmaktadı
+                                            POSTEX fəaliyyəti daxilində bir çox xidmət təqdim edir. Bu xidmətlər içinə, qapıdan qapıya təslim, kuryer sifarişi, korporativ əməkdaşlıq, sürətli çatdırılma, göndərişin onlayn izlənməsi və s. daxildir. 
                                             </span>
-                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
+                                            <div class="clearfix"></div> <a href="{{ route('home.multiform')}}"  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
-                                </div>
-                                <div class="item tab-module all-radius" style="width:340px">
-                                    <div class="module-overlay"></div>
-                                    <a href="tr/kargo-gondermenin-sayisiz-yolu-var.html" target="_self">
-                                        <div class="tab-img ">
-                                            <div class="tab-img-wrap top-radius">
-                                                <div class="img-wrap">
-                                                    <img src="assets/img/banner/Uploads/yk-haberler.jpg" alt=" " />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tab-content ">
-                                            <h4>Kargo G&#246;ndermenin Sayısız Yolu Var</h4>
-                                            <span>
-                                                Yurti&#231;i Kargo olarak sizlerin hayatını daha da kolaylaştırmak amacı ile iPhone cep telefonları ve iPad’ler i&#231;in Yurti&#231;i Kargo iP
-                                            </span>
-                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
-                                        </div>
-                                    </a>
-                                </div>
+                                </div>                             
 
                         </div>
                     </div>
@@ -1195,58 +1041,58 @@
 
                                 <div class="item tab-module all-radius" style="width:340px">
                                     <div class="module-overlay"></div>
-                                    <a href="tr/losev.html" target="_self">
+                                    <a href="{{ route('home.leykoz')}}" target="_self">
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="assets/img/banner/Uploads/Sosyal%20Sorumluluk/losev.png" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/Sosyal%20Sorumluluk/leykoz.png" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="tab-content ">
-                                            <h4>L&#246;sev</h4>
+                                            <h4>LEYKOZ</h4>
                                             <span>
-                                                Yurti&#231;i Kargo, maddi g&#252;&#231;l&#252;kler i&#231;indeki binlerce l&#246;semili &#231;ocuğa &#252;cretsiz tedavi, eğitim, sosyal ve psikolojik hizmetler vermek
+                                            LEYKOZ - “Leykemiya ilə Mübarizə” İctimai Birliyi könüllülər və donorlar tərəfindən qan xərçənginə qarşı mübarizə aparan uşaqlara və onların ailələrinə dəstək məqsədi ilə qurulmuş qeyri-hökümət təşkilatıdır.
                                             </span>
-                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
+                                            <div class="clearfix"></div> <a href="{{ route('home.leykoz')}}"  target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="item tab-module all-radius" style="width:340px">
                                     <div class="module-overlay"></div>
-                                    <a href="tr/ilkyar.html" target="_self">
+                                    <a  href="{{ route('home.uafa')}}" target="_self">
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="assets/img/banner/Uploads/Sosyal%20Sorumluluk/ilkyar.png" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/Sosyal%20Sorumluluk/uafa.png" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="tab-content ">
-                                            <h4>İlkyar</h4>
+                                            <h4>UAFA</h4>
                                             <span>
-                                                1998 yılında sınırlı olanaklarla eğitim g&#246;rmeye &#231;alışan k&#246;y &#231;ocuklarına yardım eli uzatmak i&#231;in kurulan İlk&#246;ğretim Okullarına Ya
+                                            UAFA 1998 ci ildən etibarən, Azərbaycanda xüsusi qayğıya ehtiyacı olan uşaqlar və onların ailələrinin sosial rifahının yaxşılaşdırılması istiqamətində bir sıra fəaliyyətlər həyata keçirir
                                             </span>
-                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
+                                            <div class="clearfix"></div> <a  href="{{ route('home.uafa')}}" target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="item tab-module all-radius" style="width:340px">
                                     <div class="module-overlay"></div>
-                                    <a href="tr/turkiye-omurilik-felclileri-dernegi.html" target="_self">
+                                    <a href="{{ route('home.yardimeli')}}"  target="_self">
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="assets/img/banner/Uploads/Sosyal%20Sorumluluk/tofd.png" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/Sosyal%20Sorumluluk/yardıməli.png" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="tab-content ">
-                                            <h4>T&#252;rkiye Omurilik Fel&#231;lileri Derneği</h4>
+                                            <h4>Yardım Əli</h4>
                                             <span>
-                                                1998 yılında, omurilik fel&#231;lilerinin tıbb&#238;, meslek&#238;, ekonomik, sosyal sorunlarının &#231;&#246;z&#252;m&#252; ve yeni omurilik fel&#231;lilerinin oluşmam
+                                            Yardım Əli cəmiyyəti, ehtiyacı olan ailələrə müxtəlif dəstəkləri göstərən topluluqdur. Bu dəstək sırasına, maddi, ərzaq və digər ehtiyacların ödənməsi daxildir. Ümumilikdə insanlarımızdan dəstək alaraq reallaşdırdıqları bu fəaliyyətdə onlara göstəriləcək hər cür dəstək, onlar və ailələr üçün çox dəyərlidir. 
                                             </span>
-                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
+                                            <div class="clearfix"></div> <a  href="{{ route('home.yardimeli')}}"   target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
@@ -1266,39 +1112,58 @@
 
                                 <div class="item tab-module all-radius" style="width:340px">
                                     <div class="module-overlay"></div>
-                                    <a href="tr/yurtici-kargo-paro-kart-nedir.html" target="_self">
+                                    <a href="{{ route('home.postkart')}}" target="_self">
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="assets/img/banner/Uploads/Yurtici-Paro-Kart/paro-logo-thumb.png" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/Kart/postkart.png" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="tab-content ">
-                                            <h4>Yurti&#231;i Kargo Paro Kart Nedir?</h4>
+                                            <h4>POST KART</h4>
                                             <span>
-                                                Paro, sizin i&#231;in duyarlı markaları ortak bir paydada buluşturarak Parolu kartınızla yaptığınız alışverişlerde sizi tanır ...
+                                            POEX kart yaxın zamanda müştərilərimizə təqdim ediləcək, loyallıq kartıdır. Bu karta sahib olmaqla, POSTEX xidmətlərdən istifadə edərək, əldə edəcəyiniz və toplayacağınız bonuslar vasitəsilə, növbəti göndərişlərinizdə ödəmə haqqı olaraq istifadə edə biləcəksiniz. Xidmətlərdən daha çox istifadə edərək, daha çox bonus əldə edib, göndərişlərinizi “pulsuz” belə edə bilməniz mümkün olacaqdır.
                                             </span>
-                                            <div class="clearfix"></div> <a target="_self" class="readmore ">DAHA ÇOX</a>
+                                            <div class="clearfix"></div> <a href="{{ route('home.postkart')}}" target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="item tab-module all-radius" style="width:340px">
                                     <div class="module-overlay"></div>
-                                    <a href="tr/parolular-kazanir-kampanyasi.html" target="_self">
+                                    <a href="{{ route('home.explus')}}" target="_self">
                                         <div class="tab-img ">
                                             <div class="tab-img-wrap top-radius">
                                                 <div class="img-wrap">
-                                                    <img src="assets/img/banner/Uploads/Yurtici-Paro-Kart/paro-kart.png" alt=" " />
+                                                    <img src="assets/img/banner/Uploads/Kart/+ex.png" alt=" " />
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="tab-content ">
-                                            <h4>Parolular Kazanır Kampanyası</h4>
+                                            <h4>+EX </h4>
                                             <span>
-                                                Parolu kart sahiplerine b&#252;y&#252;k fırsat ! Parolu kartınızla yapacağınız Standart ve VIP ...
+                                            +EX kartı ölkədaxili bir çox partnyorumuzla əməkdaşlığımızın təzahürüdür. Bu kartı əldə edərək, onlardan etdiyiniz alış-veriş zamanı, əldə etdiyiniz cashback-lar vasitəsilə, POSTEX göndərişlərinin ödəmələrini gerçəkləşdirməniz mümkün olacaqdır.
                                             </span>
-                                            <div class="clearfix"></div> <a  target="_self" class="readmore ">DAHA ÇOX</a>
+                                            <div class="clearfix"></div> <a  href="{{ route('home.explus')}}" target="_self" class="readmore ">DAHA ÇOX</a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item tab-module all-radius" style="width:340px">
+                                    <div class="module-overlay"></div>
+                                    <a href="{{ route('home.edukart')}}" target="_self">
+                                        <div class="tab-img ">
+                                            <div class="tab-img-wrap top-radius">
+                                                <div class="img-wrap">
+                                                    <img src="assets/img/banner/Uploads/Kart/edukart.png" alt=" " />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-content ">
+                                            <h4>EDU KART</h4>
+                                            <span>
+                                            EDU.KART tələbələr üçün hazırlanmış kartdır. Kartı əldə etmək üçün sadəcə tələbə kartınızı göstərməyiniz və kart üçün qeydiyyatdan keçməniz kifayətdir.
+                                            </span>
+                                            <div class="clearfix"></div> <a href="{{ route('home.edukart')}}" target="_self" class="readmore ">DAHA ÇOX</a>
                                         </div>
                                     </a>
                                 </div>
