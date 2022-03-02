@@ -44,6 +44,54 @@ class SiteController extends Controller
         return view('site.aboutus');
    }
 
+
+   public function leykoz(){
+        return view('site.leykoz');
+   }
+
+   public function uafa(){
+        return view('site.uafa');
+   }
+   public function yardimeli(){
+        return view('site.yardimeli');
+   }
+
+   public function postkart(){
+        return view('site.postkart');
+   }
+   public function explus(){
+        return view('site.explus');
+   }
+   public function edukart(){
+        return view('site.edukart');
+   }
+   public function covid(){
+        return view('site.covid');
+   }
+   public function contactless(){
+        return view('site.contactless');
+   }
+   public function multiform(){
+        return view('site.multiform');
+   }
+
+   public function shorttime(){
+        return view('site.shorttime');
+   }
+
+   public function postexapp(){
+        return view('site.postexapp');
+   }
+   public function calculator(){
+        return view('site.calculator');
+   }
+   public function ecommerce(){
+        return view('site.ecommerce');
+   }
+
+
+
+
    public function advice_complaint(Request $request){
         
      if ($request->isMethod('get')) {
