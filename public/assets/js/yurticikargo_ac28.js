@@ -6528,7 +6528,7 @@ var main = {
         $(".tab-title-middle.owl-carousel").owlCarousel({
             margin: 10,
             loop: !1,
-            navText: ['<img src="/web_files/yurtici-kargo/assets/img/left-arrow.svg" alt="" width="9" height="15" />', '<img src="/web_files/yurtici-kargo/assets/img/right-arrow.svg" alt="" width="9" height="15" />'],
+            navText: ['<img src="/assets/img/left-right/left.svg" alt="" width="9" height="15" />', '<img src="/assets/img/left-right/right.svg" alt="" width="9" height="15" />'],
             nav: !0,
             dots: !1,
             mouseDrag: !1,
@@ -6604,7 +6604,7 @@ var main = {
         $(".package-date .owl-carousel").owlCarousel({
             margin: 10,
             loop: !1,
-            navText: ['<img src="/web_files/yurtici-kargo/assets/img/left-arrow.svg" alt="" width="9" height="15" />', '<img src="/web_files/yurtici-kargo/assets/img/right-arrow.svg" alt="" width="9" height="15" />'],
+            navText: ['<img src="/assets/img/left-right/left.svg" alt="" width="9" height="15" />', '<img src="/assets/img/left-right/right.svg" alt="" width="9" height="15" />'],
             nav: !0,
             dots: !1,
             pullDrag: !1,
@@ -7028,7 +7028,7 @@ $(function() {
         loop: !1,
         autoWidth: !0,
         nav: !0,
-        navText: ['<img src="/web_files/yurtici-kargo/assets/img/left-arrow.svg" alt="" width="9" height="15" />', '<img src="/web_files/yurtici-kargo/assets/img/right-arrow.svg" alt="" width="9" height="15" />'],
+        navText: ['<img src="/assets/img/left-right/left.svg" alt="" width="9" height="15" />', '<img src="/assets/img/left-right/right.svg" alt="" width="9" height="15" />'],
         dots: !1,
         mouseDrag: !1,
         responsive: {
@@ -7044,7 +7044,7 @@ $(function() {
         autoWidth: !0,
         items: 1,
         mouseDrag: !1,
-        navText: ['<img src="/web_files/yurtici-kargo/assets/img/left-arrow.svg" alt="" width="12" height="20" />', '<img src="/web_files/yurtici-kargo/assets/img/right-arrow.svg" alt="" width="12" height="20" />'],
+        navText: ['<img src="/assets/img/left-right/left.svg" alt="" width="12" height="20" />', '<img src="/assets/img/left-right/right.svg" alt="" width="12" height="20" />'],
         responsive: {
             0: {
                 dots: !0,
@@ -7066,7 +7066,7 @@ $(function() {
         loop: !1,
         items: 20,
         mouseDrag: !1,
-        navText: ['<img src="/web_files/yurtici-kargo/assets/img/left-arrow.svg" alt="" width="9" height="15" />', '<img src="/web_files/yurtici-kargo/assets/img/right-arrow.svg" alt="" width="9" height="15" />'],
+        navText: ['<img src="/assets/img/left-right/left.svg" alt="" width="9" height="15" />', '<img src="/assets/img/left-right/right.svg" alt="" width="9" height="15" />'],
         nav: !0,
         dots: !1,
         responsive: {

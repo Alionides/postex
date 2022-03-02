@@ -53,8 +53,8 @@ var contact = {
             margin: 10,
             loop: false,
             navText: [
-                '<img src="/web_files/yurtici-kargo/assets/img/left-arrow.svg" alt="" width="9" height="15" />',
-                '<img src="/web_files/yurtici-kargo/assets/img/right-arrow.svg" alt="" width="9" height="15" />'
+                '<img src="/assets/img/left-right/left.svg" alt="" width="9" height="15" />',
+                '<img src="/assets/img/left-right/right.svg" alt="" width="9" height="15" />'
             ],
             dots: false,
             nav: true,
