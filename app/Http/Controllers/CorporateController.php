@@ -39,7 +39,7 @@ class CorporateController extends Controller
     public function getjsonacceptance(Request $request)
     {   
         $where = array('id' => $request->id);
-        $item  = Acceptance::where($where)->first(); 
+        $item  = Acceptance::where($where)->with('locations_receiver','locations_sender')->first(); 
         return response()->json($item);
     }
  
