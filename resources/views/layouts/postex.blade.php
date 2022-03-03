@@ -97,7 +97,7 @@
                                        </svg>
                                     </li>
                                  </a>
-                                 <a href="https://www.linkedin.com/company/yurtici-kargo-servisi" target="_blank">
+                                 <a  target="_blank">
                                     <li class="linkedin">
                                        <?xml version="1.0" encoding="UTF-8" ?>
                                        <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -310,7 +310,7 @@
                                     </svg>
                                  </li>
                               </a>
-                              <a target="_blank">
+                              <a href="https://www.instagram.com/postex.az/" target="_blank">
                                  <li class="instagram"> </li>
                               </a>
                               <a  target="_blank">
@@ -320,7 +320,7 @@
                                     </svg>
                                  </li>
                               </a>
-                              <a href="https://www.linkedin.com/company/yurtici-kargo-servisi" target="_blank">
+                              <a  target="_blank">
                                  <li class="linkedin">
                                     <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                        <defs></defs>
