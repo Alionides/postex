@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use App\Models\Location;
 
 class Acceptance extends Model
 {
@@ -34,6 +35,22 @@ class Acceptance extends Model
         return $this->belongsTo(Customer::class);
     }
 
+
+    // public function locations(){
+    //     return $this->hasOne(Location::class);
+    //   }
+
+
+
+    public function locations_receiver()
+    {
+        return $this->hasOne(Location::class, 'code', 'receiver_address');
+    }
+ 
+    public function locations_sender()
+    {
+        return $this->hasOne(Location::class, 'code', 'sender_address');
+    }
  
 }
 
