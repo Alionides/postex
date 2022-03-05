@@ -36,8 +36,8 @@
 
                                                         <label class="control-label" for="shipment-search-btn">İzləmə kodunuzu daxil edin</label>
 
-                                                        <input type="number" id="shipment-search-btn" oninput="javascript: if (this.value.length > this.max) this.value = this.value.slice(0, this.max);" class="form-control all-radius shipment-tracking-code shipment-search" max="16" min="12" />
-                                                        <a class="btn btn-default check-tracking-code">
+                                                        <input type="number" id="shipment-search-btn" name="tracking-search-btn" oninput="javascript: if (this.value.length > this.max) this.value = this.value.slice(0, this.max);" class="form-control all-radius shipment-tracking-code shipment-search" max="19" min="19" />
+                                                        <a class="check-tracking-code btn btn-default ">
                                                             <?xml version="1.0" encoding="UTF-8" ?>
                                                             <svg class="search-grey" width="24px" height="24px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                                                 <defs></defs>
@@ -1176,5 +1176,45 @@
                 <div class="space right"></div>
             </div>
         </section>
+
+
+
+
+
+
+
+
+
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>                           
+       <script>
+         $.ajaxSetup({
+             headers: {
+                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+             }
+         });
+         
+         $('.check-tracking-code').click('onclick',function(){
+             var data = {
+                 'tracking': $('input[name=tracking-search-btn]').val()
+             };
+                 $.ajax({
+                     type: 'post',
+                     url: "{{ route('home.tracking')}}",
+                     data:data,                    
+                     success: function(response) {  
+                    window.location.href = "{{url('/tracking')}}"+'/'+data['tracking'];                                  
+                     },
+                     error: function(xhr, status, error){
+                         Swal.fire({
+                            icon: 'error',
+                            title: 'Xəta',
+                            text: xhr.responseJSON.message,
+                            showCancelButton: false,
+                            showConfirmButton: false
+                        })
+                     }
+                 });        
+         })
+      </script>  
 
         @endsection
