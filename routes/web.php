@@ -32,6 +32,9 @@ Route::get('internaldelivery', [SiteController::class, "internaldelivery"])->nam
 Route::get('getfromdoor', [SiteController::class, "getfromdoor"])->name('home.getfromdoor');
 Route::get('deliveryoffices', [SiteController::class, "deliveryoffices"])->name('home.deliveryoffices');
 Route::get('aboutus', [SiteController::class, "aboutus"])->name('home.aboutus');
+
+
+
 Route::get('leykoz', [SiteController::class, "leykoz"])->name('home.leykoz');
 Route::get('uafa', [SiteController::class, "uafa"])->name('home.uafa');
 Route::get('yardimeli', [SiteController::class, "yardimeli"])->name('home.yardimeli');
@@ -45,6 +48,10 @@ Route::get('shorttime', [SiteController::class, "shorttime"])->name('home.shortt
 Route::get('postexapp', [SiteController::class, "postexapp"])->name('home.postexapp');
 Route::get('calculator', [SiteController::class, "calculator"])->name('home.calculator');
 Route::get('ecommerce', [SiteController::class, "ecommerce"])->name('home.ecommerce');
+
+
+Route::get('tracking/{id}', [SiteController::class, "check_tracking"])->name('home.tracking');
+Route::post('tracking', [SiteController::class, "check_tracking"])->name('home.tracking');
 
 
 

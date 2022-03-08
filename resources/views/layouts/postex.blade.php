@@ -20,7 +20,7 @@
       <div class="overlay"></div>
       <div id="spinner" class="spinnerWrap">
          <div class="spinner">
-            <img src="assets/img/preloader.gif" />
+            <img src="/assets/img/preloader.gif" />
          </div>
       </div>
       <div class="wrapper">
@@ -355,10 +355,10 @@
                         <p>Mobil Postex</p>
                         <p>Postex ile əlaqəli her şey App Store ve Google Play’də!</p>
                         <div>
-                           <img src="assets/img/smart-phone.png" alt="" />
-                           <a target="_blank"><img src="assets/img/ios.png" alt="" /></a>
-                           <a target="_blank"><img src="assets/img/google-play.png" alt="" /></a>
-                           <a target="_blank"><img src="assets/img/appgallery-tr.png" alt="" /></a>
+                           <img src="/assets/img/smart-phone.png" alt="" />
+                           <a target="_blank"><img src="/assets/img/ios.png" alt="" /></a>
+                           <a target="_blank"><img src="/assets/img/google-play.png" alt="" /></a>
+                           <a target="_blank"><img src="/assets/img/appgallery-tr.png" alt="" /></a>
                         </div>
                         <div class="mobile-footer">
                            <ul class="list-unstyled">
@@ -378,11 +378,11 @@
                         </div>
                      </div>
                      <div class="col-lg-4 col-md-4 col-sm-5 hidden-xs middle-tophead">
-                        <img src="assets/img/pe_footer_and.png" alt="" />
-                        <img src="assets/img/yk_footer_ios.png" alt="" />
+                        <img src="/assets/img/pe_footer_and.png" alt="" />
+                        <img src="/assets/img/yk_footer_ios.png" alt="" />
                      </div>
                      <div class="col-lg-3 col-md-3 hidden-sm hidden-xs right-tophead">
-                        <img src="assets/img/phone-number.png" alt="" />
+                        <img src="/assets/img/phone-number.png" alt="" />
                      </div>
                   </div>
                </div>
@@ -492,7 +492,7 @@
       </div>
       <input type="hidden" value="tr" name="language" id="language" />
       <input type="hidden" id="googleApiKey" value='https://www.google.com/maps/embed/v1/place?key=AIzaSyDF4SZV-4eOTYKWZmw8Cs4nwfYKWpMl15Q&amp;q=' />
-      <script type="text/javascript" src="assets/js/yurticikargo_a28.js"></script>
+      <script type="text/javascript" src="/assets/js/yurticikargo_a28.js"></script>
       <script src="/assets/js/custom.js"></script>      
      <script src="/assets/js/contact.js"></script>  
    </body>
