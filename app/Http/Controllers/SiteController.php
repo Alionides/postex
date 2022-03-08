@@ -101,9 +101,20 @@ class SiteController extends Controller
 
    public function check_tracking(Request $request){
         
+    
+    
+    
+    
      if ($request->isMethod('get')) {
-          return $request->id;
-      }
+
+          $id=$request->id;
+          $data['acceptance'] = Acceptance::orderBy('id','desc')->where('tracking_id',$id)->first(); 
+          if(!empty($data['acceptance'])){
+          return view('site.tracking',$data);
+     }else{
+          abort(404);
+     }
+     }
     
 
      $validator = Validator::make($request->all(), [
