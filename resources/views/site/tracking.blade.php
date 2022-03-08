@@ -310,7 +310,7 @@
           // ajax
           $.ajax({
               type:"POST",
-              url: "{{ url('account/corporate/wherecargo') }}",
+              url: "{{ url('trackingpost') }}",
               data: { id: id },
               dataType: 'json',
               success: function(res){

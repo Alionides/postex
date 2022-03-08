@@ -52,6 +52,7 @@ Route::get('ecommerce', [SiteController::class, "ecommerce"])->name('home.ecomme
 
 Route::get('tracking/{id}', [SiteController::class, "check_tracking"])->name('home.tracking');
 Route::post('tracking', [SiteController::class, "check_tracking"])->name('home.tracking');
+Route::post('trackingpost', [SiteController::class, "trackingpost"])->name('home.trackingpost');
 
 
 

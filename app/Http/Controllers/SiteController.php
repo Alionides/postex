@@ -100,35 +100,28 @@ class SiteController extends Controller
 
 
    public function check_tracking(Request $request){
-        
-    
-    
-    
+      
+     $id=$request->id;     
     
      if ($request->isMethod('get')) {
-
-          $id=$request->id;
+         
           $data['acceptance'] = Acceptance::orderBy('id','desc')->where('tracking_id',$id)->first(); 
           if(!empty($data['acceptance'])){
           return view('site.tracking',$data);
      }else{
           abort(404);
      }
-     }
-    
+     }    
 
      $validator = Validator::make($request->all(), [
           
           "tracking" => "required",
       ]);
-
-      
+  
 
       if($validator->fails()) {
           return response()->json(["message" => 'Xana düzgün dolmayıb',"errors" => $validator->errors()], 400);
       }
-
-
       $inputs = $request->all();
 
       $data = Acceptance::where('tracking_id',$inputs)->first();
@@ -143,6 +136,18 @@ class SiteController extends Controller
 
    }
 
+
+   public function trackingpost(Request $request)
+   { 
+        
+     $id=$request->id;
+    
+     if ($request->ajax()) {
+
+          $item  = Acceptance::where('id',$id)->orderBy('id','desc')->first(); 
+          return response()->json($item);
+      }
+}
 
 
 
