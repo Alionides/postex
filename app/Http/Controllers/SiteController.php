@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\AdviceComplaint;
 use Illuminate\Support\Facades\Validator;
+use App\Models\Acceptance;
 
 class SiteController extends Controller
 {
@@ -88,6 +89,68 @@ class SiteController extends Controller
    public function ecommerce(){
         return view('site.ecommerce');
    }
+
+
+
+
+
+
+
+
+
+
+   public function check_tracking(Request $request){
+        
+    
+    
+    
+    
+     if ($request->isMethod('get')) {
+
+          $id=$request->id;
+          $data['acceptance'] = Acceptance::orderBy('id','desc')->where('tracking_id',$id)->first(); 
+          if(!empty($data['acceptance'])){
+          return view('site.tracking',$data);
+     }else{
+          abort(404);
+     }
+     }
+    
+
+     $validator = Validator::make($request->all(), [
+          
+          "tracking" => "required",
+      ]);
+
+      
+
+      if($validator->fails()) {
+          return response()->json(["message" => 'Xana düzgün dolmayıb',"errors" => $validator->errors()], 400);
+      }
+
+
+      $inputs = $request->all();
+
+      $data = Acceptance::where('tracking_id',$inputs)->first();
+
+      if(!empty($data)) {
+     
+      }
+      else{
+          return response()->json(["message" => 'İzləmə kodu səhvdir',"errors" => $validator->errors()], 400);
+      }
+
+
+   }
+
+
+
+
+
+
+
+
+
 
 
 

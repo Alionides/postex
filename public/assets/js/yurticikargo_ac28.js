@@ -6872,7 +6872,7 @@ var main = {
             case "shipmenttracking":
                 if (!main.checkEmpty(t)) {
                     var r = main.checkNumber(t);
-                    return r != !1 && r.length === 12 || r.length === 16 ? !0 : !1
+                    return r != !1 && r.length === 19 || r.length === 19 ? !0 : !1
                 }
                 return !1;
             case "name-surname":
@@ -7328,7 +7328,7 @@ $("#amount").keypress(function() {
 });
 $(".shipment-tracking-code").keyup(function(n) {
     this.value = this.value.replace(/[^0-9\.]/g, "");
-    $(this).val().length === 12 || $(this).val().length === 16 ? ($(this).closest("div.form-group").removeClass("error"), $(this).closest(".form-group").find(".control-label").text(Resource.EnterYourShippingCode[main.variables.language])) : ($(this).closest("div.form-group").addClass("error"), $(this).closest(".form-group").find(".control-label").text(Resource.ShippingCodeIsInvalid[main.variables.language]));
+    $(this).val().length === 19 || $(this).val().length === 19 ? ($(this).closest("div.form-group").removeClass("error"), $(this).closest(".form-group").find(".control-label").text(Resource.EnterYourShippingCode[main.variables.language])) : ($(this).closest("div.form-group").addClass("error"), $(this).closest(".form-group").find(".control-label").text(Resource.ShippingCodeIsInvalid[main.variables.language]));
     n.keyCode === 13 && (this.value.length === 12 || this.value.length === 16 ? (main.getShipmentTrackingCode(), $(this).closest("div.form-group").removeClass("error")) : $(this).closest("div.form-group").addClass("error"))
 });
 $(".check-tracking-code").click(function() {
@@ -7723,11 +7723,11 @@ var Resource = {
     },
     ShippingCodeIsInvalid: {
         en: "Shipping code is invalid",
-        tr: "Gönderi kodu geçersiz"
+        tr: "İzləmə kodu düzgün deyil"
     },
     EnterYourShippingCode: {
         en: "Enter your shipping code",
-        tr: "Gönderi kodunuzu giriniz"
+        tr: "İzləmə kodunuz"
     },
     TheRecordOfTheEnteredInformationCouldNotBeFound: {
         en: "The record of the entered information could not be found",
