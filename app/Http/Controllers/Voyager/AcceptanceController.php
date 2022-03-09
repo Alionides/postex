@@ -32,6 +32,7 @@ class AcceptanceController extends VoyagerBaseController
     
     public function index(Request $request)
     {
+        //return response(Auth::user()->location_code);
         // GET THE SLUG, ex. 'posts', 'pages', etc.
         $slug = $this->getSlug($request);
 
@@ -42,6 +43,7 @@ class AcceptanceController extends VoyagerBaseController
         $this->authorize('browse', app($dataType->model_name));
 
         $getter = $dataType->server_side ? 'paginate' : 'get';
+        $user_location = Auth::user()->location_code;
         $fin = $request->fin;
         $status = $request->status;
         $search = (object) ['value' => $request->get('s'), 'key' => $request->get('key'), 'filter' => $request->get('filter')];
@@ -100,6 +102,12 @@ class AcceptanceController extends VoyagerBaseController
                     }
                     if($status != ''){
                         $query = $query->where('status', '=', $status);
+                    }
+                    if($user_location != 9999){
+                        $query = $query->where('sender_address', '=', $user_location);
+                    }
+                    if($user_location != 9999){
+                        $query = $query->where('receiver_address', '=', $user_location);
                     }
                 }
             //}
