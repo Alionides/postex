@@ -14,10 +14,11 @@ class CreateReadiesTable extends Migration
     public function up()
     {
         Schema::create('readies', function (Blueprint $table) {
-            $table->id();
-            $table->string('location_id')->nullable();
+            $table->id();            
             $table->text('barcodes')->nullable();
             $table->string('driver')->nullable();
+            $table->integer('sender_address');
+            $table->integer('receiver_address');
             $table->string('status')->nullable();
             $table->timestamps();
         });

@@ -42,6 +42,7 @@ class ReadyController extends VoyagerBaseController
         $this->authorize('browse', app($dataType->model_name));
 
         $getter = $dataType->server_side ? 'paginate' : 'get';
+        $user_location = Auth::user()->location_code;
         $status = $request->status;
         $search = (object) ['value' => $request->get('s'), 'key' => $request->get('key'), 'filter' => $request->get('filter')];
         
@@ -96,6 +97,12 @@ class ReadyController extends VoyagerBaseController
                     }
                     if($status != ''){
                         $query = $query->where('status', '=', $status);
+                    }
+                    if($user_location != 9999){
+                        $query = $query->where('sender_address', '=', $user_location);
+                    }
+                    if($user_location != 9999){
+                        $query = $query->where('receiver_address', '=', $user_location);
                     }
                 }
             //}
@@ -215,6 +222,7 @@ class ReadyController extends VoyagerBaseController
         $this->authorize('browse', app($dataType->model_name));
 
         $getter = $dataType->server_side ? 'paginate' : 'get';
+        $user_location = Auth::user()->location_code;
         $status = $request->status;
         $search = (object) ['value' => $request->get('s'), 'key' => $request->get('key'), 'filter' => $request->get('filter')];
         
@@ -269,6 +277,12 @@ class ReadyController extends VoyagerBaseController
                     }
                     if($status != ''){
                         $query = $query->where('status', '=', $status);
+                    }
+                    if($user_location != 9999){
+                        $query = $query->where('sender_address', '=', $user_location);
+                    }
+                    if($user_location != 9999){
+                        $query = $query->where('receiver_address', '=', $user_location);
                     }
                 }
             //}
