@@ -61,26 +61,6 @@ var main = {
 
         if (status === main.enums.loaderEnum.Loader) {
             $("#loadingErrorSuccessPopup .modal-dialog").addClass("loading");
-        } else if (status === main.enums.loaderEnum.Success) {
-            $("#loadingErrorSuccessPopup .modal-dialog").addClass("success");
-            $('.modal-span-message').html(message);
-        } else if (status === main.enums.loaderEnum.Error) {
-            $('#loadingErrorSuccessPopup #icon-warning').hide();
-            $('#loadingErrorSuccessPopup #icon-error').show();
-            $('#loadingErrorSuccessPopup #error-content-title').html('Hata');
-            $("#loadingErrorSuccessPopup .modal-dialog").addClass("error");
-            $('.modal-span-message').html(message);
-        } else if (status === main.enums.loaderEnum.Warning) {
-            $('#loadingErrorSuccessPopup #icon-warning').show();
-            $('#loadingErrorSuccessPopup #icon-error').hide();
-            $('#loadingErrorSuccessPopup #error-content-title').html('Uyarı');
-            $("#loadingErrorSuccessPopup .modal-dialog").addClass("error");
-            $('.modal-span-message').html(message);
-        } else if (status === main.enums.loaderEnum.RemoveLoader) {
-            $("#loadingErrorSuccessPopup .modal-dialog").removeClass("loading");
-            $("#loadingErrorSuccessPopup .modal-dialog").removeClass("success");
-            $("#loadingErrorSuccessPopup .modal-dialog").removeClass("error");
-            $('#loadingErrorSuccessPopup').modal('hide');
         }
         if (action != null && url != null) {
             $("#loader-modal-ok-button").addClass("active-list").removeClass("pasive-item").html(action).attr("href", url);

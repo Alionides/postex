@@ -184,7 +184,7 @@
                                             </g>
                                         </svg>
                                     </i>
-                                    <span class="modal-span-message"></span>
+                                   
                                 </div>
                             </div>
                             <div class="errorContent">
@@ -205,7 +205,7 @@
                                             </g>
                                         </svg>
                                     </i>
-                                    <span class="modal-span-message"></span>
+                                    
                                 </div>
                             </div>
                         </div>

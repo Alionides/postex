@@ -33,6 +33,34 @@ Route::get('getfromdoor', [SiteController::class, "getfromdoor"])->name('home.ge
 Route::get('deliveryoffices', [SiteController::class, "deliveryoffices"])->name('home.deliveryoffices');
 Route::get('aboutus', [SiteController::class, "aboutus"])->name('home.aboutus');
 
+
+
+Route::get('leykoz', [SiteController::class, "leykoz"])->name('home.leykoz');
+Route::get('uafa', [SiteController::class, "uafa"])->name('home.uafa');
+Route::get('yardimeli', [SiteController::class, "yardimeli"])->name('home.yardimeli');
+Route::get('postkart', [SiteController::class, "postkart"])->name('home.postkart');
+Route::get('explus', [SiteController::class, "explus"])->name('home.explus');
+Route::get('edukart', [SiteController::class, "edukart"])->name('home.edukart');
+Route::get('covid', [SiteController::class, "covid"])->name('home.covid');
+Route::get('contactless', [SiteController::class, "contactless"])->name('home.contactless');
+Route::get('multiform', [SiteController::class, "multiform"])->name('home.multiform');
+Route::get('shorttime', [SiteController::class, "shorttime"])->name('home.shorttime');
+Route::get('postexapp', [SiteController::class, "postexapp"])->name('home.postexapp');
+Route::get('calculator', [SiteController::class, "calculator"])->name('home.calculator');
+Route::get('ecommerce', [SiteController::class, "ecommerce"])->name('home.ecommerce');
+
+
+Route::get('tracking/{id}', [SiteController::class, "check_tracking"])->name('home.tracking');
+Route::post('tracking', [SiteController::class, "check_tracking"])->name('home.tracking');
+Route::post('trackingpost', [SiteController::class, "trackingpost"])->name('home.trackingpost');
+
+
+
+Route::get('advice-and-complaint',  [SiteController::class, "advice_complaint"])->name('home.advice_complaint');
+Route::post('advice-and-complaint', [SiteController::class, "advice_complaint"])->name('home.advice_complaint');
+
+
+
 Route::get('forgetpassword', [SiteController::class, "forgetpassword"])->name('forgetpassword');
 Route::group(['prefix' => 'login'], function () {
     Route::get("corporate", [CustomerController::class, "login_corporate"])->name('login.corporate');
@@ -61,6 +89,7 @@ Route::group(['middleware' => ['auth:customer']],function(){
 
 Route::group(['prefix' => 'admin'], function () {
     Route::get('acceptances/print', [AcceptancesController::class, "index"])->name('acceptances.print');
+    Route::get('readies/print', [ReadyController::class, "readyprint"])->name('ready.print');
     Voyager::routes();
     Route::get('teslim', ['uses' => 'Voyager\AcceptanceController@teslim','as' => 'teslim']);
     

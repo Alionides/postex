@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="tr" xmlns="http://www.w3.org/1999/xhtml">
-   <!-- Mirrored from www.yurticikargo.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Jan 2022 07:21:15 GMT -->
-   <!-- Added by HTTrack -->
+
    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
    <!-- /Added by HTTrack -->
    <head>
@@ -14,13 +13,14 @@
       <link type="text/css" rel="stylesheet" href="/assets/css/yurticikargo_a28.css" />
       <link type="text/css" rel="stylesheet" href="/assets/css/custom.css" />
       <meta name="google-site-verification" content="i1ppcHyFMEcxQB6gduwpAgmCZW2bE6x4VG1ep_-Qsgk" />
+      <script src="/assets/login/Scripts/jquery.min.js"></script>
       
    </head>
    <body>
       <div class="overlay"></div>
       <div id="spinner" class="spinnerWrap">
          <div class="spinner">
-            <img src="assets/img/preloader.gif" />
+            <img src="/assets/img/preloader.gif" />
          </div>
       </div>
       <div class="wrapper">
@@ -54,7 +54,7 @@
                            </div>
                            <div class="col-lg-4 col-md-4 col-sm-10 col-xs-10 col-md-offset-6">
                               <ul class="social list-unstyled">
-                                 <a href="https://www.facebook.com/yurticikargo" target="_blank">
+                                 <a  target="_blank">
                                     <li class="facebook">
                                        <?xml version="1.0" encoding="UTF-8" ?>
                                        <svg width="8px" height="16px" viewBox="0 0 8 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -70,7 +70,7 @@
                                        </svg>
                                     </li>
                                  </a>
-                                 <a href="https://twitter.com/yurticikargo" target="_blank">
+                                 <a target="_blank">
                                     <li class="twitter">
                                        <?xml version="1.0" encoding="UTF-8" ?>
                                        <svg width="16px" height="13px" viewBox="0 0 16 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -86,18 +86,18 @@
                                        </svg>
                                     </li>
                                  </a>
-                                 <a href="https://www.instagram.com/yurticikargo/" target="_blank">
+                                 <a href="https://www.instagram.com/postex.az/" target="_blank">
                                     <li class="instagram">
                                     </li>
                                  </a>
-                                 <a href="https://www.youtube.com/c/yurticikargoservis/" target="_blank">
+                                 <a  target="_blank">
                                     <li class="youtube">
                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="17" viewBox="0 0 24 17">
                                           <path class="youtube-icon" fill-rule="evenodd" d="M21.377.502a3.005 3.005 0 0 1 2.122 2.121C24 4.495 24 8.4 24 8.4s0 3.905-.501 5.777a3.006 3.006 0 0 1-2.122 2.122C19.505 16.8 12 16.8 12 16.8s-7.505 0-9.377-.501a3.006 3.006 0 0 1-2.122-2.122c-.5-1.872-.5-5.777-.5-5.777s0-3.905.5-5.777A3.006 3.006 0 0 1 2.623.502C4.495 0 12 0 12 0s7.505 0 9.377.502zM9.6 12l6-3.6-6-3.6V12z" />
                                        </svg>
                                     </li>
                                  </a>
-                                 <a href="https://www.linkedin.com/company/yurtici-kargo-servisi" target="_blank">
+                                 <a  target="_blank">
                                     <li class="linkedin">
                                        <?xml version="1.0" encoding="UTF-8" ?>
                                        <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -138,7 +138,7 @@
                      <div class="container-middle">
                         <div class="row">
                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-10 header-logo">
-                              <a href="/"> <img src="/assets/img/logo.png" alt="Yurtiçi Kargo" class="logo" width="178" height="44" /></a>
+                              <a href="/"> <img src="/assets/img/logo.png" alt="Postex" class="logo" width="178" height="44" /></a>
                            </div>
                            <div class="col-lg-9 col-md-10 col-sm-10 col-xs-2 col-lg-offset-1">
                               <div class="right-form">
@@ -170,7 +170,7 @@
                                     </form>
                                  </div>
                                  <div class="contact-form">
-                                    <a >
+                                    <a href="{{ route('home.advice_complaint')}}" >
                                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="19" viewBox="0 0 27 19">
                                           <g class="img" fill-rule="nonzero">
                                              <path d="M4 6h6a.5.5 0 1 0 0-1H4a.5.5 0 0 0 0 1zM4 8h6a.5.5 0 1 0 0-1H4a.5.5 0 0 0 0 1zM4 10h4a.5.5 0 0 0 0-1H4a.5.5 0 0 0 0 1zM4 12h3a.5.5 0 1 0 0-1H4a.5.5 0 1 0 0 1zM4 14h3a.5.5 0 1 0 0-1H4a.5.5 0 1 0 0 1zM4 16h3a.5.5 0 1 0 0-1H4a.5.5 0 1 0 0 1z" />
@@ -282,7 +282,7 @@
                               </div>
                            </div>
                            <ul class="social list-unstyled">
-                              <a href="https://www.facebook.com/yurticikargo" target="_blank">
+                              <a  target="_blank">
                                  <li class="facebook">
                                     <svg width="8px" height="16px" viewBox="0 0 8 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                        <defs></defs>
@@ -296,7 +296,7 @@
                                     </svg>
                                  </li>
                               </a>
-                              <a href="https://twitter.com/yurticikargo" target="_blank">
+                              <a  target="_blank">
                                  <li class="twitter">
                                     <svg width="16px" height="13px" viewBox="0 0 16 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                        <defs></defs>
@@ -310,17 +310,17 @@
                                     </svg>
                                  </li>
                               </a>
-                              <a href="https://www.instagram.com/yurticikargo/" target="_blank">
+                              <a href="https://www.instagram.com/postex.az/" target="_blank">
                                  <li class="instagram"> </li>
                               </a>
-                              <a href="https://www.youtube.com/c/yurticikargoservis/" target="_blank">
+                              <a  target="_blank">
                                  <li class="youtube">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="17" viewBox="0 0 24 17">
                                        <path fill="#F00" fill-rule="evenodd" d="M21.377.502a3.005 3.005 0 0 1 2.122 2.121C24 4.495 24 8.4 24 8.4s0 3.905-.501 5.777a3.006 3.006 0 0 1-2.122 2.122C19.505 16.8 12 16.8 12 16.8s-7.505 0-9.377-.501a3.006 3.006 0 0 1-2.122-2.122c-.5-1.872-.5-5.777-.5-5.777s0-3.905.5-5.777A3.006 3.006 0 0 1 2.623.502C4.495 0 12 0 12 0s7.505 0 9.377.502zM9.6 12l6-3.6-6-3.6V12z" />
                                     </svg>
                                  </li>
                               </a>
-                              <a href="https://www.linkedin.com/company/yurtici-kargo-servisi" target="_blank">
+                              <a  target="_blank">
                                  <li class="linkedin">
                                     <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                        <defs></defs>
@@ -355,10 +355,10 @@
                         <p>Mobil Postex</p>
                         <p>Postex ile əlaqəli her şey App Store ve Google Play’də!</p>
                         <div>
-                           <img src="assets/img/smart-phone.png" alt="" />
-                           <a target="_blank"><img src="assets/img/ios.png" alt="" /></a>
-                           <a target="_blank"><img src="assets/img/google-play.png" alt="" /></a>
-                           <a target="_blank"><img src="assets/img/appgallery-tr.png" alt="" /></a>
+                           <img src="/assets/img/smart-phone.png" alt="" />
+                           <a target="_blank"><img src="/assets/img/ios.png" alt="" /></a>
+                           <a target="_blank"><img src="/assets/img/google-play.png" alt="" /></a>
+                           <a target="_blank"><img src="/assets/img/appgallery-tr.png" alt="" /></a>
                         </div>
                         <div class="mobile-footer">
                            <ul class="list-unstyled">
@@ -378,11 +378,11 @@
                         </div>
                      </div>
                      <div class="col-lg-4 col-md-4 col-sm-5 hidden-xs middle-tophead">
-                        <img src="assets/img/yk_footer_and.png" alt="" />
-                        <img src="assets/img/yk_footer_ios.png" alt="" />
+                        <img src="/assets/img/pe_footer_and.png" alt="" />
+                        <img src="/assets/img/yk_footer_ios.png" alt="" />
                      </div>
                      <div class="col-lg-3 col-md-3 hidden-sm hidden-xs right-tophead">
-                        <img src="assets/img/phone-number.png" alt="" />
+                        <img src="/assets/img/phone-number.png" alt="" />
                      </div>
                   </div>
                </div>
@@ -412,7 +412,7 @@
                            </li>
                         </ul>
                         <ul class="social list-unstyled">
-                           <a href="https://www.facebook.com/yurticikargo" target="_blank">
+                           <a  target="_blank">
                               <li class="facebook">
                                  <?xml version="1.0" encoding="UTF-8" ?>
                                  <svg width="8px" height="16px" viewBox="0 0 8 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -428,7 +428,7 @@
                                  </svg>
                               </li>
                            </a>
-                           <a href="https://twitter.com/yurticikargo" target="_blank">
+                           <a  target="_blank">
                               <li class="twitter">
                                  <?xml version="1.0" encoding="UTF-8" ?>
                                  <svg width="16px" height="13px" viewBox="0 0 16 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -444,18 +444,18 @@
                                  </svg>
                               </li>
                            </a>
-                           <a href="https://www.instagram.com/yurticikargo/" target="_blank">
+                           <a href="https://www.instagram.com/postex.az/" target="_blank">
                               <li class="instagram">
                               </li>
                            </a>
-                           <a href="https://www.youtube.com/c/yurticikargoservis/" target="_blank">
+                           <a  target="_blank">
                               <li class="youtube">
                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="17" viewBox="0 0 24 17">
                                     <path class="youtube-icon" fill-rule="evenodd" d="M21.377.502a3.005 3.005 0 0 1 2.122 2.121C24 4.495 24 8.4 24 8.4s0 3.905-.501 5.777a3.006 3.006 0 0 1-2.122 2.122C19.505 16.8 12 16.8 12 16.8s-7.505 0-9.377-.501a3.006 3.006 0 0 1-2.122-2.122c-.5-1.872-.5-5.777-.5-5.777s0-3.905.5-5.777A3.006 3.006 0 0 1 2.623.502C4.495 0 12 0 12 0s7.505 0 9.377.502zM9.6 12l6-3.6-6-3.6V12z" />
                                  </svg>
                               </li>
                            </a>
-                           <a href="https://www.linkedin.com/company/yurtici-kargo-servisi" target="_blank">
+                           <a  target="_blank">
                               <li class="linkedin">
                                  <?xml version="1.0" encoding="UTF-8" ?>
                                  <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -492,7 +492,8 @@
       </div>
       <input type="hidden" value="tr" name="language" id="language" />
       <input type="hidden" id="googleApiKey" value='https://www.google.com/maps/embed/v1/place?key=AIzaSyDF4SZV-4eOTYKWZmw8Cs4nwfYKWpMl15Q&amp;q=' />
-      <script type="text/javascript" src="assets/js/yurticikargo_a28.js"></script>
-      <script src="/assets/js/custom.js"></script>
+      <script type="text/javascript" src="/assets/js/yurticikargo_a28.js"></script>
+      <script src="/assets/js/custom.js"></script>      
+     <script src="/assets/js/contact.js"></script>  
    </body>
 </html>
