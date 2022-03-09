@@ -194,7 +194,7 @@
                                                     <div class="row slider-content right-align">
                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 center-start left-content slider-left-content">
                                                             <div class="left-content-wrap">
-                                                                <h5 class="animate-left">Dolu Dolu keçən Bir il daha.. 2021 də Nələr etdik?</h5>
+                                                                <h5 class="animate-left">2022 də bizi nələr gözləyir?</h5>
                                                                 <p class="animate-opacity">
                                                                      
                                                                 </p>
