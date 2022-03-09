@@ -366,10 +366,10 @@
                                  <a target="_self"><span>HAQQIMIZDA</span></a>
                               </li>
                               <li>
-                                 <a target="_self"><span>SİTE XƏRİTƏSI</span></a>
+                                 <a target="_self"><span>SAYT XƏRİTƏSİ</span></a>
                               </li>
                               <li>
-                                 <a  target="_self"><span>MƏSLƏHƏT VƏ ŞİKAYET</span></a>
+                                 <a  target="_self"><span>MƏSLƏHƏT VƏ ŞİKAYƏT</span></a>
                               </li>
                               <li>
                                  <a  target="_self"><span>KARİYERA</span></a>
@@ -399,9 +399,9 @@
                            <li>
                               <ul class="list-unstyled">
                                  <li><a target="_self"><span>HAQQIMIZDA</span></a></li>
-                                 <li><a target="_self"><span>SAYT XƏRİTƏSI</span></a></li>
+                                 <li><a target="_self"><span>SAYT XƏRİTƏSİ</span></a></li>
                                  <li><a target="_self"><span>ŞÖBƏLƏRİMİZ</span></a></li>
-                                 <li><a target="_self"><span>MƏSLƏHƏT VƏ ŞİKAYET</span></a></li>
+                                 <li><a target="_self"><span>MƏSLƏHƏT VƏ ŞİKAYƏT</span></a></li>
                                  <li><a target="_self"><span>GİZLİLİK VƏ GÜVƏNLİK</span></a></li>
                                  <li><a ><span>KVKK</span></a></li>
                                  <li><a target="_blank"><span>İNTEGRASİYA</span></a></li>
