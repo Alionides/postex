@@ -10,9 +10,10 @@ class Ready extends Model
     use HasFactory;
     
     protected $fillable = [
-        'location_id',
         'barcodes',
         'driver',
+        'sender_address',
+        'receiver_address',
         'status',
     ];
 }
